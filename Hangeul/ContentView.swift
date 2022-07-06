@@ -21,7 +21,7 @@ struct ContentView: View {
     @State var han: hangeul = hangeul(id: 0, word: "", english: "", pron: "", firstSolf: 0, firstSols: 0, firstSolt: 0, secondSolf: 0, secondSols: 0, secondSolt: 0, stateA: ["ㄱ", "ㅋ", "ㄴ", "ㅏ", "ㄷ", "ㅁ", "ㅂ", "ㅗ", "ㅅ", "ㅈ", "ㅕ", "ㅖ"])
     @Binding var num: [Int]
     let soundplayer = SoundPlayer()
-    var i = Int.random(in: 0...16)
+    var i = Int.random(in: 0...39)
     
     
     
@@ -30,7 +30,6 @@ struct ContentView: View {
 //        NavigationView{
             ZStack{
                 ColorManage.background
-                    .ignoresSafeArea()
                 VStack{
                     MainBox(text: hangeuls[i].word)
                     SolBox(letterFirst: letterFirst, letterSecond: letterSecond, check1: $firstText, check2: $secondText)
