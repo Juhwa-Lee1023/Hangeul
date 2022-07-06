@@ -7,22 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D519EB03286B1CE700128A7E /* HangeulApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D519EB02286B1CE700128A7E /* HangeulApp.swift */; };
-		D519EB05286B1CE700128A7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D519EB04286B1CE700128A7E /* ContentView.swift */; };
-		D519EB07286B1CE800128A7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D519EB06286B1CE800128A7E /* Assets.xcassets */; };
-		D519EB0A286B1CE800128A7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D519EB09286B1CE800128A7E /* Preview Assets.xcassets */; };
+		D55E398F2874A64300E8CE12 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55E398E2874A64300E8CE12 /* SplashView.swift */; };
+		D56A82632817D6D90013B61C /* HangeulApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A82622817D6D90013B61C /* HangeulApp.swift */; };
+		D56A82652817D6D90013B61C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A82642817D6D90013B61C /* ContentView.swift */; };
+		D56A82672817D6DA0013B61C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D56A82662817D6DA0013B61C /* Assets.xcassets */; };
+		D56A826A2817D6DA0013B61C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D56A82692817D6DA0013B61C /* Preview Assets.xcassets */; };
+		D56A82742817D6DB0013B61C /* HangeulTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A82732817D6DB0013B61C /* HangeulTests.swift */; };
+		D56A827E2817D6DB0013B61C /* HangeulUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A827D2817D6DB0013B61C /* HangeulUITests.swift */; };
+		D56A82802817D6DB0013B61C /* HangeulUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A827F2817D6DB0013B61C /* HangeulUITestsLaunchTests.swift */; };
+		D56A82A32817DCEA0013B61C /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A82A22817DCEA0013B61C /* WelcomeView.swift */; };
+		D56A82A72817DD570013B61C /* SoundPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A82A62817DD570013B61C /* SoundPlay.swift */; };
+		D56A82A92817DD900013B61C /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A82A82817DD900013B61C /* SecondView.swift */; };
+		D56A82AB2817DEE50013B61C /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A82AA2817DEE50013B61C /* ThirdView.swift */; };
+		D56A82AF2817DF0E0013B61C /* FifthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A82AE2817DF0E0013B61C /* FifthView.swift */; };
+		D56A82B12817DF2A0013B61C /* ClearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A82B02817DF2A0013B61C /* ClearView.swift */; };
+		D56A82B32817DFD90013B61C /* FourthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A82B22817DFD90013B61C /* FourthView.swift */; };
+		D56A82B7281923480013B61C /* ViewAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A82B6281923480013B61C /* ViewAssets.swift */; };
+		D5847146281FCB2600EA8A94 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = D5847145281FCB2600EA8A94 /* data.json */; };
+		D584717E2820FD6F00EA8A94 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D584717D2820FD6F00EA8A94 /* data.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D56A82702817D6DB0013B61C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D56A82572817D6D90013B61C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D56A825E2817D6D90013B61C;
+			remoteInfo = Hangeul;
+		};
+		D56A827A2817D6DB0013B61C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D56A82572817D6D90013B61C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D56A825E2817D6D90013B61C;
+			remoteInfo = Hangeul;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		D519EAFF286B1CE700128A7E /* Hangeul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangeul.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D519EB02286B1CE700128A7E /* HangeulApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangeulApp.swift; sourceTree = "<group>"; };
-		D519EB04286B1CE700128A7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D519EB06286B1CE800128A7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D519EB09286B1CE800128A7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D55E398E2874A64300E8CE12 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		D56A825F2817D6D90013B61C /* Hangeul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangeul.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D56A82622817D6D90013B61C /* HangeulApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangeulApp.swift; sourceTree = "<group>"; };
+		D56A82642817D6D90013B61C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D56A82662817D6DA0013B61C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D56A82692817D6DA0013B61C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D56A826F2817D6DB0013B61C /* HangeulTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HangeulTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D56A82732817D6DB0013B61C /* HangeulTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangeulTests.swift; sourceTree = "<group>"; };
+		D56A82792817D6DB0013B61C /* HangeulUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HangeulUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D56A827D2817D6DB0013B61C /* HangeulUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangeulUITests.swift; sourceTree = "<group>"; };
+		D56A827F2817D6DB0013B61C /* HangeulUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangeulUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D56A82A22817DCEA0013B61C /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		D56A82A62817DD570013B61C /* SoundPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlay.swift; sourceTree = "<group>"; };
+		D56A82A82817DD900013B61C /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		D56A82AA2817DEE50013B61C /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		D56A82AE2817DF0E0013B61C /* FifthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthView.swift; sourceTree = "<group>"; };
+		D56A82B02817DF2A0013B61C /* ClearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearView.swift; sourceTree = "<group>"; };
+		D56A82B22817DFD90013B61C /* FourthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthView.swift; sourceTree = "<group>"; };
+		D56A82B6281923480013B61C /* ViewAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAssets.swift; sourceTree = "<group>"; };
+		D5847145281FCB2600EA8A94 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		D584717D2820FD6F00EA8A94 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D519EAFC286B1CE700128A7E /* Frameworks */ = {
+		D56A825C2817D6D90013B61C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56A826C2817D6DB0013B61C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56A82762817D6DB0013B61C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,51 +93,91 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D519EAF6286B1CE700128A7E = {
+		D56A82562817D6D90013B61C = {
 			isa = PBXGroup;
 			children = (
-				D519EB01286B1CE700128A7E /* Hangeul */,
-				D519EB00286B1CE700128A7E /* Products */,
+				D56A82A52817DD2D0013B61C /* Assets */,
+				D56A82612817D6D90013B61C /* Hangeul */,
+				D56A82722817D6DB0013B61C /* HangeulTests */,
+				D56A827C2817D6DB0013B61C /* HangeulUITests */,
+				D56A82602817D6D90013B61C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D519EB00286B1CE700128A7E /* Products */ = {
+		D56A82602817D6D90013B61C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D519EAFF286B1CE700128A7E /* Hangeul.app */,
+				D56A825F2817D6D90013B61C /* Hangeul.app */,
+				D56A826F2817D6DB0013B61C /* HangeulTests.xctest */,
+				D56A82792817D6DB0013B61C /* HangeulUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D519EB01286B1CE700128A7E /* Hangeul */ = {
+		D56A82612817D6D90013B61C /* Hangeul */ = {
 			isa = PBXGroup;
 			children = (
-				D519EB02286B1CE700128A7E /* HangeulApp.swift */,
-				D519EB04286B1CE700128A7E /* ContentView.swift */,
-				D519EB06286B1CE800128A7E /* Assets.xcassets */,
-				D519EB08286B1CE800128A7E /* Preview Content */,
+				D56A82A62817DD570013B61C /* SoundPlay.swift */,
+				D56A82622817D6D90013B61C /* HangeulApp.swift */,
+				D55E398E2874A64300E8CE12 /* SplashView.swift */,
+				D56A82A22817DCEA0013B61C /* WelcomeView.swift */,
+				D56A82642817D6D90013B61C /* ContentView.swift */,
+				D56A82A82817DD900013B61C /* SecondView.swift */,
+				D56A82AA2817DEE50013B61C /* ThirdView.swift */,
+				D56A82B22817DFD90013B61C /* FourthView.swift */,
+				D56A82AE2817DF0E0013B61C /* FifthView.swift */,
+				D56A82B02817DF2A0013B61C /* ClearView.swift */,
+				D56A82682817D6DA0013B61C /* Preview Content */,
 			);
 			path = Hangeul;
 			sourceTree = "<group>";
 		};
-		D519EB08286B1CE800128A7E /* Preview Content */ = {
+		D56A82682817D6DA0013B61C /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				D519EB09286B1CE800128A7E /* Preview Assets.xcassets */,
+				D56A82692817D6DA0013B61C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D56A82722817D6DB0013B61C /* HangeulTests */ = {
+			isa = PBXGroup;
+			children = (
+				D56A82732817D6DB0013B61C /* HangeulTests.swift */,
+			);
+			path = HangeulTests;
+			sourceTree = "<group>";
+		};
+		D56A827C2817D6DB0013B61C /* HangeulUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D56A827D2817D6DB0013B61C /* HangeulUITests.swift */,
+				D56A827F2817D6DB0013B61C /* HangeulUITestsLaunchTests.swift */,
+			);
+			path = HangeulUITests;
+			sourceTree = "<group>";
+		};
+		D56A82A52817DD2D0013B61C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D56A82662817D6DA0013B61C /* Assets.xcassets */,
+				D56A82B6281923480013B61C /* ViewAssets.swift */,
+				D5847145281FCB2600EA8A94 /* data.json */,
+				D584717D2820FD6F00EA8A94 /* data.swift */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D519EAFE286B1CE700128A7E /* Hangeul */ = {
+		D56A825E2817D6D90013B61C /* Hangeul */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D519EB0D286B1CE800128A7E /* Build configuration list for PBXNativeTarget "Hangeul" */;
+			buildConfigurationList = D56A82832817D6DB0013B61C /* Build configuration list for PBXNativeTarget "Hangeul" */;
 			buildPhases = (
-				D519EAFB286B1CE700128A7E /* Sources */,
-				D519EAFC286B1CE700128A7E /* Frameworks */,
-				D519EAFD286B1CE700128A7E /* Resources */,
+				D56A825B2817D6D90013B61C /* Sources */,
+				D56A825C2817D6D90013B61C /* Frameworks */,
+				D56A825D2817D6D90013B61C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +185,69 @@
 			);
 			name = Hangeul;
 			productName = Hangeul;
-			productReference = D519EAFF286B1CE700128A7E /* Hangeul.app */;
+			productReference = D56A825F2817D6D90013B61C /* Hangeul.app */;
 			productType = "com.apple.product-type.application";
+		};
+		D56A826E2817D6DB0013B61C /* HangeulTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D56A82862817D6DB0013B61C /* Build configuration list for PBXNativeTarget "HangeulTests" */;
+			buildPhases = (
+				D56A826B2817D6DB0013B61C /* Sources */,
+				D56A826C2817D6DB0013B61C /* Frameworks */,
+				D56A826D2817D6DB0013B61C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D56A82712817D6DB0013B61C /* PBXTargetDependency */,
+			);
+			name = HangeulTests;
+			productName = HangeulTests;
+			productReference = D56A826F2817D6DB0013B61C /* HangeulTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D56A82782817D6DB0013B61C /* HangeulUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D56A82892817D6DB0013B61C /* Build configuration list for PBXNativeTarget "HangeulUITests" */;
+			buildPhases = (
+				D56A82752817D6DB0013B61C /* Sources */,
+				D56A82762817D6DB0013B61C /* Frameworks */,
+				D56A82772817D6DB0013B61C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D56A827B2817D6DB0013B61C /* PBXTargetDependency */,
+			);
+			name = HangeulUITests;
+			productName = HangeulUITests;
+			productReference = D56A82792817D6DB0013B61C /* HangeulUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D519EAF7286B1CE700128A7E /* Project object */ = {
+		D56A82572817D6D90013B61C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					D519EAFE286B1CE700128A7E = {
+					D56A825E2817D6D90013B61C = {
 						CreatedOnToolsVersion = 13.3.1;
+					};
+					D56A826E2817D6DB0013B61C = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = D56A825E2817D6D90013B61C;
+					};
+					D56A82782817D6DB0013B61C = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = D56A825E2817D6D90013B61C;
 					};
 				};
 			};
-			buildConfigurationList = D519EAFA286B1CE700128A7E /* Build configuration list for PBXProject "Hangeul" */;
+			buildConfigurationList = D56A825A2817D6D90013B61C /* Build configuration list for PBXProject "Hangeul" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +255,99 @@
 				en,
 				Base,
 			);
-			mainGroup = D519EAF6286B1CE700128A7E;
-			productRefGroup = D519EB00286B1CE700128A7E /* Products */;
+			mainGroup = D56A82562817D6D90013B61C;
+			productRefGroup = D56A82602817D6D90013B61C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D519EAFE286B1CE700128A7E /* Hangeul */,
+				D56A825E2817D6D90013B61C /* Hangeul */,
+				D56A826E2817D6DB0013B61C /* HangeulTests */,
+				D56A82782817D6DB0013B61C /* HangeulUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D519EAFD286B1CE700128A7E /* Resources */ = {
+		D56A825D2817D6D90013B61C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D519EB0A286B1CE800128A7E /* Preview Assets.xcassets in Resources */,
-				D519EB07286B1CE800128A7E /* Assets.xcassets in Resources */,
+				D56A826A2817D6DA0013B61C /* Preview Assets.xcassets in Resources */,
+				D5847146281FCB2600EA8A94 /* data.json in Resources */,
+				D56A82672817D6DA0013B61C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56A826D2817D6DB0013B61C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56A82772817D6DB0013B61C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D519EAFB286B1CE700128A7E /* Sources */ = {
+		D56A825B2817D6D90013B61C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D519EB05286B1CE700128A7E /* ContentView.swift in Sources */,
-				D519EB03286B1CE700128A7E /* HangeulApp.swift in Sources */,
+				D56A82652817D6D90013B61C /* ContentView.swift in Sources */,
+				D56A82A92817DD900013B61C /* SecondView.swift in Sources */,
+				D56A82A72817DD570013B61C /* SoundPlay.swift in Sources */,
+				D584717E2820FD6F00EA8A94 /* data.swift in Sources */,
+				D56A82A32817DCEA0013B61C /* WelcomeView.swift in Sources */,
+				D55E398F2874A64300E8CE12 /* SplashView.swift in Sources */,
+				D56A82AB2817DEE50013B61C /* ThirdView.swift in Sources */,
+				D56A82B7281923480013B61C /* ViewAssets.swift in Sources */,
+				D56A82B12817DF2A0013B61C /* ClearView.swift in Sources */,
+				D56A82AF2817DF0E0013B61C /* FifthView.swift in Sources */,
+				D56A82B32817DFD90013B61C /* FourthView.swift in Sources */,
+				D56A82632817D6D90013B61C /* HangeulApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56A826B2817D6DB0013B61C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56A82742817D6DB0013B61C /* HangeulTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56A82752817D6DB0013B61C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56A827E2817D6DB0013B61C /* HangeulUITests.swift in Sources */,
+				D56A82802817D6DB0013B61C /* HangeulUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D56A82712817D6DB0013B61C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D56A825E2817D6D90013B61C /* Hangeul */;
+			targetProxy = D56A82702817D6DB0013B61C /* PBXContainerItemProxy */;
+		};
+		D56A827B2817D6DB0013B61C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D56A825E2817D6D90013B61C /* Hangeul */;
+			targetProxy = D56A827A2817D6DB0013B61C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		D519EB0B286B1CE800128A7E /* Debug */ = {
+		D56A82812817D6DB0013B61C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +407,7 @@
 			};
 			name = Debug;
 		};
-		D519EB0C286B1CE800128A7E /* Release */ = {
+		D56A82822817D6DB0013B61C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,7 +461,7 @@
 			};
 			name = Release;
 		};
-		D519EB0E286B1CE800128A7E /* Debug */ = {
+		D56A82842817D6DB0013B61C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -280,7 +482,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.coin.hangeul.Hangeul;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.coin.Hangeul;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -288,7 +490,7 @@
 			};
 			name = Debug;
 		};
-		D519EB0F286B1CE800128A7E /* Release */ = {
+		D56A82852817D6DB0013B61C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -309,7 +511,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.coin.hangeul.Hangeul;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.coin.Hangeul;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -317,28 +519,122 @@
 			};
 			name = Release;
 		};
+		D56A82872817D6DB0013B61C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5N5TS7Y4MA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.coin.HangeulTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hangeul.app/Hangeul";
+			};
+			name = Debug;
+		};
+		D56A82882817D6DB0013B61C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5N5TS7Y4MA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.coin.HangeulTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hangeul.app/Hangeul";
+			};
+			name = Release;
+		};
+		D56A828A2817D6DB0013B61C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5N5TS7Y4MA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.coin.HangeulUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hangeul;
+			};
+			name = Debug;
+		};
+		D56A828B2817D6DB0013B61C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5N5TS7Y4MA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.coin.HangeulUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hangeul;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D519EAFA286B1CE700128A7E /* Build configuration list for PBXProject "Hangeul" */ = {
+		D56A825A2817D6D90013B61C /* Build configuration list for PBXProject "Hangeul" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D519EB0B286B1CE800128A7E /* Debug */,
-				D519EB0C286B1CE800128A7E /* Release */,
+				D56A82812817D6DB0013B61C /* Debug */,
+				D56A82822817D6DB0013B61C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D519EB0D286B1CE800128A7E /* Build configuration list for PBXNativeTarget "Hangeul" */ = {
+		D56A82832817D6DB0013B61C /* Build configuration list for PBXNativeTarget "Hangeul" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D519EB0E286B1CE800128A7E /* Debug */,
-				D519EB0F286B1CE800128A7E /* Release */,
+				D56A82842817D6DB0013B61C /* Debug */,
+				D56A82852817D6DB0013B61C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D56A82862817D6DB0013B61C /* Build configuration list for PBXNativeTarget "HangeulTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D56A82872817D6DB0013B61C /* Debug */,
+				D56A82882817D6DB0013B61C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D56A82892817D6DB0013B61C /* Build configuration list for PBXNativeTarget "HangeulUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D56A828A2817D6DB0013B61C /* Debug */,
+				D56A828B2817D6DB0013B61C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D519EAF7286B1CE700128A7E /* Project object */;
+	rootObject = D56A82572817D6D90013B61C /* Project object */;
 }

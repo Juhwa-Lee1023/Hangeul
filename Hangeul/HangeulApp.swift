@@ -2,7 +2,7 @@
 //  HangeulApp.swift
 //  Hangeul
 //
-//  Created by 이주화 on 2022/06/28.
+//  Created by 이주화 on 2022/04/26.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct HangeulApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashView()
         }
     }
 }
