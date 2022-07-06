@@ -1,15 +1,13 @@
 //
-//  ContentView.swift
+//  SecondView.swift
 //  Hangeul
 //
 //  Created by 이주화 on 2022/04/26.
 //
 
 import SwiftUI
-import UIKit
 
-struct ContentView: View {
-    
+struct SecondView: View {
     @Binding var page : Int
     @State var firstText = false
     @State var secondText = false
@@ -18,11 +16,11 @@ struct ContentView: View {
     @State var nextView = false
     @State var letterFirst = ""
     @State var letterSecond = ""
-    @State var han: hangeul = hangeul(id: 0, word: "", english: "", pron: "", firstSolf: 0, firstSols: 0, firstSolt: 0, secondSolf: 0, secondSols: 0, secondSolt: 0, stateA: ["ㄱ", "ㅋ", "ㄴ", "ㅏ", "ㄷ", "ㅁ", "ㅂ", "ㅗ", "ㅅ", "ㅈ", "ㅕ", "ㅖ"])
     @Binding var num: [Int]
     let soundplayer = SoundPlayer()
-    var i = Int.random(in: 0...16)
-    
+    @State var han: hangeul = hangeul(id: 0, word: "", english: "", pron: "", firstSolf: 0, firstSols: 0, firstSolt: 0, secondSolf: 0, secondSols: 0, secondSolt: 0, stateA: ["ㄱ", "ㅋ", "ㄴ", "ㅏ", "ㄷ", "ㅁ", "ㅂ", "ㅗ", "ㅅ", "ㅈ", "ㅕ", "ㅖ"])
+    @State var i = Int.random(in: 0...16)
+    @State var check: Bool = false
     
     
     
@@ -42,7 +40,7 @@ struct ContentView: View {
                                   message: Text("Please try again."),
                                   dismissButton: .default(Text("RETRUN")))
                         }
-//                    NavigationLink(destination: SecondView(num: num), isActive: $nextView) {
+//                    NavigationLink(destination: ThirdView(num: num), isActive: $nextView) {
 //                        EmptyView()
 //                    }.disabled(true)
 //                }
@@ -50,11 +48,21 @@ struct ContentView: View {
 //            .navigationBarTitle("")
 //            .navigationBarTitleDisplayMode(.inline)
         }.onAppear(){
+            while(!check){
+                if(!num.contains(i)){
+                    num.append(i)
+                    check = true
+                }
+                else{
+                    i = Int.random(in: 0...16)
+                }
+            }
             letterFirst = String(hangeuls[i].word.prefix(1))
             letterSecond = String(hangeuls[i].word.suffix(1))
-            num = []
-            num.append(i)
             han = hangeuls[i]
+            
+            
+            
         }
         
 //        .navigationBarHidden(true)
@@ -62,7 +70,4 @@ struct ContentView: View {
         
     }
 }
-
-
-
 
