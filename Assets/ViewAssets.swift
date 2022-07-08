@@ -272,7 +272,7 @@ struct BodyBox: View{
     
     @State var secondArray = [false, false, false, false, false, false, false, false, false, false, false, false, true]
     
-    
+
     
     
     let soundplayer = SoundPlayer()
@@ -435,6 +435,7 @@ struct BodyBox: View{
         }
         
     }
+        
     
     
 }
