@@ -30,13 +30,33 @@ struct MainBox : View{
     var text: String
     var body: some View{
         HStack {
-            ZStack{
-                RoundedRectangle(cornerRadius: 10.0)
-                    .fill(ColorManage.button)
-                VStack{
-                    Text("\(text)")
-                        .foregroundColor(ColorManage.plus)
-                        .font(.system(size: UIScreen.screenWidth * 0.28))
+            Button(action : {
+                let speak = AVSpeechSynthesizer()
+                speak.stopSpeaking(at: .immediate)
+                let utterence = AVSpeechUtterance(string: text)
+                utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
+                utterence.rate = 0.4
+                
+                speak.speak(utterence)
+            }){
+                ZStack{
+                    RoundedRectangle(cornerRadius: 10.0)
+                        .fill(ColorManage.button)
+                    VStack{
+                        Text("\(text)")
+                            .foregroundColor(ColorManage.plus)
+                            .font(.system(size: UIScreen.screenWidth * 0.28))
+                    }
+                    VStack{
+                        Spacer()
+                        HStack{
+                            Spacer()
+                            Image(systemName: "speaker.wave.2.fill")
+                                .foregroundColor(ColorManage.buttontext)
+                                .font(.system(size: UIScreen.screenWidth * 0.06))
+                                .padding([.bottom, .trailing], UIScreen.screenHeight * 0.01)
+                        }
+                    }
                 }
             }
         }.frame(width: UIScreen.screenWidth * 0.90, height: UIScreen.screenHeight * 0.25)
@@ -57,49 +77,86 @@ struct SolBox: View{
     var body: some View{
         
         HStack{
-            ZStack{
-                if check1 {
-                    RoundedRectangle(cornerRadius: 10.0)
-                        .fill(ColorManage.button)
-                    VStack{
-                        Text("\(letterFirst)")
-                            .foregroundColor(ColorManage.plus)
-                            .font(.system(size: UIScreen.screenWidth * 0.13))
-                            .opacity(0.6)
-                    }
-                } else {
-                    RoundedRectangle(cornerRadius: 10.0)
-                        .fill(ColorManage.button)
-                    RoundedRectangle(cornerRadius: 10.0)
-                        .stroke(ColorManage.plus, lineWidth: 3)
-                        .opacity(0.5)
-                    VStack{
-                        Text("\(letterFirst)")
-                            .foregroundColor(ColorManage.buttontext)
-                            .font(.system(size: UIScreen.screenWidth * 0.13))
-                            .opacity(0.6)
-                    }
+            Button(action : {
+                let utterence = AVSpeechUtterance(string: letterFirst)
+                utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
+                utterence.rate = 0.4
+                let speak = AVSpeechSynthesizer()
+                speak.speak(utterence)
+            }){
+                ZStack{
                     
-                }
-            } .frame(width: UIScreen.screenHeight * 0.09, height: UIScreen.screenHeight * 0.09)
-            
-            ZStack{
-                if check1{
-                    if check2 {
+                    if check1 {
                         RoundedRectangle(cornerRadius: 10.0)
                             .fill(ColorManage.button)
                         VStack{
-                            Text("\(letterSecond)")
+                            Text("\(letterFirst)")
                                 .foregroundColor(ColorManage.plus)
                                 .font(.system(size: UIScreen.screenWidth * 0.13))
                                 .opacity(0.6)
                         }
-                    } else{
+                    } else {
                         RoundedRectangle(cornerRadius: 10.0)
                             .fill(ColorManage.button)
                         RoundedRectangle(cornerRadius: 10.0)
                             .stroke(ColorManage.plus, lineWidth: 3)
                             .opacity(0.5)
+                        VStack{
+                            Text("\(letterFirst)")
+                                .foregroundColor(ColorManage.buttontext)
+                                .font(.system(size: UIScreen.screenWidth * 0.13))
+                                .opacity(0.6)
+                        }
+                        
+                    }
+                    VStack{
+                        Spacer()
+                        HStack{
+                            Spacer()
+                            Image(systemName: "speaker.wave.2.fill")
+                                .foregroundColor(ColorManage.buttontext)
+                                .font(.system(size: UIScreen.screenWidth * 0.03))
+                                .padding([.bottom, .trailing], UIScreen.screenHeight * 0.003)
+                        }
+                        
+                    }
+                }
+            } .frame(width: UIScreen.screenHeight * 0.09, height: UIScreen.screenHeight * 0.09)
+            Button(action : {
+                let utterence = AVSpeechUtterance(string: letterSecond)
+                utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
+                utterence.rate = 0.4
+                let speak = AVSpeechSynthesizer()
+                speak.speak(utterence)
+            }){
+                ZStack{
+                    
+                    if check1{
+                        if check2 {
+                            RoundedRectangle(cornerRadius: 10.0)
+                                .fill(ColorManage.button)
+                            VStack{
+                                Text("\(letterSecond)")
+                                    .foregroundColor(ColorManage.plus)
+                                    .font(.system(size: UIScreen.screenWidth * 0.13))
+                                    .opacity(0.6)
+                            }
+                        } else{
+                            RoundedRectangle(cornerRadius: 10.0)
+                                .fill(ColorManage.button)
+                            RoundedRectangle(cornerRadius: 10.0)
+                                .stroke(ColorManage.plus, lineWidth: 3)
+                                .opacity(0.5)
+                            VStack{
+                                Text("\(letterSecond)")
+                                    .foregroundColor(ColorManage.buttontext)
+                                    .font(.system(size: UIScreen.screenWidth * 0.13))
+                                    .opacity(0.6)
+                            }
+                        }
+                    } else{
+                        RoundedRectangle(cornerRadius: 10.0)
+                            .fill(ColorManage.button)
                         VStack{
                             Text("\(letterSecond)")
                                 .foregroundColor(ColorManage.buttontext)
@@ -107,14 +164,16 @@ struct SolBox: View{
                                 .opacity(0.6)
                         }
                     }
-                } else{
-                    RoundedRectangle(cornerRadius: 10.0)
-                        .fill(ColorManage.button)
                     VStack{
-                        Text("\(letterSecond)")
-                            .foregroundColor(ColorManage.buttontext)
-                            .font(.system(size: UIScreen.screenWidth * 0.13))
-                            .opacity(0.6)
+                        Spacer()
+                        HStack{
+                            Spacer()
+                            Image(systemName: "speaker.wave.2.fill")
+                                .foregroundColor(ColorManage.buttontext)
+                                .font(.system(size: UIScreen.screenWidth * 0.03))
+                                .padding([.bottom, .trailing], UIScreen.screenHeight * 0.003)
+                        }
+                        
                     }
                 }
             }.frame(width: UIScreen.screenHeight * 0.09, height: UIScreen.screenHeight * 0.09)
@@ -137,10 +196,12 @@ struct EditBox: View{
         HStack{
             if check {
                 Button(action : {
+                    let speak = AVSpeechSynthesizer()
+                    speak.stopSpeaking(at: .immediate)
                     let utterence = AVSpeechUtterance(string: text)
                     utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
                     utterence.rate = 0.4
-                    let speak = AVSpeechSynthesizer()
+                    
                     speak.speak(utterence)
                 }){
                     HStack{
@@ -148,9 +209,7 @@ struct EditBox: View{
                         Text("\(letterKorea)[\(letterPron)] means '\(letterEnglish)'.")
                             .foregroundColor(ColorManage.buttontext)
                             .font(.system(size: UIScreen.screenWidth * 0.04))
-                        Image(systemName: "speaker.wave.2.fill")
-                            .foregroundColor(ColorManage.buttontext)
-                            .font(.system(size: UIScreen.screenWidth * 0.06))
+                        
                         
                     }
                 }
@@ -213,7 +272,7 @@ struct BodyBox: View{
     
     @State var secondArray = [false, false, false, false, false, false, false, false, false, false, false, false, true]
     
-
+    
     
     
     let soundplayer = SoundPlayer()
@@ -376,7 +435,7 @@ struct BodyBox: View{
         }
         
     }
-        
+    
     
 }
 
