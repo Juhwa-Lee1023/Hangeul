@@ -8,28 +8,29 @@
 import SwiftUI
 
 struct WelcomeView: View {
+    
     @Binding var page : Int
     @State var nextView = false
     let soundplayer = SoundPlayer()
     
     var body: some View {
-//        NavigationView{
+        //        NavigationView{
         ZStack{
             ColorManage.background
                 .ignoresSafeArea()
             VStack{
-            HStack {
-                ZStack{
-                    RoundedRectangle(cornerRadius: 10.0)
-                        .fill(ColorManage.button)
-                    VStack{
-                        Text("한글")
-                            .foregroundColor(ColorManage.plus)
-                            .font(.system(size: UIScreen.screenWidth * 0.28))
+                HStack {
+                    ZStack{
+                        RoundedRectangle(cornerRadius: 10.0)
+                            .fill(ColorManage.button)
+                        VStack{
+                            Text("한글")
+                                .foregroundColor(ColorManage.plus)
+                                .font(.system(size: UIScreen.screenWidth * 0.28))
+                        }
                     }
-                }
-            }.frame(width: UIScreen.screenWidth * 0.90, height: UIScreen.screenHeight * 0.25)
-            .padding(.bottom, UIScreen.screenHeight * 0.01)
+                }.frame(width: UIScreen.screenWidth * 0.90, height: UIScreen.screenHeight * 0.25)
+                    .padding(.bottom, UIScreen.screenHeight * 0.01)
                 HStack{
                     Button(action : {
                         soundplayer.next_play()
@@ -49,21 +50,23 @@ struct WelcomeView: View {
                         .font(.system(size: UIScreen.screenWidth * 0.05))
                         .opacity(0.6)
                 }.padding([.leading, .trailing], UIScreen.screenWidth * 0.05)
-                }.onTapGesture{
-                    nextView.toggle()
-                }
+            }.onTapGesture{
+                nextView.toggle()
+            }
             
-//                NavigationLink(destination: ContentView(), isActive: $nextView) {
-//                                    EmptyView()
-//                                }.disabled(true)
-//        }
-//
-//        .navigationBarTitle("")
-//        .navigationBarTitleDisplayMode(.inline)
+                
+            
+            //                NavigationLink(destination: ContentView(), isActive: $nextView) {
+            //                                    EmptyView()
+            //                                }.disabled(true)
+            //        }
+            //
+            //        .navigationBarTitle("")
+            //        .navigationBarTitleDisplayMode(.inline)
         }
-//        .navigationBarHidden(true)
-       
-
+        //        .navigationBarHidden(true)
+        
+        
         
     }
 }
