@@ -25,6 +25,7 @@
 		D56A82B7281923480013B61C /* ViewAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A82B6281923480013B61C /* ViewAssets.swift */; };
 		D5847146281FCB2600EA8A94 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = D5847145281FCB2600EA8A94 /* data.json */; };
 		D584717E2820FD6F00EA8A94 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D584717D2820FD6F00EA8A94 /* data.swift */; };
+		D5CC94FA287B3A36005E8BF5 /* LettersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CC94F9287B3A36005E8BF5 /* LettersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		D56A82B6281923480013B61C /* ViewAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAssets.swift; sourceTree = "<group>"; };
 		D5847145281FCB2600EA8A94 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		D584717D2820FD6F00EA8A94 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		D5CC94F9287B3A36005E8BF5 /* LettersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LettersView.swift; sourceTree = "<group>"; };
+		D5CC94FB287C544C005E8BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,7 @@
 		D56A82612817D6D90013B61C /* Hangeul */ = {
 			isa = PBXGroup;
 			children = (
+				D5CC94FB287C544C005E8BF5 /* Info.plist */,
 				D56A82A62817DD570013B61C /* SoundPlay.swift */,
 				D56A82622817D6D90013B61C /* HangeulApp.swift */,
 				D55E398E2874A64300E8CE12 /* SplashView.swift */,
@@ -127,6 +131,7 @@
 				D56A82B22817DFD90013B61C /* FourthView.swift */,
 				D56A82AE2817DF0E0013B61C /* FifthView.swift */,
 				D56A82B02817DF2A0013B61C /* ClearView.swift */,
+				D5CC94F9287B3A36005E8BF5 /* LettersView.swift */,
 				D56A82682817D6DA0013B61C /* Preview Content */,
 			);
 			path = Hangeul;
@@ -303,6 +308,7 @@
 				D56A82A92817DD900013B61C /* SecondView.swift in Sources */,
 				D56A82A72817DD570013B61C /* SoundPlay.swift in Sources */,
 				D584717E2820FD6F00EA8A94 /* data.swift in Sources */,
+				D5CC94FA287B3A36005E8BF5 /* LettersView.swift in Sources */,
 				D56A82A32817DCEA0013B61C /* WelcomeView.swift in Sources */,
 				D55E398F2874A64300E8CE12 /* SplashView.swift in Sources */,
 				D56A82AB2817DEE50013B61C /* ThirdView.swift in Sources */,
@@ -472,6 +478,7 @@
 				DEVELOPMENT_TEAM = 5N5TS7Y4MA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hangeul/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -501,6 +508,7 @@
 				DEVELOPMENT_TEAM = 5N5TS7Y4MA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hangeul/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
