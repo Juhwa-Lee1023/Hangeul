@@ -42,8 +42,6 @@ struct MainBox : View{
     var body: some View{
         HStack {
             Button(action : {
-                
-                
                 let speak = AVSpeechSynthesizer()
                 speak.stopSpeaking(at: .immediate)
                 let utterence = AVSpeechUtterance(string: text)
@@ -57,6 +55,7 @@ struct MainBox : View{
                 
                 speak.speak(utterence)
                 self.myTimer.value = 0
+
             }){
                 ZStack{
                     RoundedRectangle(cornerRadius: 10.0)
@@ -115,6 +114,7 @@ struct SolBox: View{
                 
                 speak.speak(utterence)
                 self.firstTimer.value = 0
+
             }){
                 ZStack{
                     
@@ -135,13 +135,70 @@ struct SolBox: View{
                             .opacity(0.5)
                         VStack{
                             Text("\(letterFirst)")
+
                                 .foregroundColor(ColorManage.buttontext)
                                 .font(.system(size: UIScreen.screenWidth * 0.13))
                                 .opacity(0.6)
                         }
                         
                     }
+                    VStack{
+                        Spacer()
+                        HStack{
+                            Spacer()
+                            Image(systemName: "speaker.wave.2.fill")
+                                .foregroundColor(ColorManage.buttontext)
+                                .font(.system(size: UIScreen.screenWidth * 0.03))
+                                .padding([.bottom, .trailing], UIScreen.screenHeight * 0.003)
+                        }
+                        
+                    }
+                }
+            } .frame(width: UIScreen.screenHeight * 0.09, height: UIScreen.screenHeight * 0.09)
+            Button(action : {
+                let utterence = AVSpeechUtterance(string: letterSecond)
+                utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
+                utterence.rate = 0.4
+                let speak = AVSpeechSynthesizer()
+                speak.speak(utterence)
+            }){
+                ZStack{
                     
+                    if check1{
+                        if check2 {
+                            RoundedRectangle(cornerRadius: 10.0)
+                                .fill(ColorManage.button)
+                            VStack{
+                                Text("\(letterSecond)")
+                                    .foregroundColor(ColorManage.plus)
+                                    .font(.system(size: UIScreen.screenWidth * 0.13))
+                                    .opacity(0.6)
+                            }
+                        } else{
+                            RoundedRectangle(cornerRadius: 10.0)
+                                .fill(ColorManage.button)
+                            RoundedRectangle(cornerRadius: 10.0)
+                                .stroke(ColorManage.plus, lineWidth: 3)
+                                .opacity(0.5)
+                            VStack{
+                                Text("\(letterSecond)")
+                                    .foregroundColor(ColorManage.buttontext)
+                                    .font(.system(size: UIScreen.screenWidth * 0.13))
+                                    .opacity(0.6)
+                            }
+                        }
+                    } else{
+                        RoundedRectangle(cornerRadius: 10.0)
+                            .fill(ColorManage.button)
+                        VStack{
+                            Text("\(letterSecond)")
+                                .foregroundColor(ColorManage.buttontext)
+                                .font(.system(size: UIScreen.screenWidth * 0.13))
+                                .opacity(0.6)
+                        }
+                        
+                    }
+             
                 }
             } .frame(width: UIScreen.screenHeight * 0.09, height: UIScreen.screenHeight * 0.09)
             Button(action : {
@@ -219,12 +276,14 @@ struct EditBox: View{
                     speak.stopSpeaking(at: .immediate)
                     let utterence = AVSpeechUtterance(string: text)
                     utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
+
                     if(self.myTimer.value < 3){
                         utterence.rate = 0.1
                     }
                     else{
                         utterence.rate = 0.5
                     }
+
                     
                     speak.speak(utterence)
                     self.myTimer.value = 0
