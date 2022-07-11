@@ -24,9 +24,20 @@ struct hangeul: Identifiable, Decodable{
     var stateA: [String]
 }
 
+class MyTimer: ObservableObject {
+    @Published var value: Int = 0
+    
+    init() {
+        Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { timer in
+            self.value += 1
+            
+        }
+    }
+}
 
 
 struct MainBox : View{
+    @ObservedObject var myTimer = MyTimer()
     var text: String
     var body: some View{
         HStack {
@@ -35,9 +46,16 @@ struct MainBox : View{
                 speak.stopSpeaking(at: .immediate)
                 let utterence = AVSpeechUtterance(string: text)
                 utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
-                utterence.rate = 0.4
+                if(self.myTimer.value < 3){
+                    utterence.rate = 0.1
+                }
+                else{
+                    utterence.rate = 0.5
+                }
                 
                 speak.speak(utterence)
+                self.myTimer.value = 0
+
             }){
                 ZStack{
                     RoundedRectangle(cornerRadius: 10.0)
@@ -62,10 +80,15 @@ struct MainBox : View{
         }.frame(width: UIScreen.screenWidth * 0.90, height: UIScreen.screenHeight * 0.25)
             .padding(.bottom, UIScreen.screenHeight * 0.03)
     }
+    
+    
+
 }
 
+
 struct SolBox: View{
-    
+    @ObservedObject var firstTimer = MyTimer()
+    @ObservedObject var secondTimer = MyTimer()
     var letterFirst: String = ""
     var letterSecond: String = ""
     @Binding var check1: Bool
@@ -80,9 +103,18 @@ struct SolBox: View{
             Button(action : {
                 let utterence = AVSpeechUtterance(string: letterFirst)
                 utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
-                utterence.rate = 0.4
+                
                 let speak = AVSpeechSynthesizer()
+                if(self.firstTimer.value < 3){
+                    utterence.rate = 0.1
+                }
+                else{
+                    utterence.rate = 0.4
+                }
+                
                 speak.speak(utterence)
+                self.firstTimer.value = 0
+
             }){
                 ZStack{
                     
@@ -103,6 +135,7 @@ struct SolBox: View{
                             .opacity(0.5)
                         VStack{
                             Text("\(letterFirst)")
+
                                 .foregroundColor(ColorManage.buttontext)
                                 .font(.system(size: UIScreen.screenWidth * 0.13))
                                 .opacity(0.6)
@@ -163,19 +196,61 @@ struct SolBox: View{
                                 .font(.system(size: UIScreen.screenWidth * 0.13))
                                 .opacity(0.6)
                         }
-                    }
-                    VStack{
-                        Spacer()
-                        HStack{
-                            Spacer()
-                            Image(systemName: "speaker.wave.2.fill")
-                                .foregroundColor(ColorManage.buttontext)
-                                .font(.system(size: UIScreen.screenWidth * 0.03))
-                                .padding([.bottom, .trailing], UIScreen.screenHeight * 0.003)
-                        }
                         
                     }
+             
                 }
+            } .frame(width: UIScreen.screenHeight * 0.09, height: UIScreen.screenHeight * 0.09)
+            Button(action : {
+                let utterence = AVSpeechUtterance(string: letterSecond)
+                utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
+                
+                let speak = AVSpeechSynthesizer()
+                if(self.secondTimer.value < 3){
+                    utterence.rate = 0.1
+                }
+                else{
+                    utterence.rate = 0.4
+                }
+                
+                speak.speak(utterence)
+                self.secondTimer.value = 0
+            }){
+                ZStack{
+                    
+                    if check1{
+                        if check2 {
+                            RoundedRectangle(cornerRadius: 10.0)
+                                .fill(ColorManage.button)
+                            VStack{
+                                Text("\(letterSecond)")
+                                    .foregroundColor(ColorManage.plus)
+                                    .font(.system(size: UIScreen.screenWidth * 0.13))
+                                    .opacity(0.6)
+                            }
+                        } else{
+                            RoundedRectangle(cornerRadius: 10.0)
+                                .fill(ColorManage.button)
+                            RoundedRectangle(cornerRadius: 10.0)
+                                .stroke(ColorManage.plus, lineWidth: 3)
+                                .opacity(0.5)
+                            VStack{
+                                Text("\(letterSecond)")
+                                    .foregroundColor(ColorManage.buttontext)
+                                    .font(.system(size: UIScreen.screenWidth * 0.13))
+                                    .opacity(0.6)
+                            }
+                        }
+                    } else{
+                        RoundedRectangle(cornerRadius: 10.0)
+                            .fill(ColorManage.button)
+                        VStack{
+                            Text("\(letterSecond)")
+                                .foregroundColor(ColorManage.buttontext)
+                                .font(.system(size: UIScreen.screenWidth * 0.13))
+                                .opacity(0.6)
+                        }
+                    }                }
             }.frame(width: UIScreen.screenHeight * 0.09, height: UIScreen.screenHeight * 0.09)
             
             
@@ -189,9 +264,10 @@ struct EditBox: View{
     var letterKorea: String
     var letterEnglish: String
     var letterPron : String
-    
+    @ObservedObject var myTimer = MyTimer()
     let soundplayer = SoundPlayer()
     @Binding var check: Bool
+    
     var body: some View{
         HStack{
             if check {
@@ -200,9 +276,17 @@ struct EditBox: View{
                     speak.stopSpeaking(at: .immediate)
                     let utterence = AVSpeechUtterance(string: text)
                     utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
-                    utterence.rate = 0.4
+
+                    if(self.myTimer.value < 3){
+                        utterence.rate = 0.1
+                    }
+                    else{
+                        utterence.rate = 0.5
+                    }
+
                     
                     speak.speak(utterence)
+                    self.myTimer.value = 0
                 }){
                     HStack{
                         
@@ -258,6 +342,7 @@ struct LetterBox: View{
 }
 
 struct BodyBox: View{
+    @ObservedObject var myTimer = MyTimer()
     @Binding var page : Int
     @Binding var han: hangeul
     @State var text: String
@@ -269,7 +354,6 @@ struct BodyBox: View{
     @Binding var showAlert: Bool
     @State var buttonArray: [Bool] = [false, false, false, false, false, false, false, false, false, false, false, false, true]
     @State var letterArray: [String]
-    
     @State var secondArray = [false, false, false, false, false, false, false, false, false, false, false, false, true]
     
 
@@ -314,9 +398,17 @@ struct BodyBox: View{
                     if check2{
                         let utterence = AVSpeechUtterance(string: han.word)
                         utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
-                        utterence.rate = 0.4
+                        
                         let speak = AVSpeechSynthesizer()
+                        if(self.myTimer.value < 3){
+                            utterence.rate = 0.1
+                        }
+                        else{
+                            utterence.rate = 0.5
+                        }
+                        
                         speak.speak(utterence)
+                        self.myTimer.value = 0
                     } else{
                         buttonArray = [false, false, false, false, false, false, false, false, false, false, false, false]
                     }

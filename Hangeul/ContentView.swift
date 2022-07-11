@@ -30,6 +30,7 @@ struct ContentView: View {
 //        NavigationView{
             ZStack{
                 ColorManage.background
+                    .ignoresSafeArea()
                 VStack{
                     MainBox(text: hangeuls[i].word)
                     SolBox(letterFirst: letterFirst, letterSecond: letterSecond, check1: $firstText, check2: $secondText)
