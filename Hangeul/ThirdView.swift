@@ -18,7 +18,7 @@ struct ThirdView: View {
     @State var letterSecond = ""
     let soundplayer = SoundPlayer()
     @State var han: hangeul = hangeul(id: 0, word: "", english: "", pron: "", firstSolf: 0, firstSols: 0, firstSolt: 0, secondSolf: 0, secondSols: 0, secondSolt: 0, stateA: ["ㄱ", "ㅋ", "ㄴ", "ㅏ", "ㄷ", "ㅁ", "ㅂ", "ㅗ", "ㅅ", "ㅈ", "ㅕ", "ㅖ"])
-    @State var i = Int.random(in: 0...39)
+    @State var i = Int.random(in: 0...154)
     @Binding var num: [Int]
     @State var check: Bool = false
     
@@ -54,7 +54,7 @@ struct ThirdView: View {
                     check = true
                 }
                 else{
-                    i = Int.random(in: 0...16)
+                    i = Int.random(in: 0...154)
                 }
                 
             }

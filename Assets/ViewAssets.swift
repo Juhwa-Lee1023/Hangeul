@@ -142,65 +142,10 @@ struct SolBox: View{
                         }
                         
                     }
-                    VStack{
-                        Spacer()
-                        HStack{
-                            Spacer()
-                            Image(systemName: "speaker.wave.2.fill")
-                                .foregroundColor(ColorManage.buttontext)
-                                .font(.system(size: UIScreen.screenWidth * 0.03))
-                                .padding([.bottom, .trailing], UIScreen.screenHeight * 0.003)
-                        }
-                        
-                    }
-                }
-            } .frame(width: UIScreen.screenHeight * 0.09, height: UIScreen.screenHeight * 0.09)
-            Button(action : {
-                let utterence = AVSpeechUtterance(string: letterSecond)
-                utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
-                utterence.rate = 0.4
-                let speak = AVSpeechSynthesizer()
-                speak.speak(utterence)
-            }){
-                ZStack{
                     
-                    if check1{
-                        if check2 {
-                            RoundedRectangle(cornerRadius: 10.0)
-                                .fill(ColorManage.button)
-                            VStack{
-                                Text("\(letterSecond)")
-                                    .foregroundColor(ColorManage.plus)
-                                    .font(.system(size: UIScreen.screenWidth * 0.13))
-                                    .opacity(0.6)
-                            }
-                        } else{
-                            RoundedRectangle(cornerRadius: 10.0)
-                                .fill(ColorManage.button)
-                            RoundedRectangle(cornerRadius: 10.0)
-                                .stroke(ColorManage.plus, lineWidth: 3)
-                                .opacity(0.5)
-                            VStack{
-                                Text("\(letterSecond)")
-                                    .foregroundColor(ColorManage.buttontext)
-                                    .font(.system(size: UIScreen.screenWidth * 0.13))
-                                    .opacity(0.6)
-                            }
-                        }
-                    } else{
-                        RoundedRectangle(cornerRadius: 10.0)
-                            .fill(ColorManage.button)
-                        VStack{
-                            Text("\(letterSecond)")
-                                .foregroundColor(ColorManage.buttontext)
-                                .font(.system(size: UIScreen.screenWidth * 0.13))
-                                .opacity(0.6)
-                        }
-                        
-                    }
-             
                 }
             } .frame(width: UIScreen.screenHeight * 0.09, height: UIScreen.screenHeight * 0.09)
+            
             Button(action : {
                 let utterence = AVSpeechUtterance(string: letterSecond)
                 utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
