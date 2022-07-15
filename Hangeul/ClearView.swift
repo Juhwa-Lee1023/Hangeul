@@ -9,6 +9,7 @@ import SwiftUI
 import AVFoundation
 
 struct ClearView: View {
+    @ObservedObject var Timer = MyTimer()
     @ObservedObject var Timer1 = MyTimer()
     @ObservedObject var Timer2 = MyTimer()
     @ObservedObject var Timer3 = MyTimer()
@@ -28,19 +29,38 @@ struct ClearView: View {
             ColorManage.background
                 .ignoresSafeArea()
             VStack{
-            HStack {
-                ZStack{
-                    RoundedRectangle(cornerRadius: 10.0)
-                        .fill(ColorManage.button)
-                    VStack{
-                        Text("CLEAR!")
-                            .foregroundColor(ColorManage.plus)
-                            .font(.system(size: UIScreen.screenWidth * 0.25))
+                Button(action : {
+                    let utterence = AVSpeechUtterance(string: "성공")
+                    utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
+                    let speak = AVSpeechSynthesizer()
+                    if(self.Timer.value < 3){
+                        utterence.rate = 0.1
                     }
+                    else{
+                        utterence.rate = 0.5
+                    }
+                    
+                    speak.speak(utterence)
+                    self.Timer.value = 0
+                }){
+                    HStack {
+                        ZStack{
+                            RoundedRectangle(cornerRadius: 10.0)
+                                .fill(ColorManage.button)
+                            VStack{
+                                Text("성공!")
+                                    .foregroundColor(ColorManage.plus)
+                                    .font(.system(size: UIScreen.screenWidth * 0.25))
+                                Text("(Clear)")
+                                    .foregroundColor(ColorManage.plus)
+                                    .font(.system(size: UIScreen.screenWidth * 0.1))
+                            }
+                        }
+                    }.frame(width: UIScreen.screenWidth * 0.90, height: UIScreen.screenHeight * 0.25)
+                    .padding(.bottom, UIScreen.screenHeight * 0.03)
+                    .padding([.leading, .trailing], UIScreen.screenWidth * 0.05 )
                 }
-            }.frame(width: UIScreen.screenWidth * 0.90, height: UIScreen.screenHeight * 0.25)
-            .padding(.bottom, UIScreen.screenHeight * 0.03)
-            .padding([.leading, .trailing], UIScreen.screenWidth * 0.05 )
+            
                 
             HStack{
                 Button(action : {

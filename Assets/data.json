@@ -658,7 +658,7 @@
         "firstSolt" : 12,
         "secondSolf" : 2,
         "secondSols" : 7,
-        "secondSolt" : 8,
+        "secondSolt" : 4,
         "stateA" : ["ㄴ", "ㄷ", "ㄹ", "ㅓ", "ㄱ", "ㅋ", "ㄲ", "ㅕ", "ㅁ", "ㅂ", "ㅍ", "ㅐ"]
     },
     {
@@ -876,7 +876,7 @@
         "pron" : "balpyo",
         "firstSolf" : 1,
         "firstSols" : 11,
-        "firstSolt" : 8,
+        "firstSolt" : 6,
         "secondSolf" : 2,
         "secondSols" : 7,
         "secondSolt" : 12,
@@ -944,7 +944,7 @@
         "firstSolt" : 4,
         "secondSolf" : 2,
         "secondSols" : 3,
-        "secondSolt" : 4,
+        "secondSolt" : 12,
         "stateA" : ["ㅅ", "ㅈ", "ㅊ", "ㅓ", "ㄴ", "ㄷ", "ㄹ", "ㅣ", "ㅁ", "ㅂ", "ㅍ", "ㅔ"]
     },
     {
@@ -956,9 +956,9 @@
         "firstSols" : 11,
         "firstSolt" : 12,
         "secondSolf" : 6,
-        "secondSols" : 11,
+        "secondSols" : 7,
         "secondSolt" : 4,
-        "stateA" : ["ㅅ", "ㅈ", "ㅊ", "ㅓ", "ㄱ", "ㄷ", "ㄹ", "ㅣ", "ㅁ", "ㅂ", "ㅍ", "ㅕ"]
+        "stateA" : ["ㅅ", "ㅈ", "ㅊ", "ㅓ", "ㄱ", "ㄷ", "ㄹ", "ㅏ", "ㅁ", "ㅂ", "ㅍ", "ㅕ"]
     },
     {
         "id" : 75,
@@ -982,7 +982,7 @@
         "firstSols" : 11,
         "firstSolt" : 12,
         "secondSolf" : 0,
-        "secondSols" : 11,
+        "secondSols" : 3,
         "secondSolt" : 8,
         "stateA" : ["ㅅ", "ㅈ", "ㅊ", "ㅓ", "ㅁ", "ㅍ", "ㅂ", "ㅣ", "ㄱ", "ㄷ", "ㄹ", "ㅗ"]
     },
@@ -1099,7 +1099,7 @@
         "firstSols" : 7,
         "firstSolt" : 12,
         "secondSolf" : 4,
-        "secondSols" : 7,
+        "secondSols" : 11,
         "secondSolt" : 12,
         "stateA" : ["ㅅ", "ㅈ", "ㅊ", "ㅗ", "ㄱ", "ㅋ", "ㄲ", "ㅏ", "ㅇ", "ㅎ", "ㄹ", "ㅘ"]
     },
@@ -1112,7 +1112,7 @@
         "firstSols" : 7,
         "firstSolt" : 12,
         "secondSolf" : 0,
-        "secondSols" : 12,
+        "secondSols" : 11,
         "secondSolt" : 4,
         "stateA" : ["ㅅ", "ㅈ", "ㅊ", "ㅗ", "ㅁ", "ㅂ", "ㅍ", "ㅏ", "ㅇ", "ㅎ", "ㄹ", "ㅡ"]
     },
@@ -1122,8 +1122,8 @@
         "english" : "Photo",
         "pron" : "sajin",
         "firstSolf" : 0,
-        "firstSols" : 1,
-        "firstSolt" : 7,
+        "firstSols" : 7,
+        "firstSolt" : 12,
         "secondSolf" : 1,
         "secondSols" : 8,
         "secondSolt" : 11,
@@ -1200,7 +1200,7 @@
         "english" : "Introduction",
         "pron" : "sogae",
         "firstSolf" : 8,
-        "firstSols" : 11,
+        "firstSols" : 3,
         "firstSolt" : 12,
         "secondSolf" : 6,
         "secondSols" : 11,
@@ -1212,12 +1212,12 @@
         "word" : "소설",
         "english" : "Fiction",
         "pron" : "soseol",
-        "firstSolf" : 2,
-        "firstSols" : 10,
-        "firstSolt" : 8,
-        "secondSolf" : 6,
-        "secondSols" : 3,
-        "secondSolt" : 8,
+        "firstSolf" : 0,
+        "firstSols" : 3,
+        "firstSolt" : 12,
+        "secondSolf" : 0,
+        "secondSols" : 11,
+        "secondSolt" : 10,
         "stateA" : ["ㅅ", "ㅈ", "ㅊ", "ㅗ", "ㅂ", "ㅍ", "ㅁ", "ㅜ", "ㅇ", "ㅎ", "ㄹ", "ㅓ"]
     },
     {
@@ -1540,7 +1540,7 @@
         "firstSolf" : 4,
         "firstSols" : 11,
         "firstSolt" : 6,
-        "secondSolf" : 6,
+        "secondSolf" : 4,
         "secondSols" : 3,
         "secondSolt" : 2,
         "stateA" : ["ㄴ", "ㄷ", "ㄱ", "ㅏ", "ㅇ", "ㅎ", "ㅁ", "ㅜ", "ㅅ", "ㅈ", "ㅊ", "ㅡ"]
@@ -1582,7 +1582,7 @@
         "secondSolf" : 4,
         "secondSols" : 11,
         "secondSolt" : 12,
-        "stateA" : ["ㅅ", "ㅈ", "ㅊ", "ㅏ", "ㅁ", "ㅍ", "ㅂ", "ㅓ", "ㅇ", "ㅎ", "ㅏ", "ㅣ"]
+        "stateA" : ["ㅅ", "ㅈ", "ㅊ", "ㅏ", "ㅁ", "ㅍ", "ㅂ", "ㅓ", "ㅇ", "ㅎ", "ㅆ", "ㅣ"]
     },
     {
         "id" : 123,
@@ -1595,7 +1595,7 @@
         "secondSolf" : 6,
         "secondSols" : 3,
         "secondSolt" : 5,
-        "stateA" : ["ㅅ", "ㅈ", "ㅊ", "ㅏ", "ㅁ", "ㄹ", "ㅌ", "ㅣ", "ㅇ", "ㅎ", "ㅏ", "ㅐ"]
+        "stateA" : ["ㅅ", "ㅈ", "ㅊ", "ㅏ", "ㅁ", "ㄹ", "ㅌ", "ㅣ", "ㅇ", "ㅎ", "ㄸ", "ㅐ"]
     },
     {
         "id" : 124,
@@ -1807,16 +1807,16 @@
     },
     {
         "id" : 140,
-        "word" : "쿵쾅",
-        "english" : "Thump",
-        "pron" : "kungkwang",
-        "firstSolf" : 1,
-        "firstSols" : 7,
-        "firstSolt" : 10,
-        "secondSolf" : 1,
+        "word" : "담비",
+        "english" : "Marten",
+        "pron" : "dambi",
+        "firstSolf" : 5,
+        "firstSols" : 3,
+        "firstSolt" : 6,
+        "secondSolf" : 10,
         "secondSols" : 11,
-        "secondSolt" : 10,
-        "stateA" : ["ㄱ", "ㅋ", "ㄲ", "ㅗ", "ㄴ", "ㄷ", "ㅌ", "ㅜ", "ㅅ", "ㅈ", "ㅇ", "ㅘ"]
+        "secondSolt" : 12,
+        "stateA" : ["ㄱ", "ㅋ", "ㄲ", "ㅏ", "ㄴ", "ㄷ", "ㅁ", "ㅜ", "ㅅ", "ㅈ", "ㅂ", "ㅣ"]
     },
     {
         "id" : 141,
@@ -1826,10 +1826,10 @@
         "firstSolf" : 6,
         "firstSols" : 7,
         "firstSolt" : 12,
-        "secondSolf" : 6,
+        "secondSolf" : 2,
         "secondSols" : 11,
         "secondSolt" : 4,
-        "stateA" : ["ㄱ", "ㅋ", "ㄲ", "ㅗ", "ㄴ", "ㄷ", "ㅌ", "ㅏ", "ㅅ", "ㅈ", "ㅊ", "ㅣ"]
+        "stateA" : ["ㄱ", "ㅋ", "ㅇ", "ㅗ", "ㄴ", "ㄷ", "ㅌ", "ㅏ", "ㅅ", "ㅈ", "ㅊ", "ㅣ"]
     },
     {
         "id" : 142,
@@ -1839,7 +1839,7 @@
         "firstSolf" : 2,
         "firstSols" : 11,
         "firstSolt" : 1,
-        "secondSolf" : 5,
+        "secondSolf" : 6,
         "secondSols" : 3,
         "secondSolt" : 12,
         "stateA" : ["ㄴ", "ㄹ", "ㅌ", "ㅗ", "ㅁ", "ㅍ", "ㅂ", "ㅜ", "ㅇ", "ㅎ", "ㅅ", "ㅓ"]
@@ -1879,7 +1879,7 @@
         "firstSols" : 3,
         "firstSolt" : 12,
         "secondSolf" : 5,
-        "secondSols" : 3,
+        "secondSols" : 11,
         "secondSolt" : 12,
         "stateA" : ["ㅇ", "ㅎ", "ㄱ", "ㅏ", "ㄴ", "ㄷ", "ㄹ", "ㅜ", "ㅁ", "ㅂ", "ㅍ", "ㅗ"]
     },
@@ -2011,6 +2011,6 @@
         "secondSolf" : 9,
         "secondSols" : 11,
         "secondSolt" : 12,
-        "stateA" : ["ㄴ", "ㄷ", "ㄹ", "ㅗ", "ㅁ", "ㅍ", "ㅂ", "ㅜ", "ㅇ", "ㅎ", "ㄱ", "ㅢ"]
+        "stateA" : ["ㄴ", "ㄷ", "ㄹ", "ㅗ", "ㅁ", "ㅍ", "ㅂ", "ㅜ", "ㅇ", "ㅎ", "ㄱ", "ㅚ"]
     }
 ]

@@ -45,7 +45,7 @@ struct WelcomeView: View {
                 }.padding(.bottom, UIScreen.screenHeight * 0.01)
                 
                 HStack{
-                    Text("Hangul is a character used to write Korean. Consonants and vowels are collected in one letter like a puzzle, and one syllable is expressed as one letter. \n\nClick on the elements in the box with the highlighted border and press 'CONFIRM'")
+                    Text("Hangeul is the writing system for the Korean language. Consonants and vowels are constructed to like a puzzle to form a letter, and each syllable is represented in each letter. \n\nTap the correct elements for the letter in the highlighted box and press ‘CONFIRM’")
                         .foregroundColor(ColorManage.clean)
                         .font(.system(size: UIScreen.screenWidth * 0.05))
                         .opacity(0.6)
