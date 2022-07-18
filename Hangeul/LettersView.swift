@@ -23,8 +23,13 @@ struct LettersView: View {
     var body: some View {
         ScrollView{
             ZStack{
-                ColorManage.background
-                    .ignoresSafeArea()
+                if #available(iOS 14.0, *) {
+                    ColorManage.background
+                        .ignoresSafeArea()
+                } else {
+                    ColorManage.background
+                        .edgesIgnoringSafeArea(.all)
+                }
                 VStack{
                     VStack{
                         HStack{

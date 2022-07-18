@@ -16,8 +16,13 @@ struct WelcomeView: View {
     var body: some View {
         //        NavigationView{
         ZStack{
-            ColorManage.background
-                .ignoresSafeArea()
+            if #available(iOS 14.0, *) {
+                ColorManage.background
+                    .ignoresSafeArea()
+            } else {
+                ColorManage.background
+                    .edgesIgnoringSafeArea(.all)
+            }
             VStack{
                 HStack {
                     ZStack{
@@ -32,29 +37,27 @@ struct WelcomeView: View {
                 }.frame(width: UIScreen.screenWidth * 0.90, height: UIScreen.screenHeight * 0.25)
                     .padding(.bottom, UIScreen.screenHeight * 0.01)
                 HStack{
-                    Button(action : {
-                        soundplayer.next_play()
-                        nextView.toggle()
-                        page = 1
-                    }){
-                        Text("Tap to Start")
-                            .foregroundColor(ColorManage.plus)
-                            .font(.system(size: UIScreen.screenWidth * 0.1))
-                            .opacity(0.6)
-                    }
-                }.padding(.bottom, UIScreen.screenHeight * 0.01)
+                    Text("Tap to Start")
+                        .foregroundColor(ColorManage.plus)
+                        .font(.system(size: UIScreen.screenWidth * 0.1))
+                        .opacity(0.6)
+                    
+                }
+                
+                .padding(.bottom, UIScreen.screenHeight * 0.01)
                 
                 HStack{
                     Text("Hangeul is the writing system for the Korean language. Consonants and vowels are constructed to like a puzzle to form a letter, and each syllable is represented in each letter. \n\nTap the correct elements for the letter in the highlighted box and press ‘CONFIRM’")
                         .foregroundColor(ColorManage.clean)
                         .font(.system(size: UIScreen.screenWidth * 0.05))
+                        .multilineTextAlignment(.center)
                         .opacity(0.6)
                 }.padding([.leading, .trailing], UIScreen.screenWidth * 0.05)
             }.onTapGesture{
-                nextView.toggle()
+                page = 1
             }
             
-                
+            
             
             //                NavigationLink(destination: ContentView(), isActive: $nextView) {
             //                                    EmptyView()

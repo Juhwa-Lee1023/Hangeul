@@ -27,8 +27,13 @@ struct FourthView: View {
     var body: some View {
 //        NavigationView{
             ZStack{
-                ColorManage.background
-                    .ignoresSafeArea()
+                if #available(iOS 14.0, *) {
+                    ColorManage.background
+                        .ignoresSafeArea()
+                } else {
+                    ColorManage.background
+                        .edgesIgnoringSafeArea(.all)
+                }
                 VStack{
                     MainBox(text: hangeuls[i].word)
                     SolBox(letterFirst: letterFirst, letterSecond: letterSecond, check1: $firstText, check2: $secondText)
