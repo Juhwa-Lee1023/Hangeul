@@ -14,4 +14,4 @@
 
 <img width="77" alt="스크린샷 2021-11-19 오후 3 52 02" src="https://img.shields.io/badge/iOS-15.0+-silver"> <img width="95" alt="스크린샷 2021-11-19 오후 3 52 02" src="https://img.shields.io/badge/Xcode-13.3-blue">
 
-🔗App Store : <a href="https://apps.apple.com/kr/app/hangeul-puzzle/id1634394239?l=en">HangulPuzzle</a>
+🔗App Store : <a href="https://apps.apple.com/kr/app/hangeul-puzzle/id1634394239?l=en">HangeulPuzzle</a>
