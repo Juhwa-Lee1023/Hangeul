@@ -10,6 +10,13 @@
 🔗App Store : <a href="https://apps.apple.com/kr/app/hangeul-puzzle/id1634394239?l=en">HangeulPuzzle</a>
 
 ---
+### 동작화면
+![한글](https://user-images.githubusercontent.com/63584245/191348063-6ad9b371-eb9c-4f53-aec7-efd562183656.gif)
+![한글2](https://user-images.githubusercontent.com/63584245/191348079-d4d2197f-7157-4fcb-8c2e-3c5c899f44e9.gif)
+![한글3](https://user-images.githubusercontent.com/63584245/191348089-2b9fad5b-a6a9-4fab-938b-88927bcfd55f.gif)
+
+
+---
 ### :sparkles: Skills & Tech Stack
 * SwiftUI
 
