@@ -38,11 +38,11 @@ class MyTimer: ObservableObject {
 
 struct MainBox : View{
     @ObservedObject var myTimer = MyTimer()
+    let speak = AVSpeechSynthesizer()
     var text: String
     var body: some View{
         HStack {
             Button(action : {
-                let speak = AVSpeechSynthesizer()
                 speak.stopSpeaking(at: .immediate)
                 let utterence = AVSpeechUtterance(string: text)
                 utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
@@ -93,7 +93,7 @@ struct SolBox: View{
     var letterSecond: String = ""
     @Binding var check1: Bool
     @Binding var check2: Bool
-    
+    let speak = AVSpeechSynthesizer()
     
     
     
@@ -104,7 +104,7 @@ struct SolBox: View{
                 let utterence = AVSpeechUtterance(string: letterFirst)
                 utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
                 
-                let speak = AVSpeechSynthesizer()
+                
                 if(self.firstTimer.value < 3){
                     utterence.rate = 0.1
                 }
@@ -150,7 +150,6 @@ struct SolBox: View{
                 let utterence = AVSpeechUtterance(string: letterSecond)
                 utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
                 
-                let speak = AVSpeechSynthesizer()
                 if(self.secondTimer.value < 3){
                     utterence.rate = 0.1
                 }
@@ -212,12 +211,12 @@ struct EditBox: View{
     @ObservedObject var myTimer = MyTimer()
     let soundplayer = SoundPlayer()
     @Binding var check: Bool
+    let speak = AVSpeechSynthesizer()
     
     var body: some View{
         HStack{
             if check {
                 Button(action : {
-                    let speak = AVSpeechSynthesizer()
                     speak.stopSpeaking(at: .immediate)
                     let utterence = AVSpeechUtterance(string: text)
                     utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
@@ -300,7 +299,7 @@ struct BodyBox: View{
     @State var buttonArray: [Bool] = [false, false, false, false, false, false, false, false, false, false, false, false, true]
     @State var letterArray: [String]
     @State var secondArray = [false, false, false, false, false, false, false, false, false, false, false, false, true]
-    
+    let speak = AVSpeechSynthesizer()
 
     
     
@@ -344,7 +343,7 @@ struct BodyBox: View{
                         let utterence = AVSpeechUtterance(string: han.word)
                         utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
                         
-                        let speak = AVSpeechSynthesizer()
+
                         if(self.myTimer.value < 3){
                             utterence.rate = 0.1
                         }
@@ -404,7 +403,6 @@ struct BodyBox: View{
                                     let utterence = AVSpeechUtterance(string: han.word)
                                     utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
                                     utterence.rate = 0.4
-                                    let speak = AVSpeechSynthesizer()
                                     speak.speak(utterence)
                                 }else{
                                     showAlert.toggle()
@@ -429,7 +427,6 @@ struct BodyBox: View{
                                     let utterence = AVSpeechUtterance(string: letterFirst)
                                     utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
                                     utterence.rate = 0.4
-                                    let speak = AVSpeechSynthesizer()
                                     speak.speak(utterence)
                                     buttonArray = [false, false, false, false, false, false, false, false, false, false, false, false, true]
                                 }else{

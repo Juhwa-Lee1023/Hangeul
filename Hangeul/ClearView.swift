@@ -22,6 +22,7 @@ struct ClearView: View {
     @Binding var num: [Int]
     let soundplayer = SoundPlayer()
     @State var showModal = false
+    let speak = AVSpeechSynthesizer()
     
     var body: some View {
 //        NavigationView{
@@ -37,7 +38,6 @@ struct ClearView: View {
                 Button(action : {
                     let utterence = AVSpeechUtterance(string: "성공")
                     utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
-                    let speak = AVSpeechSynthesizer()
                     if(self.Timer.value < 3){
                         utterence.rate = 0.1
                     }
@@ -71,7 +71,6 @@ struct ClearView: View {
                 Button(action : {
                     let utterence = AVSpeechUtterance(string: hangeuls[num[4]].word)
                     utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
-                    let speak = AVSpeechSynthesizer()
                     if(self.Timer1.value < 3){
                         utterence.rate = 0.1
                     }
@@ -102,7 +101,6 @@ struct ClearView: View {
                 Button(action : {
                     let utterence = AVSpeechUtterance(string: hangeuls[num[3]].word)
                     utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
-                    let speak = AVSpeechSynthesizer()
                     if(self.Timer2.value < 3){
                         utterence.rate = 0.1
                     }
@@ -127,7 +125,6 @@ struct ClearView: View {
                 Button(action : {
                     let utterence = AVSpeechUtterance(string: hangeuls[num[2]].word)
                     utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
-                    let speak = AVSpeechSynthesizer()
                     if(self.Timer3.value < 3){
                         utterence.rate = 0.1
                     }
@@ -155,7 +152,6 @@ struct ClearView: View {
                     Button(action : {
                         let utterence = AVSpeechUtterance(string: hangeuls[num[1]].word)
                         utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
-                        let speak = AVSpeechSynthesizer()
                         if(self.Timer4.value < 3){
                             utterence.rate = 0.1
                         }
@@ -180,7 +176,6 @@ struct ClearView: View {
                     Button(action : {
                         let utterence = AVSpeechUtterance(string: hangeuls[num[0]].word)
                         utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
-                        let speak = AVSpeechSynthesizer()
                         if(self.Timer5.value < 3){
                             utterence.rate = 0.1
                         }

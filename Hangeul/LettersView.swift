@@ -90,11 +90,10 @@ struct LettersBox: View{
     
     @ObservedObject var myTimer = MyTimer()
     var letter: String
-    
+    let speak = AVSpeechSynthesizer()
     var body: some View{
         Button(action : {
             
-            let speak = AVSpeechSynthesizer()
             speak.stopSpeaking(at: .immediate)
             let utterence = AVSpeechUtterance(string: letter)
             utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
