@@ -1,7 +1,6 @@
 # Hangeul Puzzle
 ### WWDC2022 Chanllenge Winner
-
-<img src= "https://user-images.githubusercontent.com/63584245/191337359-07a1baba-55e9-4417-a4de-bdea3e865876.png" width="300">
+![Frame 6](https://user-images.githubusercontent.com/63584245/198891996-fcba1e21-5ef8-4bbc-8fc8-8b3e1bd085ca.svg)
 
  _**한글을 그림처럼 느끼는 외국인들을 위한 한글을 퍼즐처럼 즐길 수 있는 앱입니다!**_ <br/>
  _**퍼즐을 풀며 한글을 공부해봅시다.**_
