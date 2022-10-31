@@ -18,6 +18,7 @@
 ---
 ### :sparkles: Skills & Tech Stack
 * SwiftUI
+* AVFoundation
 
 ### 🛠 Development Environment
 
