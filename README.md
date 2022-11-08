@@ -90,7 +90,8 @@ ZStack{
    }
   }
  }
- .frame(width: UIScreen.screenWidth * 0.45, height: UIScreen.screenHeight * 0.058)
+ .frame(width: UIScreen.screenWidth * 0.45, height: UIScreen.screenHeight * 0.058)  
+
 
 
 ### :lock_with_ink_pen: License
