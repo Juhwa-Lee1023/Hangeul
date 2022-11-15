@@ -25,41 +25,35 @@ struct FifthView: View {
     
     
     var body: some View {
-//        NavigationView{
-            ZStack{
-                if #available(iOS 14.0, *) {
-                    ColorManage.background
-                        .ignoresSafeArea()
-                } else {
-                    ColorManage.background
-                        .edgesIgnoringSafeArea(.all)
+        ZStack{
+            ColorManage.background
+                .ignoresSafeArea()
+            VStack{
+                MainBox(text: hangeuls[i].word)
+                SolBox(letterFirst: letterFirst, letterSecond: letterSecond, check1: $firstText, check2: $secondText)
+                EditBox(text: hangeuls[i].word, letterKorea: hangeuls[i].word, letterEnglish: hangeuls[i].english, letterPron: hangeuls[i].pron, check: $secondText)
+                BodyBox(page: $page, han: $han, text: hangeuls[i].word, letterFirst: letterFirst, check1: $firstText, check2: $secondText, nextView: $nextView, clearAlert: $clearAlert, showAlert: $showAlert, letterArray: hangeuls[i].stateA)
+                
+                    .alert(isPresented: $showAlert) {
+                        Alert(title: Text("Didn't Match"),
+                              message: Text("Please try again."),
+                              dismissButton: .default(Text("RETRUN")))
+                    }
+            }.onAppear() {
+                while(!check) {
+                    if(!num.contains(i)) {
+                        num.append(i)
+                        check = true
+                    }
+                    else {
+                        i = Int.random(in: 0...154)
+                    }
                 }
-                VStack{
-                    MainBox(text: hangeuls[i].word)
-                    SolBox(letterFirst: letterFirst, letterSecond: letterSecond, check1: $firstText, check2: $secondText)
-                    EditBox(text: hangeuls[i].word, letterKorea: hangeuls[i].word, letterEnglish: hangeuls[i].english, letterPron: hangeuls[i].pron, check: $secondText)
-                    BodyBox(page: $page, han: $han, text: hangeuls[i].word, letterFirst: letterFirst, check1: $firstText, check2: $secondText, nextView: $nextView, clearAlert: $clearAlert, showAlert: $showAlert, letterArray: hangeuls[i].stateA)
-                    
-                        .alert(isPresented: $showAlert) {
-                            Alert(title: Text("Didn't Match"),
-                                  message: Text("Please try again."),
-                                  dismissButton: .default(Text("RETRUN")))
-                        }
-        }.onAppear(){
-            while(!check){
-                if(!num.contains(i)){
-                    num.append(i)
-                    check = true
-                }
-                else{
-                    i = Int.random(in: 0...154)
-                }
+                letterFirst = String(hangeuls[i].word.prefix(1))
+                letterSecond = String(hangeuls[i].word.suffix(1))
+                han = hangeuls[i]
             }
-            letterFirst = String(hangeuls[i].word.prefix(1))
-            letterSecond = String(hangeuls[i].word.suffix(1))
-            han = hangeuls[i]
-            
         }
-    }}
+    }
 }
 

@@ -23,13 +23,8 @@ struct LettersView: View {
     var body: some View {
         ScrollView{
             ZStack{
-                if #available(iOS 14.0, *) {
-                    ColorManage.background
-                        .ignoresSafeArea()
-                } else {
-                    ColorManage.background
-                        .edgesIgnoringSafeArea(.all)
-                }
+                ColorManage.background
+                    .ignoresSafeArea()
                 VStack{
                     VStack{
                         HStack{
@@ -76,8 +71,10 @@ struct LettersView: View {
                     }
                     VStack{
                         
-                    }.frame(height: UIScreen.screenHeight * 0.3 )
-                }.padding([.leading, .trailing], UIScreen.screenWidth * 0.05 )
+                    }
+                    .frame(height: UIScreen.screenHeight * 0.3 )
+                }
+                .padding([.leading, .trailing], UIScreen.screenWidth * 0.05 )
                 
                 
             }
@@ -117,6 +114,7 @@ struct LettersBox: View{
                         .opacity(0.6)
                 }
             }
-        }.frame(width: UIScreen.screenHeight * 0.09, height: UIScreen.screenHeight * 0.09)
+        }
+        .frame(width: UIScreen.screenHeight * 0.09, height: UIScreen.screenHeight * 0.09)
     }
 }
