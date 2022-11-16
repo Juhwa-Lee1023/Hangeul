@@ -14,17 +14,10 @@ struct WelcomeView: View {
     let soundplayer = SoundPlayer()
     
     var body: some View {
-        //        NavigationView{
         ZStack{
-            if #available(iOS 14.0, *) {
-                ColorManage.background
-                    .ignoresSafeArea()
-            } else {
-                ColorManage.background
-                    .edgesIgnoringSafeArea(.all)
-            }
+            ColorManage.background
             VStack{
-                HStack {
+                HStack{
                     ZStack{
                         RoundedRectangle(cornerRadius: 10.0)
                             .fill(ColorManage.button)
@@ -34,8 +27,9 @@ struct WelcomeView: View {
                                 .font(.system(size: UIScreen.screenWidth * 0.28))
                         }
                     }
-                }.frame(width: UIScreen.screenWidth * 0.90, height: UIScreen.screenHeight * 0.25)
-                    .padding(.bottom, UIScreen.screenHeight * 0.01)
+                }
+                .frame(width: UIScreen.screenWidth * 0.90, height: UIScreen.screenHeight * 0.25)
+                .padding(.bottom, UIScreen.screenHeight * 0.01)
                 HStack{
                     Text("Tap to Start")
                         .foregroundColor(ColorManage.plus)
@@ -43,7 +37,6 @@ struct WelcomeView: View {
                         .opacity(0.6)
                     
                 }
-                
                 .padding(.bottom, UIScreen.screenHeight * 0.01)
                 
                 HStack{
@@ -52,25 +45,13 @@ struct WelcomeView: View {
                         .font(.system(size: UIScreen.screenWidth * 0.05))
                         .multilineTextAlignment(.center)
                         .opacity(0.6)
-                }.padding([.leading, .trailing], UIScreen.screenWidth * 0.05)
-            }.onTapGesture{
+                }
+                .padding([.leading, .trailing], UIScreen.screenWidth * 0.05)
+            }
+            .onTapGesture{
                 page = 1
             }
-            
-            
-            
-            //                NavigationLink(destination: ContentView(), isActive: $nextView) {
-            //                                    EmptyView()
-            //                                }.disabled(true)
-            //        }
-            //
-            //        .navigationBarTitle("")
-            //        .navigationBarTitleDisplayMode(.inline)
         }
-        //        .navigationBarHidden(true)
-        
-        
-        
     }
 }
 
