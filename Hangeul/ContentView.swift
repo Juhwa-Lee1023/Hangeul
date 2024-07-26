@@ -40,6 +40,7 @@ struct ContentView: View {
             }
         }
         .onAppear() {
+            print(hangeuls.count)
             letterFirst = String(hangeuls[i].word.prefix(1))
             letterSecond = String(hangeuls[i].word.suffix(1))
             num = []

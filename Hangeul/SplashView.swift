@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct SplashView: View {
-    @State var page:Int = 0
+    @State var page: Int = 0
     @State var num: [Int] = []
     var body: some View {
-        switch page{
+        switch page {
         case 0:
             WelcomeView(page: $page)
         case 1:

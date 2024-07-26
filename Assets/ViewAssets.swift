@@ -265,9 +265,9 @@ struct LetterBox: View{
     }
 }
 
-struct BodyBox: View{
+struct BodyBox: View {
     @ObservedObject var myTimer = MyTimer()
-    @Binding var page : Int
+    @Binding var page: Int
     @Binding var han: hangeul
     @State var text: String
     let letterFirst: String
@@ -283,58 +283,55 @@ struct BodyBox: View{
     let soundplayer = SoundPlayer()
     let sound = AVSpeechSynthesizer()
     
-    var body: some View{
-        VStack{
+    var body: some View {
+        VStack {
             HStack {
-                LetterBox(letter: "\(han.stateA[0])", check: $buttonArray[0])
-                Spacer()
-                LetterBox(letter: "\(han.stateA[1])", check: $buttonArray[1])
-                Spacer()
-                LetterBox(letter: "\(han.stateA[2])", check: $buttonArray[2])
-                Spacer()
-                LetterBox(letter: "\(han.stateA[3])", check: $buttonArray[3])
-                
-            } .padding([.leading, .trailing], UIScreen.screenWidth * 0.05 )
+                ForEach(0..<4) { index in
+                    if han.stateA.indices.contains(index) {
+                        LetterBox(letter: "\(han.stateA[index])", check: $buttonArray[index])
+                    }
+                    if index < 3 { Spacer() }
+                }
+            }
+            .padding([.leading, .trailing], UIScreen.screenWidth * 0.05 )
             HStack {
-                LetterBox(letter: "\(han.stateA[4])", check: $buttonArray[4])
-                Spacer()
-                LetterBox(letter: "\(han.stateA[5])", check: $buttonArray[5])
-                Spacer()
-                LetterBox(letter: "\(han.stateA[6])", check: $buttonArray[6])
-                Spacer()
-                LetterBox(letter: "\(han.stateA[7])", check: $buttonArray[7])
-            }.padding([.leading, .trailing], UIScreen.screenWidth * 0.05 )
+                ForEach(4..<8) { index in
+                    if han.stateA.indices.contains(index) {
+                        LetterBox(letter: "\(han.stateA[index])", check: $buttonArray[index])
+                    }
+                    if index < 7 { Spacer() }
+                }
+            }
+            .padding([.leading, .trailing], UIScreen.screenWidth * 0.05 )
             HStack {
-                LetterBox(letter: "\(han.stateA[8])", check: $buttonArray[8])
-                Spacer()
-                LetterBox(letter: "\(han.stateA[9])", check: $buttonArray[9])
-                Spacer()
-                LetterBox(letter: "\(han.stateA[10])", check: $buttonArray[10])
-                Spacer()
-                LetterBox(letter: "\(han.stateA[11])", check: $buttonArray[11])
-            }.padding([.leading, .trailing], UIScreen.screenWidth * 0.05 )
-                .padding(.bottom, UIScreen.screenHeight * 0.01)
+                ForEach(8..<12) { index in
+                    if han.stateA.indices.contains(index) {
+                        LetterBox(letter: "\(han.stateA[index])", check: $buttonArray[index])
+                    }
+                    if index < 11 { Spacer() }
+                }
+            }
+            .padding([.leading, .trailing], UIScreen.screenWidth * 0.05 )
+            .padding(.bottom, UIScreen.screenHeight * 0.01)
             HStack {
                 Button(action: {
                     if check2 {
-                        let utterence = AVSpeechUtterance(string: han.word)
-                        utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
+                        let utterance = AVSpeechUtterance(string: han.word)
+                        utterance.voice = AVSpeechSynthesisVoice(language: "ko-KR")
                         
-                        if(self.myTimer.value < 3){
-                            utterence.rate = 0.1
-                        }
-                        else{
-                            utterence.rate = 0.5
+                        if self.myTimer.value < 3 {
+                            utterance.rate = 0.1
+                        } else {
+                            utterance.rate = 0.5
                         }
                         
-                        speak.speak(utterence)
+                        speak.speak(utterance)
                         self.myTimer.value = 0
-                    } else{
+                    } else {
                         buttonArray = [false, false, false, false, false, false, false, false, false, false, false, false]
                     }
-                    
-                }){
-                    ZStack{
+                }) {
+                    ZStack {
                         if check2 {
                             RoundedRectangle(cornerRadius: 10.0)
                                 .fill(ColorManage.button)
@@ -346,85 +343,29 @@ struct BodyBox: View{
                         } else {
                             RoundedRectangle(cornerRadius: 10.0)
                                 .fill(ColorManage.clean)
-                            VStack{
+                            VStack {
                                 Text("CLEAN")
                                     .foregroundColor(ColorManage.button)
                                     .font(.system(size: UIScreen.screenWidth * 0.05))
                             }
                         }
                     }
-                }.frame(width: UIScreen.screenWidth * 0.45, height: UIScreen.screenHeight * 0.058)
-                Button( action : {
-                    if check2{
+                }
+                .frame(width: UIScreen.screenWidth * 0.45, height: UIScreen.screenHeight * 0.058)
+                Button(action: {
+                    if check2 {
                         soundplayer.next_play()
                         nextView = true
                         page = page + 1
-                    }else{
-                        if check1 {
-                            if ( buttonArray[han.secondSolf] == true && buttonArray[han.secondSols] == true && buttonArray[han.secondSolt] == true ){
-                                var firstArray = [false, false, false, false, false, false, false, false, false, false, false, false, true]
-                                firstArray[han.secondSolf] = true
-                                firstArray[han.secondSols] = true
-                                firstArray[han.secondSolt] = true
-                                if(buttonArray == firstArray){
-                                    check2 = true
-                                    buttonArray = [false, false, false, false, false, false, false, false, false, false, false, false, true]
-                                    buttonArray[han.firstSolf] = true
-                                    buttonArray[han.firstSols] = true
-                                    buttonArray[han.firstSolt] = true
-                                    buttonArray[han.secondSolf] = true
-                                    buttonArray[han.secondSols] = true
-                                    buttonArray[han.secondSolt] = true
-                                    clearAlert = true
-                                    let utterence = AVSpeechUtterance(string: han.word)
-                                    utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
-                                    utterence.rate = 0.4
-                                    speak.speak(utterence)
-                                }else{
-                                    showAlert.toggle()
-                                    soundplayer.dding_play()
-                                    buttonArray = [false, false, false, false, false, false, false, false, false, false, false, false, true]
-                                }
-                                
-                            } else{
-                                showAlert.toggle()
-                                soundplayer.dding_play()
-                                buttonArray = [false, false, false, false, false, false, false, false, false, false, false, false, true]
-                            }
-                        } else {
-                            if ( buttonArray[han.firstSolf] == true && buttonArray[han.firstSols] == true && buttonArray[han.firstSolt] ){
-                                
-                                var firstArray = [false, false, false, false, false, false, false, false, false, false, false, false, true]
-                                firstArray[han.firstSolf] = true
-                                firstArray[han.firstSols] = true
-                                firstArray[han.firstSolt] = true
-                                if(buttonArray == firstArray){
-                                    check1 = true
-                                    let utterence = AVSpeechUtterance(string: letterFirst)
-                                    utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
-                                    utterence.rate = 0.4
-                                    speak.speak(utterence)
-                                    buttonArray = [false, false, false, false, false, false, false, false, false, false, false, false, true]
-                                }else{
-                                    showAlert.toggle()
-                                    buttonArray = [false, false, false, false, false, false, false, false, false, false, false, false, true]
-                                    soundplayer.dding_play()
-                                }
-                                
-                            } else{
-                                showAlert.toggle()
-                                buttonArray = [false, false, false, false, false, false, false, false, false, false, false, false, true]
-                                soundplayer.dding_play()
-                            }
-                        }
+                    } else {
+                        handleConfirmAction()
                     }
-                    
-                }){
+                }) {
                     ZStack {
                         if check2 {
                             RoundedRectangle(cornerRadius: 10.0)
                                 .fill(ColorManage.clean)
-                            VStack{
+                            VStack {
                                 Text("NEXT")
                                     .foregroundColor(ColorManage.button)
                                     .font(.system(size: UIScreen.screenWidth * 0.05))
@@ -432,22 +373,88 @@ struct BodyBox: View{
                         } else {
                             RoundedRectangle(cornerRadius: 10.0)
                                 .fill(ColorManage.plus)
-                            VStack{
+                            VStack {
                                 Text("CONFIRM")
                                     .foregroundColor(ColorManage.button)
                                     .font(.system(size: UIScreen.screenWidth * 0.05))
                             }
                         }
                     }
-                }.frame(width: UIScreen.screenWidth * 0.45, height: UIScreen.screenHeight * 0.058)
+                }
+                .frame(width: UIScreen.screenWidth * 0.45, height: UIScreen.screenHeight * 0.058)
             }
             .padding([.leading, .trailing], UIScreen.screenWidth * 0.05 )
         }
-        
     }
-        
     
+    func handleConfirmAction() {
+        if check1 {
+            if isValidSelection(solf: han.secondSolf, sols: han.secondSols, solt: han.secondSolt) {
+                if isMatchingSelection(solf: han.secondSolf, sols: han.secondSols, solt: han.secondSolt) {
+                    check2 = true
+                    updateButtonArray()
+                    clearAlert = true
+                    speakWord(han.word)
+                } else {
+                    showMismatchAlert()
+                }
+            } else {
+                showMismatchAlert()
+            }
+        } else {
+            if isValidSelection(solf: han.firstSolf, sols: han.firstSols, solt: han.firstSolt) {
+                if isMatchingSelection(solf: han.firstSolf, sols: han.firstSols, solt: han.firstSolt) {
+                    check1 = true
+                    speakWord(letterFirst)
+                    resetButtonArray()
+                } else {
+                    showMismatchAlert()
+                }
+            } else {
+                showMismatchAlert()
+            }
+        }
+    }
     
+    func isValidSelection(solf: Int, sols: Int, solt: Int) -> Bool {
+        return buttonArray.indices.contains(solf) && buttonArray.indices.contains(sols) && buttonArray.indices.contains(solt) &&
+               buttonArray[solf] == true && buttonArray[sols] == true && buttonArray[solt] == true
+    }
+    
+    func isMatchingSelection(solf: Int, sols: Int, solt: Int) -> Bool {
+        var firstArray = [false, false, false, false, false, false, false, false, false, false, false, false, true]
+        firstArray[solf] = true
+        firstArray[sols] = true
+        firstArray[solt] = true
+        return buttonArray == firstArray
+    }
+    
+    func updateButtonArray() {
+        buttonArray = [false, false, false, false, false, false, false, false, false, false, false, false, true]
+        buttonArray[han.firstSolf] = true
+        buttonArray[han.firstSols] = true
+        buttonArray[han.firstSolt] = true
+        buttonArray[han.secondSolf] = true
+        buttonArray[han.secondSols] = true
+        buttonArray[han.secondSolt] = true
+    }
+    
+    func resetButtonArray() {
+        buttonArray = [false, false, false, false, false, false, false, false, false, false, false, false, true]
+    }
+    
+    func speakWord(_ word: String) {
+        let utterance = AVSpeechUtterance(string: word)
+        utterance.voice = AVSpeechSynthesisVoice(language: "ko-KR")
+        utterance.rate = 0.4
+        speak.speak(utterance)
+    }
+    
+    func showMismatchAlert() {
+        showAlert.toggle()
+        soundplayer.dding_play()
+        resetButtonArray()
+    }
 }
 
 struct ColorManage {
