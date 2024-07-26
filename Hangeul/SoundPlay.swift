@@ -118,7 +118,7 @@ class SoundPlayer: NSObject {
     func next_play(){
 
         do{
-            music_player=try AVAudioPlayer(data:sound_next)
+            music_player = try AVAudioPlayer(data:sound_next)
             music_player.play()
         }catch{
             print(".")

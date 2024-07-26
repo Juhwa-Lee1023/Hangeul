@@ -29,6 +29,7 @@ struct ClearView: View {
             ColorManage.background
                 .ignoresSafeArea()
             VStack{
+                Spacer()
                 Button(action : {
                     let utterence = AVSpeechUtterance(string: "성공")
                     utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
@@ -61,7 +62,7 @@ struct ClearView: View {
                     .padding([.leading, .trailing], UIScreen.screenWidth * 0.05 )
                 }
                 
-                
+                Spacer()
                 HStack{
                     Button(action : {
                         let utterence = AVSpeechUtterance(string: hangeuls[num[4]].word)
@@ -242,7 +243,7 @@ struct ClearView: View {
                     }
                     .frame(width: UIScreen.screenWidth * 0.45, height: UIScreen.screenHeight * 0.058)
                 }
-                .padding(.bottom, UIScreen.screenHeight * 0.1)
+                .padding(.bottom, UIScreen.screenHeight * 0.05)
                 .padding([.leading, .trailing], UIScreen.screenWidth * 0.05 )
                 
                 .alert(isPresented: $showAlert) {
