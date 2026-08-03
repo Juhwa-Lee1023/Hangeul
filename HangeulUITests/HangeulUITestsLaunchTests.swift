@@ -1,14 +1,6 @@
-//
-//  HangeulUITestsLaunchTests.swift
-//  HangeulUITests
-//
-//  Created by 이주화 on 2022/04/26.
-//
-
 import XCTest
 
-class HangeulUITestsLaunchTests: XCTestCase {
-
+final class HangeulUITestsLaunchTests: XCTestCase {
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
     }
@@ -17,15 +9,15 @@ class HangeulUITestsLaunchTests: XCTestCase {
         continueAfterFailure = false
     }
 
-    func testLaunch() throws {
+    func testLaunchShowsWelcomeScreen() {
         let app = XCUIApplication()
+        app.launchArguments = ["--ui-testing"]
         app.launch()
 
-        // Insert steps here to perform after app launch but before taking a screenshot,
-        // such as logging into a test account or navigating somewhere in the app
+        XCTAssertTrue(app.buttons["start-game"].waitForExistence(timeout: 5))
 
         let attachment = XCTAttachment(screenshot: app.screenshot())
-        attachment.name = "Launch Screen"
+        attachment.name = "Welcome screen"
         attachment.lifetime = .keepAlways
         add(attachment)
     }

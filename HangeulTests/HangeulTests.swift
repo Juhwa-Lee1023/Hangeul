@@ -1,36 +1,206 @@
-//
-//  HangeulTests.swift
-//  HangeulTests
-//
-//  Created by 이주화 on 2022/04/26.
-//
-
 import XCTest
+
 @testable import Hangeul
 
-class HangeulTests: XCTestCase {
+final class WordRepositoryTests: XCTestCase {
+    func testDecodesMinimalWordMetadata() throws {
+        let words = try WordRepository.decode(
+            jsonData(
+                """
+                [
+                  {"id": 1, "word": "한글", "english": "Hangeul", "pron": "hangeul"}
+                ]
+                """
+            )
+        )
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        XCTAssertEqual(
+            words,
+            [HangeulWord(id: 1, word: "한글", english: "Hangeul", pron: "hangeul")]
+        )
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func testRejectsEmptyDataset() {
+        XCTAssertThrowsError(try WordRepository.decode(jsonData("[]"))) { error in
+            XCTAssertEqual(error as? WordRepositoryError, .emptyDataset)
         }
     }
 
+    func testRejectsDuplicateIdentifiers() {
+        let data = jsonData(
+            """
+            [
+              {"id": 7, "word": "한글", "english": "Hangeul", "pron": "hangeul"},
+              {"id": 7, "word": "사랑", "english": "love", "pron": "sarang"}
+            ]
+            """
+        )
+
+        XCTAssertThrowsError(try WordRepository.decode(data)) { error in
+            XCTAssertEqual(error as? WordRepositoryError, .duplicateIdentifier(7))
+        }
+    }
+
+    func testRejectsDuplicateWords() {
+        let data = jsonData(
+            """
+            [
+              {"id": 1, "word": "우리", "english": "we", "pron": "uri"},
+              {"id": 2, "word": "우리", "english": "our", "pron": "uri"}
+            ]
+            """
+        )
+
+        XCTAssertThrowsError(try WordRepository.decode(data)) { error in
+            XCTAssertEqual(error as? WordRepositoryError, .duplicateWord("우리"))
+        }
+    }
+
+    func testRejectsIncompleteAndUnsupportedWords() {
+        let incomplete = jsonData(
+            """
+            [{"id": 3, "word": "사랑", "english": "", "pron": "sarang"}]
+            """
+        )
+        XCTAssertThrowsError(try WordRepository.decode(incomplete)) { error in
+            XCTAssertEqual(error as? WordRepositoryError, .incompleteWord(3))
+        }
+
+        let unsupported = jsonData(
+            """
+            [{"id": 4, "word": "K팝", "english": "K-pop", "pron": "keipap"}]
+            """
+        )
+        XCTAssertThrowsError(try WordRepository.decode(unsupported)) { error in
+            XCTAssertEqual(error as? WordRepositoryError, .unsupportedWord(4, "K팝"))
+        }
+    }
+
+    func testBundledDatasetContainsOnlyMetadataAndEveryWordBuildsAPuzzle() throws {
+        let words = try WordRepository.load()
+
+        XCTAssertEqual(words.count, 154)
+        XCTAssertEqual(Set(words.map(\.id)).count, words.count)
+        XCTAssertEqual(Set(words.map(\.word)).count, words.count)
+
+        let dataURL = try XCTUnwrap(Bundle.main.url(forResource: "data.json", withExtension: nil))
+        let records = try XCTUnwrap(
+            JSONSerialization.jsonObject(with: Data(contentsOf: dataURL)) as? [[String: Any]]
+        )
+        let metadataKeys = Set(["id", "word", "english", "pron"])
+        XCTAssertTrue(records.allSatisfy { Set($0.keys) == metadataKeys })
+
+        for word in words {
+            let puzzle = try HangulPuzzle.make(for: word)
+            XCTAssertEqual(puzzle.syllables.count, word.word.count, "Failed for \(word.word)")
+            XCTAssertEqual(puzzle.candidates.count, 12, "Legacy layout changed for \(word.word)")
+
+            for syllableIndex in puzzle.syllables.indices {
+                let selectedIndices = try indicesForAnswer(
+                    puzzle.syllables[syllableIndex].jamo,
+                    in: puzzle.candidates
+                )
+                XCTAssertTrue(
+                    puzzle.isCorrect(syllableIndex: syllableIndex, selectedIndices: selectedIndices),
+                    "Generated candidates cannot solve \(word.word) syllable \(syllableIndex)"
+                )
+            }
+        }
+    }
+
+    private func indicesForAnswer(_ answer: [String], in candidates: [String]) throws -> [Int] {
+        var availableIndices = Set(candidates.indices)
+        return try answer.map { jamo in
+            let index = try XCTUnwrap(availableIndices.first { candidates[$0] == jamo })
+            availableIndices.remove(index)
+            return index
+        }
+    }
+
+    private func jsonData(_ json: String) -> Data {
+        Data(json.utf8)
+    }
+}
+
+final class GameSessionTests: XCTestCase {
+    func testFiveRoundSessionUsesUniqueWordsAndCompletesInOrder() {
+        let session = GameSession(
+            words: makeWords(count: 6),
+            roundCount: 5,
+            deterministicSelection: true
+        )
+
+        XCTAssertEqual(session.route, .welcome)
+        session.startGame()
+
+        XCTAssertEqual(session.route, .playing)
+        XCTAssertEqual(session.totalRounds, 5)
+        XCTAssertEqual(session.currentRoundIndex, 0)
+        XCTAssertEqual(session.currentPuzzle?.word.id, 1)
+
+        for expectedID in 1...5 {
+            XCTAssertEqual(session.currentPuzzle?.word.id, expectedID)
+            session.completeCurrentPuzzle()
+        }
+
+        XCTAssertEqual(session.route, .completed)
+        XCTAssertNil(session.currentPuzzle)
+        XCTAssertEqual(session.completedPuzzles.map(\.word.id), Array(1...5))
+    }
+
+    func testRestartResetsCompletedProgress() {
+        let session = GameSession(
+            words: makeWords(count: 2),
+            roundCount: 2,
+            deterministicSelection: true
+        )
+        session.startGame()
+        session.completeCurrentPuzzle()
+        session.completeCurrentPuzzle()
+        XCTAssertEqual(session.route, .completed)
+
+        session.startGame()
+
+        XCTAssertEqual(session.route, .playing)
+        XCTAssertEqual(session.currentRoundIndex, 0)
+        XCTAssertTrue(session.completedPuzzles.isEmpty)
+        XCTAssertEqual(session.currentPuzzle?.word.id, 1)
+    }
+
+    func testRoundCountIsCappedByAvailableUniqueSpellings() {
+        let duplicate = HangeulWord(id: 99, word: "가", english: "duplicate", pron: "ga")
+        let session = GameSession(
+            words: makeWords(count: 2) + [duplicate],
+            roundCount: 5,
+            deterministicSelection: true
+        )
+
+        session.startGame()
+
+        XCTAssertEqual(session.totalRounds, 2)
+    }
+
+    func testLoaderFailureProducesRecoverableFailureRoute() {
+        let session = GameSession(loader: {
+            throw WordRepositoryError.missingResource("data.json")
+        })
+        let expectedMessage = "Could not find data.json in the app bundle."
+        XCTAssertEqual(session.route, .failure(expectedMessage))
+
+        session.reload()
+
+        XCTAssertEqual(session.route, .failure(expectedMessage))
+    }
+
+    private func makeWords(count: Int) -> [HangeulWord] {
+        let spellings = ["가", "나", "다", "라", "마", "바"]
+        return (0..<count).map { index in
+            HangeulWord(
+                id: index + 1,
+                word: spellings[index],
+                english: "word-\(index + 1)",
+                pron: "pronunciation-\(index + 1)"
+            )
+        }
+    }
 }

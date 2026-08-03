@@ -1,260 +1,147 @@
-//
-//  ClearView.swift
-//  Hangeul
-//
-//  Created by 이주화 on 2022/04/26.
-//
-
 import SwiftUI
-import AVFoundation
 
 struct ClearView: View {
-    @ObservedObject var Timer = MyTimer()
-    @ObservedObject var Timer1 = MyTimer()
-    @ObservedObject var Timer2 = MyTimer()
-    @ObservedObject var Timer3 = MyTimer()
-    @ObservedObject var Timer4 = MyTimer()
-    @ObservedObject var Timer5 = MyTimer()
-    @Binding var page : Int
-    @State private var showAlert = false
-    @State private var clearAlert = false
-    @State var nextView = false
-    @Binding var num: [Int]
-    let soundplayer = SoundPlayer()
-    @State var showModal = false
-    let speak = AVSpeechSynthesizer()
-    
+    @EnvironmentObject private var audio: AudioService
+    @State private var showsLetters = false
+
+    let puzzles: [HangulPuzzle]
+    let restart: () -> Void
+
     var body: some View {
-        ZStack{
-            ColorManage.background
+        ZStack {
+            AppColors.background
                 .ignoresSafeArea()
-            VStack{
+
+            VStack {
                 Spacer()
-                Button(action : {
-                    let utterence = AVSpeechUtterance(string: "성공")
-                    utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
-                    if(self.Timer.value < 3){
-                        utterence.rate = 0.1
-                    }
-                    else{
-                        utterence.rate = 0.5
-                    }
-                    
-                    speak.speak(utterence)
-                    self.Timer.value = 0
-                }){
-                    HStack{
-                        ZStack{
-                            RoundedRectangle(cornerRadius: 10.0)
-                                .fill(ColorManage.button)
-                            VStack{
-                                Text("성공!")
-                                    .foregroundColor(ColorManage.plus)
-                                    .font(.system(size: UIScreen.screenWidth * 0.25))
-                                Text("(Clear)")
-                                    .foregroundColor(ColorManage.plus)
-                                    .font(.system(size: UIScreen.screenWidth * 0.1))
-                            }
-                        }
-                    }
-                    .frame(width: UIScreen.screenWidth * 0.90, height: UIScreen.screenHeight * 0.25)
-                    .padding(.bottom, UIScreen.screenHeight * 0.03)
-                    .padding([.leading, .trailing], UIScreen.screenWidth * 0.05 )
-                }
-                
+                successCard
                 Spacer()
-                HStack{
-                    Button(action : {
-                        let utterence = AVSpeechUtterance(string: hangeuls[num[4]].word)
-                        utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
-                        if(self.Timer1.value < 3) {
-                            utterence.rate = 0.1
-                        }
-                        else {
-                            utterence.rate = 0.5
-                        }
-                        
-                        speak.speak(utterence)
-                        self.Timer1.value = 0
-                    }){
-                        ZStack{
-                            RoundedRectangle(cornerRadius: 10.0)
-                                .fill(ColorManage.button)
-                            VStack{
-                                if num.count > 4 {
-                                    Text("\(hangeuls[num[4]].word)")
-                                        .foregroundColor(ColorManage.buttontext)
-                                        .font(.system(size: UIScreen.screenWidth * 0.13))
-                                        .opacity(0.6)
-                                }
-                            }
-                        }
-                    }
-                    .frame(width: UIScreen.screenHeight * 0.23, height: UIScreen.screenHeight * 0.09)
+
+                if let newestPuzzle = reversedPuzzles.first {
+                    solvedWordButton(newestPuzzle.word)
+                        .frame(
+                            width: UIScreen.screenHeight * 0.23,
+                            height: UIScreen.screenHeight * 0.09
+                        )
+                        .padding(.bottom, UIScreen.screenHeight * 0.015)
+                        .padding(.horizontal, UIScreen.screenWidth * 0.05)
                 }
-                .padding(.bottom, UIScreen.screenHeight * 0.015)
-                .padding([.leading, .trailing], UIScreen.screenWidth * 0.05 )
-                HStack{
-                    Button(action : {
-                        let utterence = AVSpeechUtterance(string: hangeuls[num[3]].word)
-                        utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
-                        if(self.Timer2.value < 3){
-                            utterence.rate = 0.1
+
+                ForEach(pairedPuzzles.indices, id: \.self) { pairIndex in
+                    HStack {
+                        ForEach(pairedPuzzles[pairIndex], id: \.word.id) { puzzle in
+                            solvedWordButton(puzzle.word)
+                                .frame(
+                                    width: UIScreen.screenWidth * 0.45,
+                                    height: UIScreen.screenHeight * 0.09
+                                )
                         }
-                        else{
-                            utterence.rate = 0.5
-                        }
-                        
-                        speak.speak(utterence)
-                        self.Timer2.value = 0
-                    }){
-                        ZStack{
-                            RoundedRectangle(cornerRadius: 10.0)
-                                .fill(ColorManage.button)
-                            VStack{
-                                if num.count > 4 {
-                                    Text("\(hangeuls[num[3]].word)")
-                                        .foregroundColor(ColorManage.buttontext)
-                                        .font(.system(size: UIScreen.screenWidth * 0.13))
-                                        .opacity(0.6)
-                                }
-                            }
+
+                        if pairedPuzzles[pairIndex].count == 1 {
+                            Color.clear
+                                .frame(
+                                    width: UIScreen.screenWidth * 0.45,
+                                    height: UIScreen.screenHeight * 0.09
+                                )
                         }
                     }
-                    .frame(width: UIScreen.screenWidth * 0.45, height: UIScreen.screenHeight * 0.09)
-                    Button(action : {
-                        let utterence = AVSpeechUtterance(string: hangeuls[num[2]].word)
-                        utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
-                        if(self.Timer3.value < 3) {
-                            utterence.rate = 0.1
-                        }
-                        else {
-                            utterence.rate = 0.5
-                        }
-                        
-                        speak.speak(utterence)
-                        self.Timer3.value = 0
-                    }){
-                        ZStack{
-                            RoundedRectangle(cornerRadius: 10.0)
-                                .fill(ColorManage.button)
-                            VStack{
-                                if num.count > 4 {
-                                    Text("\(hangeuls[num[2]].word)")
-                                        .foregroundColor(ColorManage.buttontext)
-                                        .font(.system(size: UIScreen.screenWidth * 0.13))
-                                        .opacity(0.6)
-                                }
-                            }
-                        }
-                    }
-                    .frame(width: UIScreen.screenWidth * 0.45, height: UIScreen.screenHeight * 0.09)
+                    .padding(.bottom, UIScreen.screenHeight * 0.015)
+                    .padding(.horizontal, UIScreen.screenWidth * 0.05)
                 }
-                .padding(.bottom, UIScreen.screenHeight * 0.015)
-                .padding([.leading, .trailing], UIScreen.screenWidth * 0.05 )
-                HStack{
-                    Button(action : {
-                        let utterence = AVSpeechUtterance(string: hangeuls[num[1]].word)
-                        utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
-                        if(self.Timer4.value < 3){
-                            utterence.rate = 0.1
-                        }
-                        else{
-                            utterence.rate = 0.5
-                        }
-                        
-                        speak.speak(utterence)
-                        self.Timer4.value = 0
-                    }){
-                        ZStack{
-                            RoundedRectangle(cornerRadius: 10.0)
-                                .fill(ColorManage.button)
-                            VStack{
-                                if num.count > 4 {
-                                    Text("\(hangeuls[num[1]].word)")
-                                        .foregroundColor(ColorManage.buttontext)
-                                        .font(.system(size: UIScreen.screenWidth * 0.13))
-                                        .opacity(0.6)
-                                }
-                            }
-                        }
+
+                HStack {
+                    PuzzleActionButton(
+                        title: "Syllable",
+                        systemImage: nil,
+                        fill: AppColors.secondary,
+                        textOpacity: 0.6
+                    ) {
+                        showsLetters = true
                     }
-                    .frame(width: UIScreen.screenWidth * 0.45, height: UIScreen.screenHeight * 0.09)
-                    Button(action : {
-                        let utterence = AVSpeechUtterance(string: hangeuls[num[0]].word)
-                        utterence.voice = AVSpeechSynthesisVoice(language: "ko-KR")
-                        if(self.Timer5.value < 3) {
-                            utterence.rate = 0.1
-                        }
-                        else {
-                            utterence.rate = 0.5
-                        }
-                        
-                        speak.speak(utterence)
-                        self.Timer5.value = 0
-                    }){
-                        ZStack{
-                            RoundedRectangle(cornerRadius: 10.0)
-                                .fill(ColorManage.button)
-                            VStack{
-                                if num.count > 4 {
-                                    Text("\(hangeuls[num[0]].word)")
-                                        .foregroundColor(ColorManage.buttontext)
-                                        .font(.system(size: UIScreen.screenWidth * 0.13))
-                                        .opacity(0.6)
-                                }
-                            }
-                        }
-                    }
-                    .frame(width: UIScreen.screenWidth * 0.45, height: UIScreen.screenHeight * 0.09)
-                }
-                .padding(.bottom, UIScreen.screenHeight * 0.015)
-                .padding([.leading, .trailing], UIScreen.screenWidth * 0.05 )
-                HStack{
-                    Button(action : {
-                        showModal.toggle()
-                    }){
-                        ZStack{
-                            RoundedRectangle(cornerRadius: 10.0)
-                                .fill(ColorManage.clean)
-                            VStack{
-                                Text("Syllable")
-                                    .foregroundColor(ColorManage.button)
-                                    .font(.system(size: UIScreen.screenWidth * 0.05))
-                                    .opacity(0.6)
-                            }
-                        }
-                    }
-                    .frame(width: UIScreen.screenWidth * 0.45, height: UIScreen.screenHeight * 0.058)
-                    
-                    Button(action : {
-                        page = 1
-                    }){
-                        ZStack{
-                            RoundedRectangle(cornerRadius: 10.0)
-                                .fill(ColorManage.plus)
-                            VStack{
-                                Text("Restart")
-                                    .foregroundColor(ColorManage.button)
-                                    .font(.system(size: UIScreen.screenWidth * 0.05))
-                                    .opacity(0.6)
-                            }
-                        }
-                    }
-                    .frame(width: UIScreen.screenWidth * 0.45, height: UIScreen.screenHeight * 0.058)
+                    .frame(
+                        width: UIScreen.screenWidth * 0.45,
+                        height: UIScreen.screenHeight * 0.058
+                    )
+
+                    PuzzleActionButton(
+                        title: "Restart",
+                        systemImage: nil,
+                        fill: AppColors.accent,
+                        textOpacity: 0.6,
+                        action: restart
+                    )
+                    .frame(
+                        width: UIScreen.screenWidth * 0.45,
+                        height: UIScreen.screenHeight * 0.058
+                    )
+                    .accessibilityIdentifier("restart-game")
                 }
                 .padding(.bottom, UIScreen.screenHeight * 0.05)
-                .padding([.leading, .trailing], UIScreen.screenWidth * 0.05 )
-                
-                .alert(isPresented: $showAlert) {
-                    Alert(title: Text("Thank you for playing so far"),
-                          message: Text("Please keep interest for Hangeul."),
-                          dismissButton: .default(Text("RETRUN")))
-                }
-                .sheet(isPresented: self.$showModal) {
-                    LettersView()
-                }
+                .padding(.horizontal, UIScreen.screenWidth * 0.05)
             }
         }
+        .sheet(isPresented: $showsLetters) {
+            LettersView()
+                .environmentObject(audio)
+        }
+    }
+
+    private var reversedPuzzles: [HangulPuzzle] {
+        Array(puzzles.reversed())
+    }
+
+    private var pairedPuzzles: [[HangulPuzzle]] {
+        let remaining = Array(reversedPuzzles.dropFirst())
+        return stride(from: 0, to: remaining.count, by: 2).map { start in
+            Array(remaining[start..<min(start + 2, remaining.count)])
+        }
+    }
+
+    private var successCard: some View {
+        Button {
+            audio.speak("성공")
+        } label: {
+            HStack {
+                ZStack {
+                    RoundedRectangle(cornerRadius: 10)
+                        .fill(AppColors.button)
+                    VStack {
+                        Text("성공!")
+                            .foregroundColor(AppColors.accent)
+                            .font(.system(size: UIScreen.screenWidth * 0.25))
+                        Text("(Clear)")
+                            .foregroundColor(AppColors.accent)
+                            .font(.system(size: UIScreen.screenWidth * 0.10))
+                    }
+                }
+            }
+            .frame(
+                width: UIScreen.screenWidth * 0.90,
+                height: UIScreen.screenHeight * 0.25
+            )
+            .padding(.bottom, UIScreen.screenHeight * 0.03)
+            .padding(.horizontal, UIScreen.screenWidth * 0.05)
+        }
+        .accessibilityLabel("성공, Clear, listen")
+        .accessibilityIdentifier("completion-card")
+    }
+
+    private func solvedWordButton(_ word: HangeulWord) -> some View {
+        Button {
+            audio.speak(word.word)
+        } label: {
+            ZStack {
+                RoundedRectangle(cornerRadius: 10)
+                    .fill(AppColors.button)
+                Text(word.word)
+                    .foregroundColor(AppColors.buttonText)
+                    .font(.system(size: UIScreen.screenWidth * 0.13))
+                    .minimumScaleFactor(0.6)
+                    .lineLimit(1)
+                    .opacity(0.6)
+            }
+        }
+        .accessibilityLabel("\(word.word), listen")
+        .accessibilityIdentifier("solved-word-\(word.id)")
     }
 }
