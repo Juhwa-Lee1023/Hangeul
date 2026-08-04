@@ -19,9 +19,6 @@ jobs:
     env:
       PROJECT_PATH: Hangeul.xcodeproj
       SCHEME_NAME: Hangeul
-      DERIVED_DATA_PATH: ${{ runner.temp }}/HangeulDerivedData
-      RESULT_BUNDLE_PATH: ${{ runner.temp }}/HangeulTests.xcresult
-      COVERAGE_REPORT_PATH: ${{ runner.temp }}/HangeulCoverage.json
 
     steps:
       - name: Check out repository
@@ -55,6 +52,8 @@ jobs:
           xcrun simctl bootstatus "${SIMULATOR_UDID}" -b
 
       - name: Build app for iOS Simulator
+        env:
+          DERIVED_DATA_PATH: ${{ runner.temp }}/HangeulDerivedData
         run: |
           set -o pipefail
           xcodebuild \
@@ -68,6 +67,8 @@ jobs:
 
       - name: Run tests with code coverage
         env:
+          DERIVED_DATA_PATH: ${{ runner.temp }}/HangeulDerivedData
+          RESULT_BUNDLE_PATH: ${{ runner.temp }}/HangeulTests.xcresult
           SIMULATOR_UDID: ${{ steps.simulator.outputs.udid }}
         run: |
           set -o pipefail
@@ -82,6 +83,9 @@ jobs:
             test
 
       - name: Export coverage report
+        env:
+          COVERAGE_REPORT_PATH: ${{ runner.temp }}/HangeulCoverage.json
+          RESULT_BUNDLE_PATH: ${{ runner.temp }}/HangeulTests.xcresult
         run: xcrun xccov view --report --json "${RESULT_BUNDLE_PATH}" > "${COVERAGE_REPORT_PATH}"
 
       - name: Upload test results and coverage
@@ -90,7 +94,7 @@ jobs:
         with:
           name: Hangeul-test-results
           path: |
-            ${{ env.RESULT_BUNDLE_PATH }}
-            ${{ env.COVERAGE_REPORT_PATH }}
+            ${{ runner.temp }}/HangeulTests.xcresult
+            ${{ runner.temp }}/HangeulCoverage.json
           if-no-files-found: warn
           retention-days: 14
