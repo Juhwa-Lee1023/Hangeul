@@ -7,24 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D55E398F2874A64300E8CE12 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55E398E2874A64300E8CE12 /* SplashView.swift */; };
+		D55E398F2874A64300E8CE12 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55E398E2874A64300E8CE12 /* RootView.swift */; };
 		D56A82632817D6D90013B61C /* HangeulApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A82622817D6D90013B61C /* HangeulApp.swift */; };
-		D56A82652817D6D90013B61C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A82642817D6D90013B61C /* ContentView.swift */; };
+		D56A82652817D6D90013B61C /* PuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A82642817D6D90013B61C /* PuzzleView.swift */; };
 		D56A82672817D6DA0013B61C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D56A82662817D6DA0013B61C /* Assets.xcassets */; };
 		D56A826A2817D6DA0013B61C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D56A82692817D6DA0013B61C /* Preview Assets.xcassets */; };
 		D56A82742817D6DB0013B61C /* HangeulTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A82732817D6DB0013B61C /* HangeulTests.swift */; };
+		D50000010000000000000001 /* HangulPuzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50000020000000000000002 /* HangulPuzzleTests.swift */; };
 		D56A827E2817D6DB0013B61C /* HangeulUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A827D2817D6DB0013B61C /* HangeulUITests.swift */; };
 		D56A82802817D6DB0013B61C /* HangeulUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A827F2817D6DB0013B61C /* HangeulUITestsLaunchTests.swift */; };
-		D56A82A32817DCEA0013B61C /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A82A22817DCEA0013B61C /* WelcomeView.swift */; };
-		D56A82A72817DD570013B61C /* SoundPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A82A62817DD570013B61C /* SoundPlay.swift */; };
-		D56A82A92817DD900013B61C /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A82A82817DD900013B61C /* SecondView.swift */; };
-		D56A82AB2817DEE50013B61C /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A82AA2817DEE50013B61C /* ThirdView.swift */; };
-		D56A82AF2817DF0E0013B61C /* FifthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A82AE2817DF0E0013B61C /* FifthView.swift */; };
+		D56A82A32817DCEA0013B61C /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A82A22817DCEA0013B61C /* WelcomeScreen.swift */; };
+		D56A82A72817DD570013B61C /* AudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A82A62817DD570013B61C /* AudioService.swift */; };
+		D56A82A92817DD900013B61C /* GameSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A82A82817DD900013B61C /* GameSession.swift */; };
+		D56A82AB2817DEE50013B61C /* WordRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A82AA2817DEE50013B61C /* WordRepository.swift */; };
+		D56A82AF2817DF0E0013B61C /* HangulPuzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A82AE2817DF0E0013B61C /* HangulPuzzle.swift */; };
 		D56A82B12817DF2A0013B61C /* ClearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A82B02817DF2A0013B61C /* ClearView.swift */; };
-		D56A82B32817DFD90013B61C /* FourthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A82B22817DFD90013B61C /* FourthView.swift */; };
-		D56A82B7281923480013B61C /* ViewAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A82B6281923480013B61C /* ViewAssets.swift */; };
+		D56A82B32817DFD90013B61C /* PuzzleComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A82B22817DFD90013B61C /* PuzzleComponents.swift */; };
 		D5847146281FCB2600EA8A94 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = D5847145281FCB2600EA8A94 /* data.json */; };
-		D584717E2820FD6F00EA8A94 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D584717D2820FD6F00EA8A94 /* data.swift */; };
 		D5CC94FA287B3A36005E8BF5 /* LettersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CC94F9287B3A36005E8BF5 /* LettersView.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,27 +45,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D55E398E2874A64300E8CE12 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		D55E398E2874A64300E8CE12 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		D56A825F2817D6D90013B61C /* Hangeul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangeul.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D56A82622817D6D90013B61C /* HangeulApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangeulApp.swift; sourceTree = "<group>"; };
-		D56A82642817D6D90013B61C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D56A82642817D6D90013B61C /* PuzzleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleView.swift; sourceTree = "<group>"; };
 		D56A82662817D6DA0013B61C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D56A82692817D6DA0013B61C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D56A826F2817D6DB0013B61C /* HangeulTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HangeulTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D56A82732817D6DB0013B61C /* HangeulTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangeulTests.swift; sourceTree = "<group>"; };
+		D50000020000000000000002 /* HangulPuzzleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangulPuzzleTests.swift; sourceTree = "<group>"; };
 		D56A82792817D6DB0013B61C /* HangeulUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HangeulUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D56A827D2817D6DB0013B61C /* HangeulUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangeulUITests.swift; sourceTree = "<group>"; };
 		D56A827F2817D6DB0013B61C /* HangeulUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangeulUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D56A82A22817DCEA0013B61C /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
-		D56A82A62817DD570013B61C /* SoundPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlay.swift; sourceTree = "<group>"; };
-		D56A82A82817DD900013B61C /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
-		D56A82AA2817DEE50013B61C /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
-		D56A82AE2817DF0E0013B61C /* FifthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthView.swift; sourceTree = "<group>"; };
+		D56A82A22817DCEA0013B61C /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		D56A82A62817DD570013B61C /* AudioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioService.swift; sourceTree = "<group>"; };
+		D56A82A82817DD900013B61C /* GameSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSession.swift; sourceTree = "<group>"; };
+		D56A82AA2817DEE50013B61C /* WordRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordRepository.swift; sourceTree = "<group>"; };
+		D56A82AE2817DF0E0013B61C /* HangulPuzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangulPuzzle.swift; sourceTree = "<group>"; };
 		D56A82B02817DF2A0013B61C /* ClearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearView.swift; sourceTree = "<group>"; };
-		D56A82B22817DFD90013B61C /* FourthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthView.swift; sourceTree = "<group>"; };
-		D56A82B6281923480013B61C /* ViewAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAssets.swift; sourceTree = "<group>"; };
+		D56A82B22817DFD90013B61C /* PuzzleComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleComponents.swift; sourceTree = "<group>"; };
 		D5847145281FCB2600EA8A94 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
-		D584717D2820FD6F00EA8A94 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
 		D5CC94F9287B3A36005E8BF5 /* LettersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LettersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,15 +117,15 @@
 		D56A82612817D6D90013B61C /* Hangeul */ = {
 			isa = PBXGroup;
 			children = (
-				D56A82A62817DD570013B61C /* SoundPlay.swift */,
+				D56A82A62817DD570013B61C /* AudioService.swift */,
 				D56A82622817D6D90013B61C /* HangeulApp.swift */,
-				D55E398E2874A64300E8CE12 /* SplashView.swift */,
-				D56A82A22817DCEA0013B61C /* WelcomeView.swift */,
-				D56A82642817D6D90013B61C /* ContentView.swift */,
-				D56A82A82817DD900013B61C /* SecondView.swift */,
-				D56A82AA2817DEE50013B61C /* ThirdView.swift */,
-				D56A82B22817DFD90013B61C /* FourthView.swift */,
-				D56A82AE2817DF0E0013B61C /* FifthView.swift */,
+				D55E398E2874A64300E8CE12 /* RootView.swift */,
+				D56A82A22817DCEA0013B61C /* WelcomeScreen.swift */,
+				D56A82642817D6D90013B61C /* PuzzleView.swift */,
+				D56A82A82817DD900013B61C /* GameSession.swift */,
+				D56A82AA2817DEE50013B61C /* WordRepository.swift */,
+				D56A82B22817DFD90013B61C /* PuzzleComponents.swift */,
+				D56A82AE2817DF0E0013B61C /* HangulPuzzle.swift */,
 				D56A82B02817DF2A0013B61C /* ClearView.swift */,
 				D5CC94F9287B3A36005E8BF5 /* LettersView.swift */,
 				D56A82682817D6DA0013B61C /* Preview Content */,
@@ -147,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				D56A82732817D6DB0013B61C /* HangeulTests.swift */,
+				D50000020000000000000002 /* HangulPuzzleTests.swift */,
 			);
 			path = HangeulTests;
 			sourceTree = "<group>";
@@ -164,9 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				D56A82662817D6DA0013B61C /* Assets.xcassets */,
-				D56A82B6281923480013B61C /* ViewAssets.swift */,
 				D5847145281FCB2600EA8A94 /* data.json */,
-				D584717D2820FD6F00EA8A94 /* data.swift */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -302,18 +299,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D56A82652817D6D90013B61C /* ContentView.swift in Sources */,
-				D56A82A92817DD900013B61C /* SecondView.swift in Sources */,
-				D56A82A72817DD570013B61C /* SoundPlay.swift in Sources */,
-				D584717E2820FD6F00EA8A94 /* data.swift in Sources */,
+				D56A82652817D6D90013B61C /* PuzzleView.swift in Sources */,
+				D56A82A92817DD900013B61C /* GameSession.swift in Sources */,
+				D56A82A72817DD570013B61C /* AudioService.swift in Sources */,
 				D5CC94FA287B3A36005E8BF5 /* LettersView.swift in Sources */,
-				D56A82A32817DCEA0013B61C /* WelcomeView.swift in Sources */,
-				D55E398F2874A64300E8CE12 /* SplashView.swift in Sources */,
-				D56A82AB2817DEE50013B61C /* ThirdView.swift in Sources */,
-				D56A82B7281923480013B61C /* ViewAssets.swift in Sources */,
+				D56A82A32817DCEA0013B61C /* WelcomeScreen.swift in Sources */,
+				D55E398F2874A64300E8CE12 /* RootView.swift in Sources */,
+				D56A82AB2817DEE50013B61C /* WordRepository.swift in Sources */,
 				D56A82B12817DF2A0013B61C /* ClearView.swift in Sources */,
-				D56A82AF2817DF0E0013B61C /* FifthView.swift in Sources */,
-				D56A82B32817DFD90013B61C /* FourthView.swift in Sources */,
+				D56A82AF2817DF0E0013B61C /* HangulPuzzle.swift in Sources */,
+				D56A82B32817DFD90013B61C /* PuzzleComponents.swift in Sources */,
 				D56A82632817D6D90013B61C /* HangeulApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D56A82742817D6DB0013B61C /* HangeulTests.swift in Sources */,
+				D50000010000000000000001 /* HangulPuzzleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,7 +469,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hangeul/Preview Content\"";
-				DEVELOPMENT_TEAM = 5N5TS7Y4MA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Hangeul/Info.plist;
@@ -505,7 +500,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hangeul/Preview Content\"";
-				DEVELOPMENT_TEAM = 5N5TS7Y4MA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Hangeul/Info.plist;
@@ -536,9 +530,8 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5N5TS7Y4MA;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = edu.coin.HangeulTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -556,9 +549,8 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5N5TS7Y4MA;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = edu.coin.HangeulTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -575,14 +567,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5N5TS7Y4MA;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = edu.coin.HangeulUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = Hangeul;
 			};
 			name = Debug;
@@ -593,14 +584,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5N5TS7Y4MA;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = edu.coin.HangeulUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = Hangeul;
 			};
 			name = Release;

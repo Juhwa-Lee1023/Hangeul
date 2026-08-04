@@ -1,0 +1,100 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-and-test:
+    name: Format, build, and test
+    runs-on: macos-latest
+    timeout-minutes: 30
+    env:
+      PROJECT_PATH: Hangeul.xcodeproj
+      SCHEME_NAME: Hangeul
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Show Xcode and Swift formatter versions
+        run: |
+          xcodebuild -version
+          xcrun swift-format --version
+
+      - name: Lint Swift formatting
+        run: >-
+          xcrun swift-format lint
+          --configuration .swift-format
+          --recursive
+          --parallel
+          --strict
+          Hangeul HangeulTests HangeulUITests
+
+      - name: Select an available iOS simulator
+        id: simulator
+        shell: bash
+        run: |
+          set -euo pipefail
+          SIMULATOR_UDID="$(
+            xcrun simctl list devices available --json |
+              python3 -c 'import json, sys; data = json.load(sys.stdin)["devices"]; pools = sorted(((tuple(map(int, runtime.rsplit("iOS-", 1)[1].split("-"))), devices) for runtime, devices in data.items() if ".iOS-" in runtime), key=lambda item: item[0], reverse=True); print(next(device["udid"] for _, devices in pools for device in devices if device.get("isAvailable") and device["name"].startswith("iPhone")))'
+          )"
+          echo "udid=${SIMULATOR_UDID}" >> "${GITHUB_OUTPUT}"
+          xcrun simctl boot "${SIMULATOR_UDID}" 2>/dev/null || true
+          xcrun simctl bootstatus "${SIMULATOR_UDID}" -b
+
+      - name: Build app for iOS Simulator
+        env:
+          DERIVED_DATA_PATH: ${{ runner.temp }}/HangeulDerivedData
+        run: |
+          set -o pipefail
+          xcodebuild \
+            -project "${PROJECT_PATH}" \
+            -scheme "${SCHEME_NAME}" \
+            -configuration Debug \
+            -destination 'generic/platform=iOS Simulator' \
+            -derivedDataPath "${DERIVED_DATA_PATH}" \
+            CODE_SIGNING_ALLOWED=NO \
+            build
+
+      - name: Run tests with code coverage
+        env:
+          DERIVED_DATA_PATH: ${{ runner.temp }}/HangeulDerivedData
+          RESULT_BUNDLE_PATH: ${{ runner.temp }}/HangeulTests.xcresult
+          SIMULATOR_UDID: ${{ steps.simulator.outputs.udid }}
+        run: |
+          set -o pipefail
+          xcodebuild \
+            -project "${PROJECT_PATH}" \
+            -scheme "${SCHEME_NAME}" \
+            -configuration Debug \
+            -destination "platform=iOS Simulator,id=${SIMULATOR_UDID}" \
+            -derivedDataPath "${DERIVED_DATA_PATH}" \
+            -enableCodeCoverage YES \
+            -resultBundlePath "${RESULT_BUNDLE_PATH}" \
+            test
+
+      - name: Export coverage report
+        env:
+          COVERAGE_REPORT_PATH: ${{ runner.temp }}/HangeulCoverage.json
+          RESULT_BUNDLE_PATH: ${{ runner.temp }}/HangeulTests.xcresult
+        run: xcrun xccov view --report --json "${RESULT_BUNDLE_PATH}" > "${COVERAGE_REPORT_PATH}"
+
+      - name: Upload test results and coverage
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Hangeul-test-results
+          path: |
+            ${{ runner.temp }}/HangeulTests.xcresult
+            ${{ runner.temp }}/HangeulCoverage.json
+          if-no-files-found: warn
+          retention-days: 14
