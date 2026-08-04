@@ -76,12 +76,16 @@ final class WordRepositoryTests: XCTestCase {
         }
     }
 
-    func testBundledDatasetContainsOnlyMetadataAndEveryWordBuildsAPuzzle() throws {
+    func testBundledDatasetContainsOnlyMetadataAndUsesSupportedLayout() throws {
         let words = try WordRepository.load()
 
-        XCTAssertEqual(words.count, 154)
+        XCTAssertEqual(words.count, 1_500)
         XCTAssertEqual(Set(words.map(\.id)).count, words.count)
         XCTAssertEqual(Set(words.map(\.word)).count, words.count)
+
+        let countsBySyllableLength = Dictionary(grouping: words, by: { $0.word.count })
+            .mapValues(\.count)
+        XCTAssertEqual(countsBySyllableLength, [2: 1_000, 3: 500])
 
         let dataURL = try XCTUnwrap(Bundle.main.url(forResource: "data.json", withExtension: nil))
         let records = try XCTUnwrap(
@@ -93,28 +97,55 @@ final class WordRepositoryTests: XCTestCase {
         for word in words {
             let puzzle = try HangulPuzzle.make(for: word)
             XCTAssertEqual(puzzle.syllables.count, word.word.count, "Failed for \(word.word)")
-            XCTAssertEqual(puzzle.candidates.count, 12, "Legacy layout changed for \(word.word)")
+            XCTAssertEqual(puzzle.candidates.count, 12, "Candidate grid changed for \(word.word)")
+        }
+    }
+
+    func testEveryBundledPuzzleCanBeSolvedUsingItsCandidateTiles() throws {
+        let words = try WordRepository.load()
+
+        XCTAssertEqual(words.count, 1_500)
+
+        for word in words {
+            let puzzle = try HangulPuzzle.make(for: word)
 
             for syllableIndex in puzzle.syllables.indices {
-                let selectedIndices = try indicesForAnswer(
-                    puzzle.syllables[syllableIndex].jamo,
-                    in: puzzle.candidates
+                let syllable = puzzle.syllables[syllableIndex]
+                let context =
+                    "Word \(word.id) \(word.word), syllable \(syllableIndex + 1) "
+                    + "\(syllable.character)"
+                let selectedIndices = try selectionForAnswer(
+                    syllable.jamo,
+                    in: puzzle.candidates,
+                    context: context
                 )
                 XCTAssertTrue(
                     puzzle.isCorrect(syllableIndex: syllableIndex, selectedIndices: selectedIndices),
-                    "Generated candidates cannot solve \(word.word) syllable \(syllableIndex)"
+                    "\(context) cannot be solved with candidates \(puzzle.candidates)"
                 )
             }
         }
     }
 
-    private func indicesForAnswer(_ answer: [String], in candidates: [String]) throws -> [Int] {
-        var availableIndices = Set(candidates.indices)
-        return try answer.map { jamo in
-            let index = try XCTUnwrap(availableIndices.first { candidates[$0] == jamo })
-            availableIndices.remove(index)
-            return index
+    private func selectionForAnswer(
+        _ answer: [String],
+        in candidates: [String],
+        context: String
+    ) throws -> Set<Int> {
+        var selectedIndices = Set<Int>()
+
+        for jamo in answer {
+            let index = try XCTUnwrap(
+                candidates.indices.first {
+                    !selectedIndices.contains($0) && candidates[$0] == jamo
+                },
+                "\(context) is missing candidate tile \(jamo); candidates: \(candidates)"
+            )
+            selectedIndices.insert(index)
         }
+
+        XCTAssertEqual(selectedIndices.count, answer.count, "\(context) reused a candidate tile")
+        return selectedIndices
     }
 
     private func jsonData(_ json: String) -> Data {

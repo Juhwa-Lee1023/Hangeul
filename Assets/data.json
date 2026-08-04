@@ -922,5 +922,8081 @@
     "word": "후회",
     "english": "Regret",
     "pron": "huhoe"
+  },
+  {
+    "id": 156,
+    "word": "가격",
+    "english": "Price",
+    "pron": "gagyeok"
+  },
+  {
+    "id": 157,
+    "word": "가공",
+    "english": "Industrial processing",
+    "pron": "gagong"
+  },
+  {
+    "id": 158,
+    "word": "가구",
+    "english": "Furniture",
+    "pron": "gagu"
+  },
+  {
+    "id": 159,
+    "word": "가방",
+    "english": "Bag",
+    "pron": "gabang"
+  },
+  {
+    "id": 160,
+    "word": "가사",
+    "english": "Lyrics",
+    "pron": "gasa"
+  },
+  {
+    "id": 161,
+    "word": "가설",
+    "english": "Hypothesis",
+    "pron": "gaseol"
+  },
+  {
+    "id": 162,
+    "word": "가수",
+    "english": "Singer",
+    "pron": "gasu"
+  },
+  {
+    "id": 163,
+    "word": "가요",
+    "english": "Popular song",
+    "pron": "gayo"
+  },
+  {
+    "id": 164,
+    "word": "가위",
+    "english": "Scissors",
+    "pron": "gawi"
+  },
+  {
+    "id": 165,
+    "word": "가족",
+    "english": "Family",
+    "pron": "gajok"
+  },
+  {
+    "id": 166,
+    "word": "가죽",
+    "english": "Leather",
+    "pron": "gajuk"
+  },
+  {
+    "id": 167,
+    "word": "가지",
+    "english": "Eggplant",
+    "pron": "gaji"
+  },
+  {
+    "id": 168,
+    "word": "가치",
+    "english": "Value",
+    "pron": "gachi"
+  },
+  {
+    "id": 169,
+    "word": "각도",
+    "english": "Angle",
+    "pron": "gakdo"
+  },
+  {
+    "id": 170,
+    "word": "간장",
+    "english": "Soy sauce",
+    "pron": "ganjang"
+  },
+  {
+    "id": 171,
+    "word": "갈등",
+    "english": "Conflict",
+    "pron": "galdeung"
+  },
+  {
+    "id": 172,
+    "word": "갈비",
+    "english": "Ribs",
+    "pron": "galbi"
+  },
+  {
+    "id": 173,
+    "word": "감각",
+    "english": "Sensation",
+    "pron": "gamgak"
+  },
+  {
+    "id": 174,
+    "word": "감기",
+    "english": "Common cold",
+    "pron": "gamgi"
+  },
+  {
+    "id": 175,
+    "word": "감독",
+    "english": "Director",
+    "pron": "gamdok"
+  },
+  {
+    "id": 176,
+    "word": "감성",
+    "english": "Sensibility",
+    "pron": "gamseong"
+  },
+  {
+    "id": 177,
+    "word": "감염",
+    "english": "Infection",
+    "pron": "gamyeom"
+  },
+  {
+    "id": 178,
+    "word": "강물",
+    "english": "River water",
+    "pron": "gangmul"
+  },
+  {
+    "id": 179,
+    "word": "강변",
+    "english": "Riverbank",
+    "pron": "gangbyeon"
+  },
+  {
+    "id": 180,
+    "word": "강사",
+    "english": "Instructor",
+    "pron": "gangsa"
+  },
+  {
+    "id": 181,
+    "word": "강철",
+    "english": "Steel",
+    "pron": "gangcheol"
+  },
+  {
+    "id": 182,
+    "word": "개념",
+    "english": "Concept",
+    "pron": "gaenyeom"
+  },
+  {
+    "id": 183,
+    "word": "개인",
+    "english": "Individual",
+    "pron": "gaein"
+  },
+  {
+    "id": 184,
+    "word": "객실",
+    "english": "Guest room or passenger cabin",
+    "pron": "gaeksil"
+  },
+  {
+    "id": 185,
+    "word": "거래",
+    "english": "Transaction",
+    "pron": "georae"
+  },
+  {
+    "id": 186,
+    "word": "거리",
+    "english": "Street",
+    "pron": "geori"
+  },
+  {
+    "id": 187,
+    "word": "거북",
+    "english": "Turtle",
+    "pron": "geobuk"
+  },
+  {
+    "id": 188,
+    "word": "거울",
+    "english": "Mirror",
+    "pron": "geoul"
+  },
+  {
+    "id": 189,
+    "word": "건강",
+    "english": "Health",
+    "pron": "geongang"
+  },
+  {
+    "id": 190,
+    "word": "건물",
+    "english": "Building",
+    "pron": "geonmul"
+  },
+  {
+    "id": 191,
+    "word": "걸레",
+    "english": "Cleaning rag",
+    "pron": "geolle"
+  },
+  {
+    "id": 192,
+    "word": "검찰",
+    "english": "Prosecution service",
+    "pron": "geomchal"
+  },
+  {
+    "id": 193,
+    "word": "결과",
+    "english": "Result",
+    "pron": "gyeolgwa"
+  },
+  {
+    "id": 194,
+    "word": "결산",
+    "english": "Settlement of accounts",
+    "pron": "gyeolsan"
+  },
+  {
+    "id": 195,
+    "word": "결정",
+    "english": "Decision",
+    "pron": "gyeoljeong"
+  },
+  {
+    "id": 196,
+    "word": "결핍",
+    "english": "Deprivation",
+    "pron": "gyeolpip"
+  },
+  {
+    "id": 197,
+    "word": "겸손",
+    "english": "Humility",
+    "pron": "gyeomson"
+  },
+  {
+    "id": 198,
+    "word": "경계",
+    "english": "Boundary",
+    "pron": "gyeonggye"
+  },
+  {
+    "id": 199,
+    "word": "경기",
+    "english": "Economic conditions",
+    "pron": "gyeonggi"
+  },
+  {
+    "id": 200,
+    "word": "경로",
+    "english": "Route",
+    "pron": "gyeongno"
+  },
+  {
+    "id": 201,
+    "word": "경사",
+    "english": "Slope",
+    "pron": "gyeongsa"
+  },
+  {
+    "id": 202,
+    "word": "경영",
+    "english": "Business management",
+    "pron": "gyeongyeong"
+  },
+  {
+    "id": 203,
+    "word": "경유",
+    "english": "Transit",
+    "pron": "gyeongyu"
+  },
+  {
+    "id": 204,
+    "word": "경제",
+    "english": "Economy",
+    "pron": "gyeongje"
+  },
+  {
+    "id": 205,
+    "word": "경찰",
+    "english": "Police officer",
+    "pron": "gyeongchal"
+  },
+  {
+    "id": 206,
+    "word": "경치",
+    "english": "Scenery",
+    "pron": "gyeongchi"
+  },
+  {
+    "id": 207,
+    "word": "계곡",
+    "english": "Valley",
+    "pron": "gyegok"
+  },
+  {
+    "id": 208,
+    "word": "계단",
+    "english": "Stairs",
+    "pron": "gyedan"
+  },
+  {
+    "id": 209,
+    "word": "계란",
+    "english": "Egg",
+    "pron": "gyeran"
+  },
+  {
+    "id": 210,
+    "word": "계승",
+    "english": "Succession",
+    "pron": "gyeseung"
+  },
+  {
+    "id": 211,
+    "word": "계약",
+    "english": "Contract",
+    "pron": "gyeyak"
+  },
+  {
+    "id": 212,
+    "word": "고객",
+    "english": "Customer",
+    "pron": "gogaek"
+  },
+  {
+    "id": 213,
+    "word": "고도",
+    "english": "Altitude",
+    "pron": "godo"
+  },
+  {
+    "id": 214,
+    "word": "고래",
+    "english": "Whale",
+    "pron": "gorae"
+  },
+  {
+    "id": 215,
+    "word": "고립",
+    "english": "Isolation",
+    "pron": "gorip"
+  },
+  {
+    "id": 216,
+    "word": "고모",
+    "english": "Paternal aunt",
+    "pron": "gomo"
+  },
+  {
+    "id": 217,
+    "word": "고무",
+    "english": "Rubber",
+    "pron": "gomu"
+  },
+  {
+    "id": 218,
+    "word": "고민",
+    "english": "Concern",
+    "pron": "gomin"
+  },
+  {
+    "id": 219,
+    "word": "고요",
+    "english": "Stillness",
+    "pron": "goyo"
+  },
+  {
+    "id": 220,
+    "word": "고집",
+    "english": "Obstinacy",
+    "pron": "gojip"
+  },
+  {
+    "id": 221,
+    "word": "고추",
+    "english": "Chili pepper",
+    "pron": "gochu"
+  },
+  {
+    "id": 222,
+    "word": "골목",
+    "english": "Alley",
+    "pron": "golmok"
+  },
+  {
+    "id": 223,
+    "word": "골절",
+    "english": "Fracture",
+    "pron": "goljeol"
+  },
+  {
+    "id": 224,
+    "word": "공간",
+    "english": "Space",
+    "pron": "gonggan"
+  },
+  {
+    "id": 225,
+    "word": "공감",
+    "english": "Empathy",
+    "pron": "gonggam"
+  },
+  {
+    "id": 226,
+    "word": "공급",
+    "english": "Supply",
+    "pron": "gonggeup"
+  },
+  {
+    "id": 227,
+    "word": "공단",
+    "english": "Industrial zone",
+    "pron": "gongdan"
+  },
+  {
+    "id": 228,
+    "word": "공부",
+    "english": "Study",
+    "pron": "gongbu"
+  },
+  {
+    "id": 229,
+    "word": "공식",
+    "english": "Formula",
+    "pron": "gongsik"
+  },
+  {
+    "id": 230,
+    "word": "공예",
+    "english": "Craft",
+    "pron": "gongye"
+  },
+  {
+    "id": 231,
+    "word": "공원",
+    "english": "Park",
+    "pron": "gongwon"
+  },
+  {
+    "id": 232,
+    "word": "공작",
+    "english": "Peacock",
+    "pron": "gongjak"
+  },
+  {
+    "id": 233,
+    "word": "공장",
+    "english": "Factory",
+    "pron": "gongjang"
+  },
+  {
+    "id": 234,
+    "word": "공정",
+    "english": "Fairness",
+    "pron": "gongjeong"
+  },
+  {
+    "id": 235,
+    "word": "공포",
+    "english": "Fear",
+    "pron": "gongpo"
+  },
+  {
+    "id": 236,
+    "word": "공항",
+    "english": "Airport",
+    "pron": "gonghang"
+  },
+  {
+    "id": 237,
+    "word": "과거",
+    "english": "Past",
+    "pron": "gwageo"
+  },
+  {
+    "id": 238,
+    "word": "과도",
+    "english": "Paring knife",
+    "pron": "gwado"
+  },
+  {
+    "id": 239,
+    "word": "과목",
+    "english": "Subject",
+    "pron": "gwamok"
+  },
+  {
+    "id": 240,
+    "word": "과일",
+    "english": "Fruit",
+    "pron": "gwail"
+  },
+  {
+    "id": 241,
+    "word": "과제",
+    "english": "Assignment",
+    "pron": "gwaje"
+  },
+  {
+    "id": 242,
+    "word": "과학",
+    "english": "Science",
+    "pron": "gwahak"
+  },
+  {
+    "id": 243,
+    "word": "관계",
+    "english": "Relationship",
+    "pron": "gwangye"
+  },
+  {
+    "id": 244,
+    "word": "관광",
+    "english": "Tourism",
+    "pron": "gwangwang"
+  },
+  {
+    "id": 245,
+    "word": "관문",
+    "english": "Gateway",
+    "pron": "gwanmun"
+  },
+  {
+    "id": 246,
+    "word": "관세",
+    "english": "Tariff",
+    "pron": "gwanse"
+  },
+  {
+    "id": 247,
+    "word": "관습",
+    "english": "Custom",
+    "pron": "gwanseup"
+  },
+  {
+    "id": 248,
+    "word": "관절",
+    "english": "Joint",
+    "pron": "gwanjeol"
+  },
+  {
+    "id": 249,
+    "word": "관점",
+    "english": "Perspective",
+    "pron": "gwanjeom"
+  },
+  {
+    "id": 250,
+    "word": "관찰",
+    "english": "Observation",
+    "pron": "gwanchal"
+  },
+  {
+    "id": 251,
+    "word": "광고",
+    "english": "Advertisement",
+    "pron": "gwanggo"
+  },
+  {
+    "id": 252,
+    "word": "광부",
+    "english": "Miner",
+    "pron": "gwangbu"
+  },
+  {
+    "id": 253,
+    "word": "광장",
+    "english": "Square",
+    "pron": "gwangjang"
+  },
+  {
+    "id": 254,
+    "word": "광학",
+    "english": "Optics",
+    "pron": "gwanghak"
+  },
+  {
+    "id": 255,
+    "word": "교과",
+    "english": "School subject",
+    "pron": "gyogwa"
+  },
+  {
+    "id": 256,
+    "word": "교복",
+    "english": "School uniform",
+    "pron": "gyobok"
+  },
+  {
+    "id": 257,
+    "word": "교사",
+    "english": "Teacher",
+    "pron": "gyosa"
+  },
+  {
+    "id": 258,
+    "word": "교수",
+    "english": "Professor",
+    "pron": "gyosu"
+  },
+  {
+    "id": 259,
+    "word": "교실",
+    "english": "Classroom",
+    "pron": "gyosil"
+  },
+  {
+    "id": 260,
+    "word": "교육",
+    "english": "Education",
+    "pron": "gyoyuk"
+  },
+  {
+    "id": 261,
+    "word": "교재",
+    "english": "Teaching material",
+    "pron": "gyojae"
+  },
+  {
+    "id": 262,
+    "word": "교차",
+    "english": "Intersection",
+    "pron": "gyocha"
+  },
+  {
+    "id": 263,
+    "word": "교회",
+    "english": "Church",
+    "pron": "gyohoe"
+  },
+  {
+    "id": 264,
+    "word": "구간",
+    "english": "Section",
+    "pron": "gugan"
+  },
+  {
+    "id": 265,
+    "word": "구도",
+    "english": "Composition",
+    "pron": "gudo"
+  },
+  {
+    "id": 266,
+    "word": "구독",
+    "english": "Subscription",
+    "pron": "gudok"
+  },
+  {
+    "id": 267,
+    "word": "구두",
+    "english": "Dress shoes",
+    "pron": "gudu"
+  },
+  {
+    "id": 268,
+    "word": "구름",
+    "english": "Cloud",
+    "pron": "gureum"
+  },
+  {
+    "id": 269,
+    "word": "구리",
+    "english": "Copper",
+    "pron": "guri"
+  },
+  {
+    "id": 270,
+    "word": "구매",
+    "english": "Purchase",
+    "pron": "gumae"
+  },
+  {
+    "id": 271,
+    "word": "구속",
+    "english": "Detention",
+    "pron": "gusok"
+  },
+  {
+    "id": 272,
+    "word": "구역",
+    "english": "District",
+    "pron": "guyeok"
+  },
+  {
+    "id": 273,
+    "word": "구이",
+    "english": "Grilled dish",
+    "pron": "gui"
+  },
+  {
+    "id": 274,
+    "word": "구청",
+    "english": "District office",
+    "pron": "gucheong"
+  },
+  {
+    "id": 275,
+    "word": "국가",
+    "english": "Country",
+    "pron": "gukga"
+  },
+  {
+    "id": 276,
+    "word": "국경",
+    "english": "Border",
+    "pron": "gukgyeong"
+  },
+  {
+    "id": 277,
+    "word": "국도",
+    "english": "National highway",
+    "pron": "gukdo"
+  },
+  {
+    "id": 278,
+    "word": "국민",
+    "english": "People of a country",
+    "pron": "gungmin"
+  },
+  {
+    "id": 279,
+    "word": "국수",
+    "english": "Noodles",
+    "pron": "guksu"
+  },
+  {
+    "id": 280,
+    "word": "국악",
+    "english": "Traditional Korean music",
+    "pron": "gugak"
+  },
+  {
+    "id": 281,
+    "word": "국회",
+    "english": "Parliament",
+    "pron": "gukoe"
+  },
+  {
+    "id": 282,
+    "word": "군인",
+    "english": "Soldier",
+    "pron": "gunin"
+  },
+  {
+    "id": 283,
+    "word": "군중",
+    "english": "Crowd",
+    "pron": "gunjung"
+  },
+  {
+    "id": 284,
+    "word": "균형",
+    "english": "Balance",
+    "pron": "gyunhyeong"
+  },
+  {
+    "id": 285,
+    "word": "그릇",
+    "english": "Dish",
+    "pron": "geureut"
+  },
+  {
+    "id": 286,
+    "word": "그림",
+    "english": "Picture",
+    "pron": "geurim"
+  },
+  {
+    "id": 287,
+    "word": "극장",
+    "english": "Theater venue",
+    "pron": "geukjang"
+  },
+  {
+    "id": 288,
+    "word": "근래",
+    "english": "Recent times",
+    "pron": "geullae"
+  },
+  {
+    "id": 289,
+    "word": "근육",
+    "english": "Muscle",
+    "pron": "geunyuk"
+  },
+  {
+    "id": 290,
+    "word": "근처",
+    "english": "Nearby area",
+    "pron": "geuncheo"
+  },
+  {
+    "id": 291,
+    "word": "금속",
+    "english": "Metal",
+    "pron": "geumsok"
+  },
+  {
+    "id": 292,
+    "word": "금융",
+    "english": "Finance",
+    "pron": "geumnyung"
+  },
+  {
+    "id": 293,
+    "word": "급여",
+    "english": "Salary",
+    "pron": "geubyeo"
+  },
+  {
+    "id": 294,
+    "word": "기간",
+    "english": "Duration",
+    "pron": "gigan"
+  },
+  {
+    "id": 295,
+    "word": "기계",
+    "english": "Machine",
+    "pron": "gigye"
+  },
+  {
+    "id": 296,
+    "word": "기관",
+    "english": "Institution",
+    "pron": "gigwan"
+  },
+  {
+    "id": 297,
+    "word": "기린",
+    "english": "Giraffe",
+    "pron": "girin"
+  },
+  {
+    "id": 298,
+    "word": "기쁨",
+    "english": "Joy",
+    "pron": "gippeum"
+  },
+  {
+    "id": 299,
+    "word": "기사",
+    "english": "Article",
+    "pron": "gisa"
+  },
+  {
+    "id": 300,
+    "word": "기상",
+    "english": "Atmospheric conditions",
+    "pron": "gisang"
+  },
+  {
+    "id": 301,
+    "word": "기어",
+    "english": "Gear",
+    "pron": "gieo"
+  },
+  {
+    "id": 302,
+    "word": "기억",
+    "english": "Memory",
+    "pron": "gieok"
+  },
+  {
+    "id": 303,
+    "word": "기업",
+    "english": "Enterprise",
+    "pron": "gieop"
+  },
+  {
+    "id": 304,
+    "word": "기온",
+    "english": "Air temperature",
+    "pron": "gion"
+  },
+  {
+    "id": 305,
+    "word": "기자",
+    "english": "Reporter",
+    "pron": "gija"
+  },
+  {
+    "id": 306,
+    "word": "기점",
+    "english": "Origin",
+    "pron": "gijeom"
+  },
+  {
+    "id": 307,
+    "word": "기차",
+    "english": "Train",
+    "pron": "gicha"
+  },
+  {
+    "id": 308,
+    "word": "기체",
+    "english": "Gas",
+    "pron": "giche"
+  },
+  {
+    "id": 309,
+    "word": "기초",
+    "english": "Basis",
+    "pron": "gicho"
+  },
+  {
+    "id": 310,
+    "word": "기침",
+    "english": "Cough",
+    "pron": "gichim"
+  },
+  {
+    "id": 311,
+    "word": "기한",
+    "english": "Deadline",
+    "pron": "gihan"
+  },
+  {
+    "id": 312,
+    "word": "기후",
+    "english": "Climate",
+    "pron": "gihu"
+  },
+  {
+    "id": 313,
+    "word": "긴장",
+    "english": "Tension",
+    "pron": "ginjang"
+  },
+  {
+    "id": 314,
+    "word": "나무",
+    "english": "Tree",
+    "pron": "namu"
+  },
+  {
+    "id": 315,
+    "word": "나사",
+    "english": "Screw",
+    "pron": "nasa"
+  },
+  {
+    "id": 316,
+    "word": "난민",
+    "english": "Refugee",
+    "pron": "nanmin"
+  },
+  {
+    "id": 317,
+    "word": "날씨",
+    "english": "Weather",
+    "pron": "nalssi"
+  },
+  {
+    "id": 318,
+    "word": "남매",
+    "english": "Brother and sister",
+    "pron": "nammae"
+  },
+  {
+    "id": 319,
+    "word": "남북",
+    "english": "North and south",
+    "pron": "nambuk"
+  },
+  {
+    "id": 320,
+    "word": "남쪽",
+    "english": "South",
+    "pron": "namjjok"
+  },
+  {
+    "id": 321,
+    "word": "남편",
+    "english": "Husband",
+    "pron": "nampyeon"
+  },
+  {
+    "id": 322,
+    "word": "내륙",
+    "english": "Inland",
+    "pron": "naeryuk"
+  },
+  {
+    "id": 323,
+    "word": "냉정",
+    "english": "Cool-headedness",
+    "pron": "naengjeong"
+  },
+  {
+    "id": 324,
+    "word": "노래",
+    "english": "Song",
+    "pron": "norae"
+  },
+  {
+    "id": 325,
+    "word": "노선",
+    "english": "Route",
+    "pron": "noseon"
+  },
+  {
+    "id": 326,
+    "word": "노인",
+    "english": "Older person",
+    "pron": "noin"
+  },
+  {
+    "id": 327,
+    "word": "노조",
+    "english": "Labor union",
+    "pron": "nojo"
+  },
+  {
+    "id": 328,
+    "word": "논리",
+    "english": "Logic",
+    "pron": "nolli"
+  },
+  {
+    "id": 329,
+    "word": "농구",
+    "english": "Basketball",
+    "pron": "nonggu"
+  },
+  {
+    "id": 330,
+    "word": "농부",
+    "english": "Farmer",
+    "pron": "nongbu"
+  },
+  {
+    "id": 331,
+    "word": "농장",
+    "english": "Farm",
+    "pron": "nongjang"
+  },
+  {
+    "id": 332,
+    "word": "누나",
+    "english": "Older sister (male speaker)",
+    "pron": "nuna"
+  },
+  {
+    "id": 333,
+    "word": "뉴스",
+    "english": "News",
+    "pron": "nyuseu"
+  },
+  {
+    "id": 334,
+    "word": "늪지",
+    "english": "Marsh",
+    "pron": "neupji"
+  },
+  {
+    "id": 335,
+    "word": "다리",
+    "english": "Bridge",
+    "pron": "dari"
+  },
+  {
+    "id": 336,
+    "word": "다정",
+    "english": "Warmth",
+    "pron": "dajeong"
+  },
+  {
+    "id": 337,
+    "word": "단면",
+    "english": "Cross-section",
+    "pron": "danmyeon"
+  },
+  {
+    "id": 338,
+    "word": "단절",
+    "english": "Severance",
+    "pron": "danjeol"
+  },
+  {
+    "id": 339,
+    "word": "단지",
+    "english": "Complex",
+    "pron": "danji"
+  },
+  {
+    "id": 340,
+    "word": "단체",
+    "english": "Organization",
+    "pron": "danche"
+  },
+  {
+    "id": 341,
+    "word": "단추",
+    "english": "Button",
+    "pron": "danchu"
+  },
+  {
+    "id": 342,
+    "word": "달래",
+    "english": "Wild chive",
+    "pron": "dallae"
+  },
+  {
+    "id": 343,
+    "word": "담요",
+    "english": "Blanket",
+    "pron": "damnyo"
+  },
+  {
+    "id": 344,
+    "word": "당근",
+    "english": "Carrot",
+    "pron": "danggeun"
+  },
+  {
+    "id": 345,
+    "word": "당시",
+    "english": "That time",
+    "pron": "dangsi"
+  },
+  {
+    "id": 346,
+    "word": "대기",
+    "english": "Atmosphere",
+    "pron": "daegi"
+  },
+  {
+    "id": 347,
+    "word": "대로",
+    "english": "Boulevard",
+    "pron": "daero"
+  },
+  {
+    "id": 348,
+    "word": "대륙",
+    "english": "Continent",
+    "pron": "daeryuk"
+  },
+  {
+    "id": 349,
+    "word": "대사",
+    "english": "Metabolism",
+    "pron": "daesa"
+  },
+  {
+    "id": 350,
+    "word": "대중",
+    "english": "The public",
+    "pron": "daejung"
+  },
+  {
+    "id": 351,
+    "word": "대출",
+    "english": "Loan",
+    "pron": "daechul"
+  },
+  {
+    "id": 352,
+    "word": "대학",
+    "english": "University",
+    "pron": "daehak"
+  },
+  {
+    "id": 353,
+    "word": "도로",
+    "english": "Road",
+    "pron": "doro"
+  },
+  {
+    "id": 354,
+    "word": "도마",
+    "english": "Cutting board",
+    "pron": "doma"
+  },
+  {
+    "id": 355,
+    "word": "도시",
+    "english": "City",
+    "pron": "dosi"
+  },
+  {
+    "id": 356,
+    "word": "도심",
+    "english": "Downtown",
+    "pron": "dosim"
+  },
+  {
+    "id": 357,
+    "word": "도장",
+    "english": "Seal or stamp",
+    "pron": "dojang"
+  },
+  {
+    "id": 358,
+    "word": "도착",
+    "english": "Arrival",
+    "pron": "dochak"
+  },
+  {
+    "id": 359,
+    "word": "도청",
+    "english": "Provincial office",
+    "pron": "docheong"
+  },
+  {
+    "id": 360,
+    "word": "독감",
+    "english": "Influenza",
+    "pron": "dokgam"
+  },
+  {
+    "id": 361,
+    "word": "동굴",
+    "english": "Cave",
+    "pron": "donggul"
+  },
+  {
+    "id": 362,
+    "word": "동네",
+    "english": "Neighborhood",
+    "pron": "dongne"
+  },
+  {
+    "id": 363,
+    "word": "동료",
+    "english": "Colleague",
+    "pron": "dongnyo"
+  },
+  {
+    "id": 364,
+    "word": "동맥",
+    "english": "Artery",
+    "pron": "dongmaek"
+  },
+  {
+    "id": 365,
+    "word": "동문",
+    "english": "East gate",
+    "pron": "dongmun"
+  },
+  {
+    "id": 366,
+    "word": "동사",
+    "english": "Verb",
+    "pron": "dongsa"
+  },
+  {
+    "id": 367,
+    "word": "동생",
+    "english": "Younger sibling",
+    "pron": "dongsaeng"
+  },
+  {
+    "id": 368,
+    "word": "동서",
+    "english": "East and west",
+    "pron": "dongseo"
+  },
+  {
+    "id": 369,
+    "word": "동요",
+    "english": "Children's song",
+    "pron": "dongyo"
+  },
+  {
+    "id": 370,
+    "word": "동작",
+    "english": "Movement",
+    "pron": "dongjak"
+  },
+  {
+    "id": 371,
+    "word": "동정",
+    "english": "Sympathy",
+    "pron": "dongjeong"
+  },
+  {
+    "id": 372,
+    "word": "동쪽",
+    "english": "East",
+    "pron": "dongjjok"
+  },
+  {
+    "id": 373,
+    "word": "동화",
+    "english": "Children's story",
+    "pron": "donghwa"
+  },
+  {
+    "id": 374,
+    "word": "돼지",
+    "english": "Pig",
+    "pron": "dwaeji"
+  },
+  {
+    "id": 375,
+    "word": "두부",
+    "english": "Tofu",
+    "pron": "dubu"
+  },
+  {
+    "id": 376,
+    "word": "뒷면",
+    "english": "Rear",
+    "pron": "dwinmyeon"
+  },
+  {
+    "id": 377,
+    "word": "드릴",
+    "english": "Drill",
+    "pron": "deuril"
+  },
+  {
+    "id": 378,
+    "word": "등산",
+    "english": "Hiking",
+    "pron": "deungsan"
+  },
+  {
+    "id": 379,
+    "word": "뚜껑",
+    "english": "Lid",
+    "pron": "ttukkeong"
+  },
+  {
+    "id": 380,
+    "word": "라마",
+    "english": "Llama",
+    "pron": "rama"
+  },
+  {
+    "id": 381,
+    "word": "레일",
+    "english": "Rail",
+    "pron": "reil"
+  },
+  {
+    "id": 382,
+    "word": "렌즈",
+    "english": "Lens",
+    "pron": "renjeu"
+  },
+  {
+    "id": 383,
+    "word": "로봇",
+    "english": "Robot",
+    "pron": "robot"
+  },
+  {
+    "id": 384,
+    "word": "리듬",
+    "english": "Rhythm",
+    "pron": "rideum"
+  },
+  {
+    "id": 385,
+    "word": "마늘",
+    "english": "Garlic",
+    "pron": "maneul"
+  },
+  {
+    "id": 386,
+    "word": "마당",
+    "english": "Yard",
+    "pron": "madang"
+  },
+  {
+    "id": 387,
+    "word": "마을",
+    "english": "Village",
+    "pron": "maeul"
+  },
+  {
+    "id": 388,
+    "word": "마차",
+    "english": "Carriage",
+    "pron": "macha"
+  },
+  {
+    "id": 389,
+    "word": "마찰",
+    "english": "Friction",
+    "pron": "machal"
+  },
+  {
+    "id": 390,
+    "word": "만두",
+    "english": "Dumpling",
+    "pron": "mandu"
+  },
+  {
+    "id": 391,
+    "word": "망치",
+    "english": "Hammer",
+    "pron": "mangchi"
+  },
+  {
+    "id": 392,
+    "word": "매체",
+    "english": "Medium",
+    "pron": "maeche"
+  },
+  {
+    "id": 393,
+    "word": "매출",
+    "english": "Sales revenue",
+    "pron": "maechul"
+  },
+  {
+    "id": 394,
+    "word": "면역",
+    "english": "Immunity",
+    "pron": "myeonyeok"
+  },
+  {
+    "id": 395,
+    "word": "면적",
+    "english": "Area",
+    "pron": "myeonjeok"
+  },
+  {
+    "id": 396,
+    "word": "명사",
+    "english": "Noun",
+    "pron": "myeongsa"
+  },
+  {
+    "id": 397,
+    "word": "모래",
+    "english": "Sand",
+    "pron": "morae"
+  },
+  {
+    "id": 398,
+    "word": "모음",
+    "english": "Vowel",
+    "pron": "moeum"
+  },
+  {
+    "id": 399,
+    "word": "모자",
+    "english": "Hat",
+    "pron": "moja"
+  },
+  {
+    "id": 400,
+    "word": "모터",
+    "english": "Motor",
+    "pron": "moteo"
+  },
+  {
+    "id": 401,
+    "word": "목재",
+    "english": "Lumber",
+    "pron": "mokjae"
+  },
+  {
+    "id": 402,
+    "word": "무릎",
+    "english": "Knee",
+    "pron": "mureup"
+  },
+  {
+    "id": 403,
+    "word": "무역",
+    "english": "Trade",
+    "pron": "muyeok"
+  },
+  {
+    "id": 404,
+    "word": "무용",
+    "english": "Dance",
+    "pron": "muyong"
+  },
+  {
+    "id": 405,
+    "word": "문단",
+    "english": "Paragraph",
+    "pron": "mundan"
+  },
+  {
+    "id": 406,
+    "word": "문법",
+    "english": "Grammar",
+    "pron": "munbeop"
+  },
+  {
+    "id": 407,
+    "word": "문어",
+    "english": "Octopus",
+    "pron": "muneo"
+  },
+  {
+    "id": 408,
+    "word": "문자",
+    "english": "Letter or character",
+    "pron": "munja"
+  },
+  {
+    "id": 409,
+    "word": "문장",
+    "english": "Sentence",
+    "pron": "munjang"
+  },
+  {
+    "id": 410,
+    "word": "문제",
+    "english": "Problem",
+    "pron": "munje"
+  },
+  {
+    "id": 411,
+    "word": "문학",
+    "english": "Literature",
+    "pron": "munhak"
+  },
+  {
+    "id": 412,
+    "word": "문화",
+    "english": "Culture",
+    "pron": "munhwa"
+  },
+  {
+    "id": 413,
+    "word": "물결",
+    "english": "Wave",
+    "pron": "mulgyeol"
+  },
+  {
+    "id": 414,
+    "word": "미래",
+    "english": "Future",
+    "pron": "mirae"
+  },
+  {
+    "id": 415,
+    "word": "미분",
+    "english": "Differentiation",
+    "pron": "mibun"
+  },
+  {
+    "id": 416,
+    "word": "미술",
+    "english": "Fine art",
+    "pron": "misul"
+  },
+  {
+    "id": 417,
+    "word": "민감",
+    "english": "Sensitivity",
+    "pron": "mingam"
+  },
+  {
+    "id": 418,
+    "word": "민속",
+    "english": "Folklore",
+    "pron": "minsok"
+  },
+  {
+    "id": 419,
+    "word": "밀도",
+    "english": "Density",
+    "pron": "mildo"
+  },
+  {
+    "id": 420,
+    "word": "바늘",
+    "english": "Needle",
+    "pron": "baneul"
+  },
+  {
+    "id": 421,
+    "word": "바다",
+    "english": "Sea",
+    "pron": "bada"
+  },
+  {
+    "id": 422,
+    "word": "바닥",
+    "english": "Floor",
+    "pron": "badak"
+  },
+  {
+    "id": 423,
+    "word": "바지",
+    "english": "Trousers",
+    "pron": "baji"
+  },
+  {
+    "id": 424,
+    "word": "박자",
+    "english": "Beat",
+    "pron": "bakja"
+  },
+  {
+    "id": 425,
+    "word": "반도",
+    "english": "Peninsula",
+    "pron": "bando"
+  },
+  {
+    "id": 426,
+    "word": "반지",
+    "english": "Ring",
+    "pron": "banji"
+  },
+  {
+    "id": 427,
+    "word": "반찬",
+    "english": "Side dish",
+    "pron": "banchan"
+  },
+  {
+    "id": 428,
+    "word": "발랄",
+    "english": "Lively",
+    "pron": "ballal"
+  },
+  {
+    "id": 429,
+    "word": "발목",
+    "english": "Ankle",
+    "pron": "balmok"
+  },
+  {
+    "id": 430,
+    "word": "발음",
+    "english": "Pronunciation",
+    "pron": "bareum"
+  },
+  {
+    "id": 431,
+    "word": "발톱",
+    "english": "Toenail",
+    "pron": "baltop"
+  },
+  {
+    "id": 432,
+    "word": "방면",
+    "english": "Direction or area",
+    "pron": "bangmyeon"
+  },
+  {
+    "id": 433,
+    "word": "방송",
+    "english": "Broadcasting",
+    "pron": "bangsong"
+  },
+  {
+    "id": 434,
+    "word": "방위",
+    "english": "Bearing",
+    "pron": "bangwi"
+  },
+  {
+    "id": 435,
+    "word": "방향",
+    "english": "Direction",
+    "pron": "banghyang"
+  },
+  {
+    "id": 436,
+    "word": "배구",
+    "english": "Volleyball",
+    "pron": "baegu"
+  },
+  {
+    "id": 437,
+    "word": "배려",
+    "english": "Consideration",
+    "pron": "baeryeo"
+  },
+  {
+    "id": 438,
+    "word": "배우",
+    "english": "Actor",
+    "pron": "baeu"
+  },
+  {
+    "id": 439,
+    "word": "백신",
+    "english": "Vaccine",
+    "pron": "baeksin"
+  },
+  {
+    "id": 440,
+    "word": "버섯",
+    "english": "Mushroom",
+    "pron": "beoseot"
+  },
+  {
+    "id": 441,
+    "word": "버스",
+    "english": "Bus",
+    "pron": "beoseu"
+  },
+  {
+    "id": 442,
+    "word": "번개",
+    "english": "Lightning",
+    "pron": "beongae"
+  },
+  {
+    "id": 443,
+    "word": "번역",
+    "english": "Translation",
+    "pron": "beonyeok"
+  },
+  {
+    "id": 444,
+    "word": "법령",
+    "english": "Laws and decrees",
+    "pron": "beomnyeong"
+  },
+  {
+    "id": 445,
+    "word": "법률",
+    "english": "Statute",
+    "pron": "beomnyul"
+  },
+  {
+    "id": 446,
+    "word": "법원",
+    "english": "Court",
+    "pron": "beobwon"
+  },
+  {
+    "id": 447,
+    "word": "법인",
+    "english": "Legal entity",
+    "pron": "beobin"
+  },
+  {
+    "id": 448,
+    "word": "법칙",
+    "english": "Scientific law",
+    "pron": "beopchik"
+  },
+  {
+    "id": 449,
+    "word": "베개",
+    "english": "Pillow",
+    "pron": "begae"
+  },
+  {
+    "id": 450,
+    "word": "벡터",
+    "english": "Vector",
+    "pron": "bekteo"
+  },
+  {
+    "id": 451,
+    "word": "벨트",
+    "english": "Belt",
+    "pron": "belteu"
+  },
+  {
+    "id": 452,
+    "word": "벽돌",
+    "english": "Brick",
+    "pron": "byeokdol"
+  },
+  {
+    "id": 453,
+    "word": "벽화",
+    "english": "Mural",
+    "pron": "byeokwa"
+  },
+  {
+    "id": 454,
+    "word": "변수",
+    "english": "Variable",
+    "pron": "byeonsu"
+  },
+  {
+    "id": 455,
+    "word": "변이",
+    "english": "Variation",
+    "pron": "byeoni"
+  },
+  {
+    "id": 456,
+    "word": "변화",
+    "english": "Change",
+    "pron": "byeonhwa"
+  },
+  {
+    "id": 457,
+    "word": "병원",
+    "english": "Hospital",
+    "pron": "byeongwon"
+  },
+  {
+    "id": 458,
+    "word": "보도",
+    "english": "News reporting",
+    "pron": "bodo"
+  },
+  {
+    "id": 459,
+    "word": "보리",
+    "english": "Barley",
+    "pron": "bori"
+  },
+  {
+    "id": 460,
+    "word": "보안",
+    "english": "Security",
+    "pron": "boan"
+  },
+  {
+    "id": 461,
+    "word": "보트",
+    "english": "Boat",
+    "pron": "boteu"
+  },
+  {
+    "id": 462,
+    "word": "보험",
+    "english": "Insurance",
+    "pron": "boheom"
+  },
+  {
+    "id": 463,
+    "word": "복도",
+    "english": "Corridor",
+    "pron": "bokdo"
+  },
+  {
+    "id": 464,
+    "word": "복부",
+    "english": "Abdomen",
+    "pron": "bokbu"
+  },
+  {
+    "id": 465,
+    "word": "복원",
+    "english": "Restoration",
+    "pron": "bogwon"
+  },
+  {
+    "id": 466,
+    "word": "본부",
+    "english": "Headquarters",
+    "pron": "bonbu"
+  },
+  {
+    "id": 467,
+    "word": "볼트",
+    "english": "Bolt",
+    "pron": "bolteu"
+  },
+  {
+    "id": 468,
+    "word": "봉투",
+    "english": "Envelope",
+    "pron": "bongtu"
+  },
+  {
+    "id": 469,
+    "word": "부근",
+    "english": "Surrounding area",
+    "pron": "bugeun"
+  },
+  {
+    "id": 470,
+    "word": "부두",
+    "english": "Dock",
+    "pron": "budu"
+  },
+  {
+    "id": 471,
+    "word": "부모",
+    "english": "Parents",
+    "pron": "bumo"
+  },
+  {
+    "id": 472,
+    "word": "부부",
+    "english": "Married couple",
+    "pron": "bubu"
+  },
+  {
+    "id": 473,
+    "word": "부지",
+    "english": "Site",
+    "pron": "buji"
+  },
+  {
+    "id": 474,
+    "word": "부채",
+    "english": "Liability",
+    "pron": "buchae"
+  },
+  {
+    "id": 475,
+    "word": "부품",
+    "english": "Component",
+    "pron": "bupum"
+  },
+  {
+    "id": 476,
+    "word": "북쪽",
+    "english": "North",
+    "pron": "bukjjok"
+  },
+  {
+    "id": 477,
+    "word": "분노",
+    "english": "Anger",
+    "pron": "bunno"
+  },
+  {
+    "id": 478,
+    "word": "분산",
+    "english": "Variance",
+    "pron": "bunsan"
+  },
+  {
+    "id": 479,
+    "word": "분석",
+    "english": "Analysis",
+    "pron": "bunseok"
+  },
+  {
+    "id": 480,
+    "word": "분자",
+    "english": "Molecule",
+    "pron": "bunja"
+  },
+  {
+    "id": 481,
+    "word": "분쟁",
+    "english": "Dispute",
+    "pron": "bunjaeng"
+  },
+  {
+    "id": 482,
+    "word": "불안",
+    "english": "Anxiety",
+    "pron": "buran"
+  },
+  {
+    "id": 483,
+    "word": "비누",
+    "english": "Soap",
+    "pron": "binu"
+  },
+  {
+    "id": 484,
+    "word": "비닐",
+    "english": "Plastic film",
+    "pron": "binil"
+  },
+  {
+    "id": 485,
+    "word": "비만",
+    "english": "Obesity",
+    "pron": "biman"
+  },
+  {
+    "id": 486,
+    "word": "비서",
+    "english": "Secretary",
+    "pron": "biseo"
+  },
+  {
+    "id": 487,
+    "word": "비용",
+    "english": "Cost",
+    "pron": "biyong"
+  },
+  {
+    "id": 488,
+    "word": "빈곤",
+    "english": "Poverty",
+    "pron": "bingon"
+  },
+  {
+    "id": 489,
+    "word": "사람",
+    "english": "Person",
+    "pron": "saram"
+  },
+  {
+    "id": 490,
+    "word": "사막",
+    "english": "Desert",
+    "pron": "samak"
+  },
+  {
+    "id": 491,
+    "word": "사상",
+    "english": "Thought",
+    "pron": "sasang"
+  },
+  {
+    "id": 492,
+    "word": "사설",
+    "english": "Editorial",
+    "pron": "saseol"
+  },
+  {
+    "id": 493,
+    "word": "사업",
+    "english": "Business",
+    "pron": "saeop"
+  },
+  {
+    "id": 494,
+    "word": "사위",
+    "english": "Son-in-law",
+    "pron": "sawi"
+  },
+  {
+    "id": 495,
+    "word": "사자",
+    "english": "Lion",
+    "pron": "saja"
+  },
+  {
+    "id": 496,
+    "word": "사전",
+    "english": "Dictionary",
+    "pron": "sajeon"
+  },
+  {
+    "id": 497,
+    "word": "사찰",
+    "english": "Buddhist temple",
+    "pron": "sachal"
+  },
+  {
+    "id": 498,
+    "word": "사회",
+    "english": "Society",
+    "pron": "sahoe"
+  },
+  {
+    "id": 499,
+    "word": "산맥",
+    "english": "Mountain range",
+    "pron": "sanmaek"
+  },
+  {
+    "id": 500,
+    "word": "산책",
+    "english": "Stroll",
+    "pron": "sanchaek"
+  },
+  {
+    "id": 501,
+    "word": "삼촌",
+    "english": "Uncle",
+    "pron": "samchon"
+  },
+  {
+    "id": 502,
+    "word": "상가",
+    "english": "Commercial district",
+    "pron": "sangga"
+  },
+  {
+    "id": 503,
+    "word": "상단",
+    "english": "Top",
+    "pron": "sangdan"
+  },
+  {
+    "id": 504,
+    "word": "상수",
+    "english": "Constant",
+    "pron": "sangsu"
+  },
+  {
+    "id": 505,
+    "word": "상어",
+    "english": "Shark",
+    "pron": "sangeo"
+  },
+  {
+    "id": 506,
+    "word": "상업",
+    "english": "Commerce",
+    "pron": "sangeop"
+  },
+  {
+    "id": 507,
+    "word": "상인",
+    "english": "Merchant",
+    "pron": "sangin"
+  },
+  {
+    "id": 508,
+    "word": "상자",
+    "english": "Box",
+    "pron": "sangja"
+  },
+  {
+    "id": 509,
+    "word": "상점",
+    "english": "Shop",
+    "pron": "sangjeom"
+  },
+  {
+    "id": 510,
+    "word": "상처",
+    "english": "Wound",
+    "pron": "sangcheo"
+  },
+  {
+    "id": 511,
+    "word": "새우",
+    "english": "Shrimp",
+    "pron": "saeu"
+  },
+  {
+    "id": 512,
+    "word": "색채",
+    "english": "Color",
+    "pron": "saekchae"
+  },
+  {
+    "id": 513,
+    "word": "생물",
+    "english": "Living organism",
+    "pron": "saengmul"
+  },
+  {
+    "id": 514,
+    "word": "생산",
+    "english": "Production",
+    "pron": "saengsan"
+  },
+  {
+    "id": 515,
+    "word": "생선",
+    "english": "Fish as food",
+    "pron": "saengseon"
+  },
+  {
+    "id": 516,
+    "word": "서리",
+    "english": "Frost",
+    "pron": "seori"
+  },
+  {
+    "id": 517,
+    "word": "서버",
+    "english": "Server",
+    "pron": "seobeo"
+  },
+  {
+    "id": 518,
+    "word": "서사",
+    "english": "Narrative",
+    "pron": "seosa"
+  },
+  {
+    "id": 519,
+    "word": "서점",
+    "english": "Bookstore",
+    "pron": "seojeom"
+  },
+  {
+    "id": 520,
+    "word": "서쪽",
+    "english": "West",
+    "pron": "seojjok"
+  },
+  {
+    "id": 521,
+    "word": "선박",
+    "english": "Vessel",
+    "pron": "seonbak"
+  },
+  {
+    "id": 522,
+    "word": "선반",
+    "english": "Shelf",
+    "pron": "seonban"
+  },
+  {
+    "id": 523,
+    "word": "선배",
+    "english": "Senior schoolmate or colleague",
+    "pron": "seonbae"
+  },
+  {
+    "id": 524,
+    "word": "선율",
+    "english": "Melody",
+    "pron": "seonyul"
+  },
+  {
+    "id": 525,
+    "word": "선의",
+    "english": "Goodwill",
+    "pron": "seonui"
+  },
+  {
+    "id": 526,
+    "word": "선장",
+    "english": "Ship captain",
+    "pron": "seonjang"
+  },
+  {
+    "id": 527,
+    "word": "선택",
+    "english": "Choice",
+    "pron": "seontaek"
+  },
+  {
+    "id": 528,
+    "word": "설비",
+    "english": "Industrial equipment",
+    "pron": "seolbi"
+  },
+  {
+    "id": 529,
+    "word": "설사",
+    "english": "Diarrhea",
+    "pron": "seolsa"
+  },
+  {
+    "id": 530,
+    "word": "설탕",
+    "english": "Sugar",
+    "pron": "seoltang"
+  },
+  {
+    "id": 531,
+    "word": "섬유",
+    "english": "Fiber",
+    "pron": "seomyu"
+  },
+  {
+    "id": 532,
+    "word": "성당",
+    "english": "Catholic church",
+    "pron": "seongdang"
+  },
+  {
+    "id": 533,
+    "word": "성실",
+    "english": "Sincerity",
+    "pron": "seongsil"
+  },
+  {
+    "id": 534,
+    "word": "성에",
+    "english": "Frost on windows or walls",
+    "pron": "seonge"
+  },
+  {
+    "id": 535,
+    "word": "성인",
+    "english": "Adult",
+    "pron": "seongin"
+  },
+  {
+    "id": 536,
+    "word": "성적",
+    "english": "Grade",
+    "pron": "seongjeok"
+  },
+  {
+    "id": 537,
+    "word": "세균",
+    "english": "Bacteria",
+    "pron": "segyun"
+  },
+  {
+    "id": 538,
+    "word": "세금",
+    "english": "Tax",
+    "pron": "segeum"
+  },
+  {
+    "id": 539,
+    "word": "세월",
+    "english": "Passing years",
+    "pron": "sewol"
+  },
+  {
+    "id": 540,
+    "word": "세제",
+    "english": "Detergent",
+    "pron": "seje"
+  },
+  {
+    "id": 541,
+    "word": "세포",
+    "english": "Cell",
+    "pron": "sepo"
+  },
+  {
+    "id": 542,
+    "word": "센서",
+    "english": "Sensor",
+    "pron": "senseo"
+  },
+  {
+    "id": 543,
+    "word": "셔츠",
+    "english": "Shirt",
+    "pron": "syeocheu"
+  },
+  {
+    "id": 544,
+    "word": "소금",
+    "english": "Salt",
+    "pron": "sogeum"
+  },
+  {
+    "id": 545,
+    "word": "소비",
+    "english": "Consumption",
+    "pron": "sobi"
+  },
+  {
+    "id": 546,
+    "word": "소송",
+    "english": "Lawsuit",
+    "pron": "sosong"
+  },
+  {
+    "id": 547,
+    "word": "소음",
+    "english": "Noise",
+    "pron": "soeum"
+  },
+  {
+    "id": 548,
+    "word": "소재",
+    "english": "Material",
+    "pron": "sojae"
+  },
+  {
+    "id": 549,
+    "word": "속도",
+    "english": "Speed",
+    "pron": "sokdo"
+  },
+  {
+    "id": 550,
+    "word": "속옷",
+    "english": "Underwear",
+    "pron": "sogot"
+  },
+  {
+    "id": 551,
+    "word": "손녀",
+    "english": "Granddaughter",
+    "pron": "sonnyeo"
+  },
+  {
+    "id": 552,
+    "word": "손목",
+    "english": "Wrist",
+    "pron": "sonmok"
+  },
+  {
+    "id": 553,
+    "word": "손실",
+    "english": "Loss",
+    "pron": "sonsil"
+  },
+  {
+    "id": 554,
+    "word": "손자",
+    "english": "Grandson",
+    "pron": "sonja"
+  },
+  {
+    "id": 555,
+    "word": "손톱",
+    "english": "Fingernail",
+    "pron": "sontop"
+  },
+  {
+    "id": 556,
+    "word": "솔직",
+    "english": "Frank",
+    "pron": "soljik"
+  },
+  {
+    "id": 557,
+    "word": "송신",
+    "english": "Signal transmission",
+    "pron": "songsin"
+  },
+  {
+    "id": 558,
+    "word": "수건",
+    "english": "Towel",
+    "pron": "sugeon"
+  },
+  {
+    "id": 559,
+    "word": "수련",
+    "english": "Water lily",
+    "pron": "suryeon"
+  },
+  {
+    "id": 560,
+    "word": "수로",
+    "english": "Canal",
+    "pron": "suro"
+  },
+  {
+    "id": 561,
+    "word": "수면",
+    "english": "Sleep",
+    "pron": "sumyeon"
+  },
+  {
+    "id": 562,
+    "word": "수신",
+    "english": "Reception",
+    "pron": "susin"
+  },
+  {
+    "id": 563,
+    "word": "수업",
+    "english": "Class",
+    "pron": "sueop"
+  },
+  {
+    "id": 564,
+    "word": "수역",
+    "english": "Waters",
+    "pron": "suyeok"
+  },
+  {
+    "id": 565,
+    "word": "수영",
+    "english": "Swimming",
+    "pron": "suyeong"
+  },
+  {
+    "id": 566,
+    "word": "수요",
+    "english": "Demand",
+    "pron": "suyo"
+  },
+  {
+    "id": 567,
+    "word": "수익",
+    "english": "Earnings",
+    "pron": "suik"
+  },
+  {
+    "id": 568,
+    "word": "수입",
+    "english": "Import",
+    "pron": "suip"
+  },
+  {
+    "id": 569,
+    "word": "수직",
+    "english": "Vertical",
+    "pron": "sujik"
+  },
+  {
+    "id": 570,
+    "word": "수출",
+    "english": "Export",
+    "pron": "suchul"
+  },
+  {
+    "id": 571,
+    "word": "수평",
+    "english": "Horizontal",
+    "pron": "supyeong"
+  },
+  {
+    "id": 572,
+    "word": "수학",
+    "english": "Mathematics",
+    "pron": "suhak"
+  },
+  {
+    "id": 573,
+    "word": "숙소",
+    "english": "Lodging",
+    "pron": "sukso"
+  },
+  {
+    "id": 574,
+    "word": "숙제",
+    "english": "Homework",
+    "pron": "sukje"
+  },
+  {
+    "id": 575,
+    "word": "순간",
+    "english": "Moment",
+    "pron": "sungan"
+  },
+  {
+    "id": 576,
+    "word": "스승",
+    "english": "Teacher or master",
+    "pron": "seuseung"
+  },
+  {
+    "id": 577,
+    "word": "슬픔",
+    "english": "Sadness",
+    "pron": "seulpeum"
+  },
+  {
+    "id": 578,
+    "word": "습지",
+    "english": "Wetland",
+    "pron": "seupji"
+  },
+  {
+    "id": 579,
+    "word": "시기",
+    "english": "Period",
+    "pron": "sigi"
+  },
+  {
+    "id": 580,
+    "word": "시대",
+    "english": "Era",
+    "pron": "sidae"
+  },
+  {
+    "id": 581,
+    "word": "시민",
+    "english": "Citizen",
+    "pron": "simin"
+  },
+  {
+    "id": 582,
+    "word": "시인",
+    "english": "Poet",
+    "pron": "siin"
+  },
+  {
+    "id": 583,
+    "word": "시장",
+    "english": "Market",
+    "pron": "sijang"
+  },
+  {
+    "id": 584,
+    "word": "시점",
+    "english": "Point in time",
+    "pron": "sijeom"
+  },
+  {
+    "id": 585,
+    "word": "시집",
+    "english": "Poetry collection",
+    "pron": "sijip"
+  },
+  {
+    "id": 586,
+    "word": "시청",
+    "english": "City hall",
+    "pron": "sicheong"
+  },
+  {
+    "id": 587,
+    "word": "시험",
+    "english": "Exam",
+    "pron": "siheom"
+  },
+  {
+    "id": 588,
+    "word": "식탁",
+    "english": "Dining table",
+    "pron": "siktak"
+  },
+  {
+    "id": 589,
+    "word": "신경",
+    "english": "Nerve",
+    "pron": "singyeong"
+  },
+  {
+    "id": 590,
+    "word": "신랑",
+    "english": "Groom",
+    "pron": "sillang"
+  },
+  {
+    "id": 591,
+    "word": "신뢰",
+    "english": "Trust",
+    "pron": "silloe"
+  },
+  {
+    "id": 592,
+    "word": "신문",
+    "english": "Newspaper",
+    "pron": "sinmun"
+  },
+  {
+    "id": 593,
+    "word": "신발",
+    "english": "Footwear",
+    "pron": "sinbal"
+  },
+  {
+    "id": 594,
+    "word": "신부",
+    "english": "Bride",
+    "pron": "sinbu"
+  },
+  {
+    "id": 595,
+    "word": "신중",
+    "english": "Prudence",
+    "pron": "sinjung"
+  },
+  {
+    "id": 596,
+    "word": "신체",
+    "english": "Body",
+    "pron": "sinche"
+  },
+  {
+    "id": 597,
+    "word": "신호",
+    "english": "Signal",
+    "pron": "sinho"
+  },
+  {
+    "id": 598,
+    "word": "신화",
+    "english": "Myth",
+    "pron": "sinhwa"
+  },
+  {
+    "id": 599,
+    "word": "실내",
+    "english": "Interior",
+    "pron": "sillae"
+  },
+  {
+    "id": 600,
+    "word": "실망",
+    "english": "Disappointment",
+    "pron": "silmang"
+  },
+  {
+    "id": 601,
+    "word": "실험",
+    "english": "Experiment",
+    "pron": "silheom"
+  },
+  {
+    "id": 602,
+    "word": "아내",
+    "english": "Wife",
+    "pron": "anae"
+  },
+  {
+    "id": 603,
+    "word": "아동",
+    "english": "Child",
+    "pron": "adong"
+  },
+  {
+    "id": 604,
+    "word": "아들",
+    "english": "Son",
+    "pron": "adeul"
+  },
+  {
+    "id": 605,
+    "word": "아빠",
+    "english": "Dad",
+    "pron": "appa"
+  },
+  {
+    "id": 606,
+    "word": "악어",
+    "english": "Crocodile",
+    "pron": "ageo"
+  },
+  {
+    "id": 607,
+    "word": "악화",
+    "english": "Deterioration",
+    "pron": "akwa"
+  },
+  {
+    "id": 608,
+    "word": "안개",
+    "english": "Fog",
+    "pron": "angae"
+  },
+  {
+    "id": 609,
+    "word": "안내",
+    "english": "Guidance",
+    "pron": "annae"
+  },
+  {
+    "id": 610,
+    "word": "안정",
+    "english": "Stability",
+    "pron": "anjeong"
+  },
+  {
+    "id": 611,
+    "word": "안쪽",
+    "english": "Inside",
+    "pron": "anjjok"
+  },
+  {
+    "id": 612,
+    "word": "암호",
+    "english": "Secret code",
+    "pron": "amho"
+  },
+  {
+    "id": 613,
+    "word": "압력",
+    "english": "Pressure",
+    "pron": "amnyeok"
+  },
+  {
+    "id": 614,
+    "word": "애인",
+    "english": "Boyfriend or girlfriend",
+    "pron": "aein"
+  },
+  {
+    "id": 615,
+    "word": "액자",
+    "english": "Picture frame",
+    "pron": "aekja"
+  },
+  {
+    "id": 616,
+    "word": "액체",
+    "english": "Liquid",
+    "pron": "aekche"
+  },
+  {
+    "id": 617,
+    "word": "약국",
+    "english": "Pharmacy",
+    "pron": "yakguk"
+  },
+  {
+    "id": 618,
+    "word": "약사",
+    "english": "Pharmacist",
+    "pron": "yaksa"
+  },
+  {
+    "id": 619,
+    "word": "양념",
+    "english": "Seasoning",
+    "pron": "yangnyeom"
+  },
+  {
+    "id": 620,
+    "word": "양말",
+    "english": "Socks",
+    "pron": "yangmal"
+  },
+  {
+    "id": 621,
+    "word": "양심",
+    "english": "Conscience",
+    "pron": "yangsim"
+  },
+  {
+    "id": 622,
+    "word": "양자",
+    "english": "Quantum",
+    "pron": "yangja"
+  },
+  {
+    "id": 623,
+    "word": "양파",
+    "english": "Onion",
+    "pron": "yangpa"
+  },
+  {
+    "id": 624,
+    "word": "어깨",
+    "english": "Shoulder",
+    "pron": "eokkae"
+  },
+  {
+    "id": 625,
+    "word": "어부",
+    "english": "Fisher",
+    "pron": "eobu"
+  },
+  {
+    "id": 626,
+    "word": "어휘",
+    "english": "Vocabulary",
+    "pron": "eohwi"
+  },
+  {
+    "id": 627,
+    "word": "언니",
+    "english": "Older sister (female speaker)",
+    "pron": "eonni"
+  },
+  {
+    "id": 628,
+    "word": "언덕",
+    "english": "Hill",
+    "pron": "eondeok"
+  },
+  {
+    "id": 629,
+    "word": "언어",
+    "english": "Language",
+    "pron": "eoneo"
+  },
+  {
+    "id": 630,
+    "word": "업무",
+    "english": "Work duties",
+    "pron": "eommu"
+  },
+  {
+    "id": 631,
+    "word": "엔진",
+    "english": "Engine",
+    "pron": "enjin"
+  },
+  {
+    "id": 632,
+    "word": "여객",
+    "english": "Passenger",
+    "pron": "yeogaek"
+  },
+  {
+    "id": 633,
+    "word": "여관",
+    "english": "Inn",
+    "pron": "yeogwan"
+  },
+  {
+    "id": 634,
+    "word": "여우",
+    "english": "Fox",
+    "pron": "yeou"
+  },
+  {
+    "id": 635,
+    "word": "여정",
+    "english": "Itinerary",
+    "pron": "yeojeong"
+  },
+  {
+    "id": 636,
+    "word": "역사",
+    "english": "History",
+    "pron": "yeoksa"
+  },
+  {
+    "id": 637,
+    "word": "연결",
+    "english": "Linkage",
+    "pron": "yeongyeol"
+  },
+  {
+    "id": 638,
+    "word": "연계",
+    "english": "Link",
+    "pron": "yeongye"
+  },
+  {
+    "id": 639,
+    "word": "연극",
+    "english": "Play or drama",
+    "pron": "yeongeuk"
+  },
+  {
+    "id": 640,
+    "word": "연대",
+    "english": "Solidarity",
+    "pron": "yeondae"
+  },
+  {
+    "id": 641,
+    "word": "연말",
+    "english": "Year-end",
+    "pron": "yeonmal"
+  },
+  {
+    "id": 642,
+    "word": "연못",
+    "english": "Pond",
+    "pron": "yeonmot"
+  },
+  {
+    "id": 643,
+    "word": "연봉",
+    "english": "Annual salary",
+    "pron": "yeonbong"
+  },
+  {
+    "id": 644,
+    "word": "연산",
+    "english": "Computation",
+    "pron": "yeonsan"
+  },
+  {
+    "id": 645,
+    "word": "연습",
+    "english": "Practice",
+    "pron": "yeonseup"
+  },
+  {
+    "id": 646,
+    "word": "연안",
+    "english": "Coastal area",
+    "pron": "yeonan"
+  },
+  {
+    "id": 647,
+    "word": "연인",
+    "english": "Romantic partner",
+    "pron": "yeonin"
+  },
+  {
+    "id": 648,
+    "word": "연주",
+    "english": "Musical performance",
+    "pron": "yeonju"
+  },
+  {
+    "id": 649,
+    "word": "연필",
+    "english": "Pencil",
+    "pron": "yeonpil"
+  },
+  {
+    "id": 650,
+    "word": "열쇠",
+    "english": "Key",
+    "pron": "yeolsoe"
+  },
+  {
+    "id": 651,
+    "word": "열차",
+    "english": "Railway train",
+    "pron": "yeolcha"
+  },
+  {
+    "id": 652,
+    "word": "염소",
+    "english": "Goat",
+    "pron": "yeomso"
+  },
+  {
+    "id": 653,
+    "word": "염증",
+    "english": "Inflammation",
+    "pron": "yeomjeung"
+  },
+  {
+    "id": 654,
+    "word": "영리",
+    "english": "Clever",
+    "pron": "yeongni"
+  },
+  {
+    "id": 655,
+    "word": "영상",
+    "english": "Image",
+    "pron": "yeongsang"
+  },
+  {
+    "id": 656,
+    "word": "영양",
+    "english": "Antelope",
+    "pron": "yeongyang"
+  },
+  {
+    "id": 657,
+    "word": "영원",
+    "english": "Eternity",
+    "pron": "yeongwon"
+  },
+  {
+    "id": 658,
+    "word": "예산",
+    "english": "Budget",
+    "pron": "yesan"
+  },
+  {
+    "id": 659,
+    "word": "예술",
+    "english": "Art",
+    "pron": "yesul"
+  },
+  {
+    "id": 660,
+    "word": "예의",
+    "english": "Courtesy",
+    "pron": "yeui"
+  },
+  {
+    "id": 661,
+    "word": "오리",
+    "english": "Duck",
+    "pron": "ori"
+  },
+  {
+    "id": 662,
+    "word": "오만",
+    "english": "Arrogance",
+    "pron": "oman"
+  },
+  {
+    "id": 663,
+    "word": "오빠",
+    "english": "Older brother (female speaker)",
+    "pron": "oppa"
+  },
+  {
+    "id": 664,
+    "word": "오이",
+    "english": "Cucumber",
+    "pron": "oi"
+  },
+  {
+    "id": 665,
+    "word": "옥상",
+    "english": "Rooftop",
+    "pron": "oksang"
+  },
+  {
+    "id": 666,
+    "word": "온도",
+    "english": "Temperature",
+    "pron": "ondo"
+  },
+  {
+    "id": 667,
+    "word": "온천",
+    "english": "Hot spring",
+    "pron": "oncheon"
+  },
+  {
+    "id": 668,
+    "word": "외곽",
+    "english": "Outskirts",
+    "pron": "oegwak"
+  },
+  {
+    "id": 669,
+    "word": "외부",
+    "english": "Outside",
+    "pron": "oebu"
+  },
+  {
+    "id": 670,
+    "word": "요가",
+    "english": "Yoga",
+    "pron": "yoga"
+  },
+  {
+    "id": 671,
+    "word": "요트",
+    "english": "Yacht",
+    "pron": "yoteu"
+  },
+  {
+    "id": 672,
+    "word": "용기",
+    "english": "Courage",
+    "pron": "yonggi"
+  },
+  {
+    "id": 673,
+    "word": "용어",
+    "english": "Term",
+    "pron": "yongeo"
+  },
+  {
+    "id": 674,
+    "word": "우물",
+    "english": "Well",
+    "pron": "umul"
+  },
+  {
+    "id": 675,
+    "word": "우산",
+    "english": "Umbrella",
+    "pron": "usan"
+  },
+  {
+    "id": 676,
+    "word": "우울",
+    "english": "Melancholy",
+    "pron": "uul"
+  },
+  {
+    "id": 677,
+    "word": "우정",
+    "english": "Friendship",
+    "pron": "ujeong"
+  },
+  {
+    "id": 678,
+    "word": "우주",
+    "english": "Outer space",
+    "pron": "uju"
+  },
+  {
+    "id": 679,
+    "word": "우측",
+    "english": "Right",
+    "pron": "ucheuk"
+  },
+  {
+    "id": 680,
+    "word": "우표",
+    "english": "Postage stamp",
+    "pron": "upyo"
+  },
+  {
+    "id": 681,
+    "word": "운동",
+    "english": "Exercise",
+    "pron": "undong"
+  },
+  {
+    "id": 682,
+    "word": "원가",
+    "english": "Production cost",
+    "pron": "wonga"
+  },
+  {
+    "id": 683,
+    "word": "원단",
+    "english": "Fabric",
+    "pron": "wondan"
+  },
+  {
+    "id": 684,
+    "word": "원인",
+    "english": "Cause",
+    "pron": "wonin"
+  },
+  {
+    "id": 685,
+    "word": "원자",
+    "english": "Atom",
+    "pron": "wonja"
+  },
+  {
+    "id": 686,
+    "word": "위기",
+    "english": "Crisis",
+    "pron": "wigi"
+  },
+  {
+    "id": 687,
+    "word": "위생",
+    "english": "Hygiene",
+    "pron": "wisaeng"
+  },
+  {
+    "id": 688,
+    "word": "위성",
+    "english": "Satellite",
+    "pron": "wiseong"
+  },
+  {
+    "id": 689,
+    "word": "유리",
+    "english": "Glass",
+    "pron": "yuri"
+  },
+  {
+    "id": 690,
+    "word": "유물",
+    "english": "Artifact",
+    "pron": "yumul"
+  },
+  {
+    "id": 691,
+    "word": "유산",
+    "english": "Heritage",
+    "pron": "yusan"
+  },
+  {
+    "id": 692,
+    "word": "유적",
+    "english": "Historic remains",
+    "pron": "yujeok"
+  },
+  {
+    "id": 693,
+    "word": "유전",
+    "english": "Heredity",
+    "pron": "yujeon"
+  },
+  {
+    "id": 694,
+    "word": "육상",
+    "english": "Track and field",
+    "pron": "yuksang"
+  },
+  {
+    "id": 695,
+    "word": "은하",
+    "english": "Galaxy",
+    "pron": "eunha"
+  },
+  {
+    "id": 696,
+    "word": "은행",
+    "english": "Bank",
+    "pron": "eunhaeng"
+  },
+  {
+    "id": 697,
+    "word": "음향",
+    "english": "Sound",
+    "pron": "eumhyang"
+  },
+  {
+    "id": 698,
+    "word": "의리",
+    "english": "Loyalty and duty",
+    "pron": "uiri"
+  },
+  {
+    "id": 699,
+    "word": "의문",
+    "english": "Doubt",
+    "pron": "uimun"
+  },
+  {
+    "id": 700,
+    "word": "의미",
+    "english": "Meaning",
+    "pron": "uimi"
+  },
+  {
+    "id": 701,
+    "word": "의식",
+    "english": "Consciousness",
+    "pron": "uisik"
+  },
+  {
+    "id": 702,
+    "word": "의회",
+    "english": "Legislature",
+    "pron": "uihoe"
+  },
+  {
+    "id": 703,
+    "word": "이념",
+    "english": "Ideology",
+    "pron": "inyeom"
+  },
+  {
+    "id": 704,
+    "word": "이론",
+    "english": "Theory",
+    "pron": "iron"
+  },
+  {
+    "id": 705,
+    "word": "이모",
+    "english": "Maternal aunt",
+    "pron": "imo"
+  },
+  {
+    "id": 706,
+    "word": "이불",
+    "english": "Bedding",
+    "pron": "ibul"
+  },
+  {
+    "id": 707,
+    "word": "이성",
+    "english": "Reason",
+    "pron": "iseong"
+  },
+  {
+    "id": 708,
+    "word": "이슬",
+    "english": "Dew",
+    "pron": "iseul"
+  },
+  {
+    "id": 709,
+    "word": "이온",
+    "english": "Ion",
+    "pron": "ion"
+  },
+  {
+    "id": 710,
+    "word": "이웃",
+    "english": "Neighbor",
+    "pron": "iut"
+  },
+  {
+    "id": 711,
+    "word": "이익",
+    "english": "Profit",
+    "pron": "iik"
+  },
+  {
+    "id": 712,
+    "word": "이자",
+    "english": "Interest",
+    "pron": "ija"
+  },
+  {
+    "id": 713,
+    "word": "인권",
+    "english": "Human rights",
+    "pron": "ingwon"
+  },
+  {
+    "id": 714,
+    "word": "인근",
+    "english": "Vicinity",
+    "pron": "ingeun"
+  },
+  {
+    "id": 715,
+    "word": "인연",
+    "english": "Personal connection",
+    "pron": "inyeon"
+  },
+  {
+    "id": 716,
+    "word": "인증",
+    "english": "Authentication",
+    "pron": "injeung"
+  },
+  {
+    "id": 717,
+    "word": "일생",
+    "english": "Lifetime",
+    "pron": "ilsaeng"
+  },
+  {
+    "id": 718,
+    "word": "임금",
+    "english": "Wage",
+    "pron": "imgeum"
+  },
+  {
+    "id": 719,
+    "word": "입구",
+    "english": "Entrance",
+    "pron": "ipgu"
+  },
+  {
+    "id": 720,
+    "word": "입력",
+    "english": "Input",
+    "pron": "imnyeok"
+  },
+  {
+    "id": 721,
+    "word": "자녀",
+    "english": "Children",
+    "pron": "janyeo"
+  },
+  {
+    "id": 722,
+    "word": "자라",
+    "english": "Softshell turtle",
+    "pron": "jara"
+  },
+  {
+    "id": 723,
+    "word": "자료",
+    "english": "Data",
+    "pron": "jaryo"
+  },
+  {
+    "id": 724,
+    "word": "자막",
+    "english": "Subtitles",
+    "pron": "jamak"
+  },
+  {
+    "id": 725,
+    "word": "자매",
+    "english": "Sisters",
+    "pron": "jamae"
+  },
+  {
+    "id": 726,
+    "word": "자본",
+    "english": "Capital",
+    "pron": "jabon"
+  },
+  {
+    "id": 727,
+    "word": "자산",
+    "english": "Asset",
+    "pron": "jasan"
+  },
+  {
+    "id": 728,
+    "word": "자석",
+    "english": "Magnet",
+    "pron": "jaseok"
+  },
+  {
+    "id": 729,
+    "word": "자세",
+    "english": "Posture",
+    "pron": "jase"
+  },
+  {
+    "id": 730,
+    "word": "자유",
+    "english": "Freedom",
+    "pron": "jayu"
+  },
+  {
+    "id": 731,
+    "word": "작가",
+    "english": "Author",
+    "pron": "jakga"
+  },
+  {
+    "id": 732,
+    "word": "작품",
+    "english": "Work",
+    "pron": "jakpum"
+  },
+  {
+    "id": 733,
+    "word": "잠옷",
+    "english": "Pajamas",
+    "pron": "jamot"
+  },
+  {
+    "id": 734,
+    "word": "장갑",
+    "english": "Gloves",
+    "pron": "janggap"
+  },
+  {
+    "id": 735,
+    "word": "장기",
+    "english": "Organ",
+    "pron": "janggi"
+  },
+  {
+    "id": 736,
+    "word": "장래",
+    "english": "Future prospects",
+    "pron": "jangnae"
+  },
+  {
+    "id": 737,
+    "word": "장벽",
+    "english": "Wall",
+    "pron": "jangbyeok"
+  },
+  {
+    "id": 738,
+    "word": "장소",
+    "english": "Place",
+    "pron": "jangso"
+  },
+  {
+    "id": 739,
+    "word": "장인",
+    "english": "Wife's father",
+    "pron": "jangin"
+  },
+  {
+    "id": 740,
+    "word": "재고",
+    "english": "Inventory",
+    "pron": "jaego"
+  },
+  {
+    "id": 741,
+    "word": "재단",
+    "english": "Foundation",
+    "pron": "jaedan"
+  },
+  {
+    "id": 742,
+    "word": "재정",
+    "english": "Public finance",
+    "pron": "jaejeong"
+  },
+  {
+    "id": 743,
+    "word": "재킷",
+    "english": "Jacket",
+    "pron": "jaekit"
+  },
+  {
+    "id": 744,
+    "word": "재판",
+    "english": "Trial",
+    "pron": "jaepan"
+  },
+  {
+    "id": 745,
+    "word": "전구",
+    "english": "Light bulb",
+    "pron": "jeongu"
+  },
+  {
+    "id": 746,
+    "word": "전기",
+    "english": "Electricity",
+    "pron": "jeongi"
+  },
+  {
+    "id": 747,
+    "word": "전날",
+    "english": "Previous day",
+    "pron": "jeonnal"
+  },
+  {
+    "id": 748,
+    "word": "전력",
+    "english": "Electric power",
+    "pron": "jeollyeok"
+  },
+  {
+    "id": 749,
+    "word": "전류",
+    "english": "Electric current",
+    "pron": "jeollyu"
+  },
+  {
+    "id": 750,
+    "word": "전망",
+    "english": "View",
+    "pron": "jeonmang"
+  },
+  {
+    "id": 751,
+    "word": "전면",
+    "english": "Front surface",
+    "pron": "jeonmyeon"
+  },
+  {
+    "id": 752,
+    "word": "전방",
+    "english": "Area ahead",
+    "pron": "jeonbang"
+  },
+  {
+    "id": 753,
+    "word": "전복",
+    "english": "Abalone",
+    "pron": "jeonbok"
+  },
+  {
+    "id": 754,
+    "word": "전선",
+    "english": "Electric wire",
+    "pron": "jeonseon"
+  },
+  {
+    "id": 755,
+    "word": "전송",
+    "english": "Data transfer",
+    "pron": "jeonsong"
+  },
+  {
+    "id": 756,
+    "word": "전시",
+    "english": "Exhibition",
+    "pron": "jeonsi"
+  },
+  {
+    "id": 757,
+    "word": "전압",
+    "english": "Voltage",
+    "pron": "jeonap"
+  },
+  {
+    "id": 758,
+    "word": "전원",
+    "english": "Power supply",
+    "pron": "jeonwon"
+  },
+  {
+    "id": 759,
+    "word": "전자",
+    "english": "Electron",
+    "pron": "jeonja"
+  },
+  {
+    "id": 760,
+    "word": "전지",
+    "english": "Battery",
+    "pron": "jeonji"
+  },
+  {
+    "id": 761,
+    "word": "전철",
+    "english": "Electric train",
+    "pron": "jeoncheol"
+  },
+  {
+    "id": 762,
+    "word": "전통",
+    "english": "Tradition",
+    "pron": "jeontong"
+  },
+  {
+    "id": 763,
+    "word": "전화",
+    "english": "Telephone",
+    "pron": "jeonhwa"
+  },
+  {
+    "id": 764,
+    "word": "절망",
+    "english": "Despair",
+    "pron": "jeolmang"
+  },
+  {
+    "id": 765,
+    "word": "절벽",
+    "english": "Cliff",
+    "pron": "jeolbyeok"
+  },
+  {
+    "id": 766,
+    "word": "절제",
+    "english": "Self-restraint",
+    "pron": "jeolje"
+  },
+  {
+    "id": 767,
+    "word": "접속",
+    "english": "System connection",
+    "pron": "jeopsok"
+  },
+  {
+    "id": 768,
+    "word": "접시",
+    "english": "Plate",
+    "pron": "jeopsi"
+  },
+  {
+    "id": 769,
+    "word": "정답",
+    "english": "Correct answer",
+    "pron": "jeongdap"
+  },
+  {
+    "id": 770,
+    "word": "정문",
+    "english": "Main gate",
+    "pron": "jeongmun"
+  },
+  {
+    "id": 771,
+    "word": "정보",
+    "english": "Information",
+    "pron": "jeongbo"
+  },
+  {
+    "id": 772,
+    "word": "정부",
+    "english": "Government",
+    "pron": "jeongbu"
+  },
+  {
+    "id": 773,
+    "word": "정신",
+    "english": "Spirit",
+    "pron": "jeongsin"
+  },
+  {
+    "id": 774,
+    "word": "정의",
+    "english": "Justice",
+    "pron": "jeongui"
+  },
+  {
+    "id": 775,
+    "word": "정장",
+    "english": "Suit",
+    "pron": "jeongjang"
+  },
+  {
+    "id": 776,
+    "word": "정직",
+    "english": "Honesty",
+    "pron": "jeongjik"
+  },
+  {
+    "id": 777,
+    "word": "정체",
+    "english": "Stagnation",
+    "pron": "jeongche"
+  },
+  {
+    "id": 778,
+    "word": "제자",
+    "english": "Pupil or disciple",
+    "pron": "jeja"
+  },
+  {
+    "id": 779,
+    "word": "제조",
+    "english": "Manufacturing",
+    "pron": "jejo"
+  },
+  {
+    "id": 780,
+    "word": "조각",
+    "english": "Sculpture",
+    "pron": "jogak"
+  },
+  {
+    "id": 781,
+    "word": "조사",
+    "english": "Particle",
+    "pron": "josa"
+  },
+  {
+    "id": 782,
+    "word": "조카",
+    "english": "Niece or nephew",
+    "pron": "joka"
+  },
+  {
+    "id": 783,
+    "word": "조합",
+    "english": "Union",
+    "pron": "johap"
+  },
+  {
+    "id": 784,
+    "word": "존중",
+    "english": "Respect",
+    "pron": "jonjung"
+  },
+  {
+    "id": 785,
+    "word": "종양",
+    "english": "Tumor",
+    "pron": "jongyang"
+  },
+  {
+    "id": 786,
+    "word": "종이",
+    "english": "Paper",
+    "pron": "jongi"
+  },
+  {
+    "id": 787,
+    "word": "좌석",
+    "english": "Seat",
+    "pron": "jwaseok"
+  },
+  {
+    "id": 788,
+    "word": "좌측",
+    "english": "Left",
+    "pron": "jwacheuk"
+  },
+  {
+    "id": 789,
+    "word": "좌표",
+    "english": "Coordinates",
+    "pron": "jwapyo"
+  },
+  {
+    "id": 790,
+    "word": "주거",
+    "english": "Residence",
+    "pron": "jugeo"
+  },
+  {
+    "id": 791,
+    "word": "주말",
+    "english": "Weekend",
+    "pron": "jumal"
+  },
+  {
+    "id": 792,
+    "word": "주목",
+    "english": "Yew",
+    "pron": "jumok"
+  },
+  {
+    "id": 793,
+    "word": "주민",
+    "english": "Resident",
+    "pron": "jumin"
+  },
+  {
+    "id": 794,
+    "word": "주변",
+    "english": "Surroundings",
+    "pron": "jubyeon"
+  },
+  {
+    "id": 795,
+    "word": "주부",
+    "english": "Homemaker",
+    "pron": "jubu"
+  },
+  {
+    "id": 796,
+    "word": "주석",
+    "english": "Tin",
+    "pron": "juseok"
+  },
+  {
+    "id": 797,
+    "word": "주식",
+    "english": "Stock",
+    "pron": "jusik"
+  },
+  {
+    "id": 798,
+    "word": "주차",
+    "english": "Parking",
+    "pron": "jucha"
+  },
+  {
+    "id": 799,
+    "word": "주택",
+    "english": "House",
+    "pron": "jutaek"
+  },
+  {
+    "id": 800,
+    "word": "중계",
+    "english": "Relay",
+    "pron": "junggye"
+  },
+  {
+    "id": 801,
+    "word": "중력",
+    "english": "Gravity",
+    "pron": "jungnyeok"
+  },
+  {
+    "id": 802,
+    "word": "중심",
+    "english": "Center or core",
+    "pron": "jungsim"
+  },
+  {
+    "id": 803,
+    "word": "중앙",
+    "english": "Central area",
+    "pron": "jungang"
+  },
+  {
+    "id": 804,
+    "word": "증거",
+    "english": "Evidence",
+    "pron": "jeunggeo"
+  },
+  {
+    "id": 805,
+    "word": "증권",
+    "english": "Securities",
+    "pron": "jeunggwon"
+  },
+  {
+    "id": 806,
+    "word": "지갑",
+    "english": "Wallet",
+    "pron": "jigap"
+  },
+  {
+    "id": 807,
+    "word": "지도",
+    "english": "Map",
+    "pron": "jido"
+  },
+  {
+    "id": 808,
+    "word": "지부",
+    "english": "Branch",
+    "pron": "jibu"
+  },
+  {
+    "id": 809,
+    "word": "지붕",
+    "english": "Roof",
+    "pron": "jibung"
+  },
+  {
+    "id": 810,
+    "word": "지상",
+    "english": "Ground level",
+    "pron": "jisang"
+  },
+  {
+    "id": 811,
+    "word": "지성",
+    "english": "Intellect",
+    "pron": "jiseong"
+  },
+  {
+    "id": 812,
+    "word": "지식",
+    "english": "Knowledge",
+    "pron": "jisik"
+  },
+  {
+    "id": 813,
+    "word": "지역",
+    "english": "Region",
+    "pron": "jiyeok"
+  },
+  {
+    "id": 814,
+    "word": "지인",
+    "english": "Acquaintance",
+    "pron": "jiin"
+  },
+  {
+    "id": 815,
+    "word": "지점",
+    "english": "Branch office",
+    "pron": "jijeom"
+  },
+  {
+    "id": 816,
+    "word": "지진",
+    "english": "Earthquake",
+    "pron": "jijin"
+  },
+  {
+    "id": 817,
+    "word": "지질",
+    "english": "Geology",
+    "pron": "jijil"
+  },
+  {
+    "id": 818,
+    "word": "지하",
+    "english": "Underground",
+    "pron": "jiha"
+  },
+  {
+    "id": 819,
+    "word": "지형",
+    "english": "Terrain",
+    "pron": "jihyeong"
+  },
+  {
+    "id": 820,
+    "word": "직관",
+    "english": "Intuition",
+    "pron": "jikgwan"
+  },
+  {
+    "id": 821,
+    "word": "직원",
+    "english": "Staff member",
+    "pron": "jigwon"
+  },
+  {
+    "id": 822,
+    "word": "직장",
+    "english": "Workplace",
+    "pron": "jikjang"
+  },
+  {
+    "id": 823,
+    "word": "진공",
+    "english": "Vacuum",
+    "pron": "jingong"
+  },
+  {
+    "id": 824,
+    "word": "진동",
+    "english": "Vibration",
+    "pron": "jindong"
+  },
+  {
+    "id": 825,
+    "word": "진실",
+    "english": "Truth",
+    "pron": "jinsil"
+  },
+  {
+    "id": 826,
+    "word": "질량",
+    "english": "Mass",
+    "pron": "jillyang"
+  },
+  {
+    "id": 827,
+    "word": "질문",
+    "english": "Question",
+    "pron": "jilmun"
+  },
+  {
+    "id": 828,
+    "word": "질병",
+    "english": "Disease",
+    "pron": "jilbyeong"
+  },
+  {
+    "id": 829,
+    "word": "질주",
+    "english": "Sprinting",
+    "pron": "jilju"
+  },
+  {
+    "id": 830,
+    "word": "질투",
+    "english": "Jealousy",
+    "pron": "jiltu"
+  },
+  {
+    "id": 831,
+    "word": "찜기",
+    "english": "Steamer",
+    "pron": "jjimgi"
+  },
+  {
+    "id": 832,
+    "word": "차량",
+    "english": "Vehicle",
+    "pron": "charyang"
+  },
+  {
+    "id": 833,
+    "word": "차로",
+    "english": "Lane",
+    "pron": "charo"
+  },
+  {
+    "id": 834,
+    "word": "차별",
+    "english": "Discrimination",
+    "pron": "chabyeol"
+  },
+  {
+    "id": 835,
+    "word": "차선",
+    "english": "Traffic lane",
+    "pron": "chaseon"
+  },
+  {
+    "id": 836,
+    "word": "참치",
+    "english": "Tuna",
+    "pron": "chamchi"
+  },
+  {
+    "id": 837,
+    "word": "창고",
+    "english": "Warehouse",
+    "pron": "changgo"
+  },
+  {
+    "id": 838,
+    "word": "창문",
+    "english": "Window",
+    "pron": "changmun"
+  },
+  {
+    "id": 839,
+    "word": "채권",
+    "english": "Bond",
+    "pron": "chaegwon"
+  },
+  {
+    "id": 840,
+    "word": "채널",
+    "english": "Channel",
+    "pron": "chaeneol"
+  },
+  {
+    "id": 841,
+    "word": "채색",
+    "english": "Coloring",
+    "pron": "chaesaek"
+  },
+  {
+    "id": 842,
+    "word": "채소",
+    "english": "Vegetable",
+    "pron": "chaeso"
+  },
+  {
+    "id": 843,
+    "word": "책임",
+    "english": "Responsibility",
+    "pron": "chaegim"
+  },
+  {
+    "id": 844,
+    "word": "처리",
+    "english": "Handling",
+    "pron": "cheori"
+  },
+  {
+    "id": 845,
+    "word": "척추",
+    "english": "Spine",
+    "pron": "cheokchu"
+  },
+  {
+    "id": 846,
+    "word": "천장",
+    "english": "Ceiling",
+    "pron": "cheonjang"
+  },
+  {
+    "id": 847,
+    "word": "청년",
+    "english": "Young adult",
+    "pron": "cheongnyeon"
+  },
+  {
+    "id": 848,
+    "word": "체조",
+    "english": "Gymnastics",
+    "pron": "chejo"
+  },
+  {
+    "id": 849,
+    "word": "체포",
+    "english": "Arrest",
+    "pron": "chepo"
+  },
+  {
+    "id": 850,
+    "word": "초원",
+    "english": "Meadow",
+    "pron": "chowon"
+  },
+  {
+    "id": 851,
+    "word": "촬영",
+    "english": "Photography and filming",
+    "pron": "chwaryeong"
+  },
+  {
+    "id": 852,
+    "word": "출구",
+    "english": "Exit",
+    "pron": "chulgu"
+  },
+  {
+    "id": 853,
+    "word": "출력",
+    "english": "Output",
+    "pron": "chullyeok"
+  },
+  {
+    "id": 854,
+    "word": "출발",
+    "english": "Departure",
+    "pron": "chulbal"
+  },
+  {
+    "id": 855,
+    "word": "출판",
+    "english": "Publishing",
+    "pron": "chulpan"
+  },
+  {
+    "id": 856,
+    "word": "출혈",
+    "english": "Bleeding",
+    "pron": "chulhyeol"
+  },
+  {
+    "id": 857,
+    "word": "충성",
+    "english": "Loyalty",
+    "pron": "chungseong"
+  },
+  {
+    "id": 858,
+    "word": "충전",
+    "english": "Charging",
+    "pron": "chungjeon"
+  },
+  {
+    "id": 859,
+    "word": "취재",
+    "english": "News gathering",
+    "pron": "chwijae"
+  },
+  {
+    "id": 860,
+    "word": "측면",
+    "english": "Side",
+    "pron": "cheungmyeon"
+  },
+  {
+    "id": 861,
+    "word": "측정",
+    "english": "Measurement",
+    "pron": "cheukjeong"
+  },
+  {
+    "id": 862,
+    "word": "치료",
+    "english": "Treatment",
+    "pron": "chiryo"
+  },
+  {
+    "id": 863,
+    "word": "치마",
+    "english": "Skirt",
+    "pron": "chima"
+  },
+  {
+    "id": 864,
+    "word": "치타",
+    "english": "Cheetah",
+    "pron": "chita"
+  },
+  {
+    "id": 865,
+    "word": "친구",
+    "english": "Friend",
+    "pron": "chingu"
+  },
+  {
+    "id": 866,
+    "word": "친절",
+    "english": "Kindness",
+    "pron": "chinjeol"
+  },
+  {
+    "id": 867,
+    "word": "친척",
+    "english": "Relative",
+    "pron": "chincheok"
+  },
+  {
+    "id": 868,
+    "word": "침묵",
+    "english": "Silence",
+    "pron": "chimmuk"
+  },
+  {
+    "id": 869,
+    "word": "침착",
+    "english": "Composure",
+    "pron": "chimchak"
+  },
+  {
+    "id": 870,
+    "word": "카드",
+    "english": "Card",
+    "pron": "kadeu"
+  },
+  {
+    "id": 871,
+    "word": "칼럼",
+    "english": "Column",
+    "pron": "kalleom"
+  },
+  {
+    "id": 872,
+    "word": "커서",
+    "english": "Cursor",
+    "pron": "keoseo"
+  },
+  {
+    "id": 873,
+    "word": "커튼",
+    "english": "Curtain",
+    "pron": "keoteun"
+  },
+  {
+    "id": 874,
+    "word": "코드",
+    "english": "Code",
+    "pron": "kodeu"
+  },
+  {
+    "id": 875,
+    "word": "코딩",
+    "english": "Coding",
+    "pron": "koding"
+  },
+  {
+    "id": 876,
+    "word": "코트",
+    "english": "Coat",
+    "pron": "koteu"
+  },
+  {
+    "id": 877,
+    "word": "클릭",
+    "english": "Click",
+    "pron": "keullik"
+  },
+  {
+    "id": 878,
+    "word": "탁구",
+    "english": "Table tennis",
+    "pron": "takgu"
+  },
+  {
+    "id": 879,
+    "word": "탐욕",
+    "english": "Greed",
+    "pron": "tamyok"
+  },
+  {
+    "id": 880,
+    "word": "태양",
+    "english": "Sun",
+    "pron": "taeyang"
+  },
+  {
+    "id": 881,
+    "word": "태풍",
+    "english": "Typhoon",
+    "pron": "taepung"
+  },
+  {
+    "id": 882,
+    "word": "택시",
+    "english": "Taxi",
+    "pron": "taeksi"
+  },
+  {
+    "id": 883,
+    "word": "토지",
+    "english": "Land",
+    "pron": "toji"
+  },
+  {
+    "id": 884,
+    "word": "통계",
+    "english": "Statistics",
+    "pron": "tonggye"
+  },
+  {
+    "id": 885,
+    "word": "통로",
+    "english": "Passageway",
+    "pron": "tongno"
+  },
+  {
+    "id": 886,
+    "word": "통신",
+    "english": "Telecommunication",
+    "pron": "tongsin"
+  },
+  {
+    "id": 887,
+    "word": "통역",
+    "english": "Interpreting",
+    "pron": "tongyeok"
+  },
+  {
+    "id": 888,
+    "word": "통증",
+    "english": "Pain",
+    "pron": "tongjeung"
+  },
+  {
+    "id": 889,
+    "word": "통행",
+    "english": "Passing through",
+    "pron": "tonghaeng"
+  },
+  {
+    "id": 890,
+    "word": "통화",
+    "english": "Telephone call",
+    "pron": "tonghwa"
+  },
+  {
+    "id": 891,
+    "word": "투자",
+    "english": "Investment",
+    "pron": "tuja"
+  },
+  {
+    "id": 892,
+    "word": "튀김",
+    "english": "Deep-fried food",
+    "pron": "twigim"
+  },
+  {
+    "id": 893,
+    "word": "트럭",
+    "english": "Truck",
+    "pron": "teureok"
+  },
+  {
+    "id": 894,
+    "word": "파동",
+    "english": "Wave motion",
+    "pron": "padong"
+  },
+  {
+    "id": 895,
+    "word": "파일",
+    "english": "File",
+    "pron": "pail"
+  },
+  {
+    "id": 896,
+    "word": "파장",
+    "english": "Wavelength",
+    "pron": "pajang"
+  },
+  {
+    "id": 897,
+    "word": "판다",
+    "english": "Panda",
+    "pron": "panda"
+  },
+  {
+    "id": 898,
+    "word": "판단",
+    "english": "Judgment",
+    "pron": "pandan"
+  },
+  {
+    "id": 899,
+    "word": "판매",
+    "english": "Sale",
+    "pron": "panmae"
+  },
+  {
+    "id": 900,
+    "word": "판사",
+    "english": "Judge",
+    "pron": "pansa"
+  },
+  {
+    "id": 901,
+    "word": "팔찌",
+    "english": "Bracelet",
+    "pron": "paljji"
+  },
+  {
+    "id": 902,
+    "word": "펀드",
+    "english": "Investment fund",
+    "pron": "peondeu"
+  },
+  {
+    "id": 903,
+    "word": "펌프",
+    "english": "Pump",
+    "pron": "peompeu"
+  },
+  {
+    "id": 904,
+    "word": "펭귄",
+    "english": "Penguin",
+    "pron": "penggwin"
+  },
+  {
+    "id": 905,
+    "word": "편견",
+    "english": "Prejudice",
+    "pron": "pyeongyeon"
+  },
+  {
+    "id": 906,
+    "word": "편집",
+    "english": "Editing",
+    "pron": "pyeonjip"
+  },
+  {
+    "id": 907,
+    "word": "평균",
+    "english": "Average",
+    "pron": "pyeonggyun"
+  },
+  {
+    "id": 908,
+    "word": "평등",
+    "english": "Equality",
+    "pron": "pyeongdeung"
+  },
+  {
+    "id": 909,
+    "word": "평생",
+    "english": "Whole life",
+    "pron": "pyeongsaeng"
+  },
+  {
+    "id": 910,
+    "word": "평안",
+    "english": "Well-being",
+    "pron": "pyeongan"
+  },
+  {
+    "id": 911,
+    "word": "평온",
+    "english": "Tranquility",
+    "pron": "pyeongon"
+  },
+  {
+    "id": 912,
+    "word": "평화",
+    "english": "Peace",
+    "pron": "pyeonghwa"
+  },
+  {
+    "id": 913,
+    "word": "포도",
+    "english": "Grape",
+    "pron": "podo"
+  },
+  {
+    "id": 914,
+    "word": "포크",
+    "english": "Fork",
+    "pron": "pokeu"
+  },
+  {
+    "id": 915,
+    "word": "폭염",
+    "english": "Heat wave",
+    "pron": "pogyeom"
+  },
+  {
+    "id": 916,
+    "word": "폭포",
+    "english": "Waterfall",
+    "pron": "pokpo"
+  },
+  {
+    "id": 917,
+    "word": "폭풍",
+    "english": "Storm",
+    "pron": "pokpung"
+  },
+  {
+    "id": 918,
+    "word": "폴더",
+    "english": "Folder",
+    "pron": "poldeo"
+  },
+  {
+    "id": 919,
+    "word": "표기",
+    "english": "Written notation",
+    "pron": "pyogi"
+  },
+  {
+    "id": 920,
+    "word": "표본",
+    "english": "Specimen",
+    "pron": "pyobon"
+  },
+  {
+    "id": 921,
+    "word": "표지",
+    "english": "Sign",
+    "pron": "pyoji"
+  },
+  {
+    "id": 922,
+    "word": "표현",
+    "english": "Expression",
+    "pron": "pyohyeon"
+  },
+  {
+    "id": 923,
+    "word": "품질",
+    "english": "Quality",
+    "pron": "pumjil"
+  },
+  {
+    "id": 924,
+    "word": "풍속",
+    "english": "Wind speed",
+    "pron": "pungsok"
+  },
+  {
+    "id": 925,
+    "word": "피로",
+    "english": "Fatigue",
+    "pron": "piro"
+  },
+  {
+    "id": 926,
+    "word": "피부",
+    "english": "Skin",
+    "pron": "pibu"
+  },
+  {
+    "id": 927,
+    "word": "하단",
+    "english": "Bottom",
+    "pron": "hadan"
+  },
+  {
+    "id": 928,
+    "word": "하마",
+    "english": "Hippopotamus",
+    "pron": "hama"
+  },
+  {
+    "id": 929,
+    "word": "하차",
+    "english": "Alighting",
+    "pron": "hacha"
+  },
+  {
+    "id": 930,
+    "word": "하천",
+    "english": "River or stream",
+    "pron": "hacheon"
+  },
+  {
+    "id": 931,
+    "word": "학교",
+    "english": "School",
+    "pron": "hakgyo"
+  },
+  {
+    "id": 932,
+    "word": "학기",
+    "english": "Semester",
+    "pron": "hakgi"
+  },
+  {
+    "id": 933,
+    "word": "학년",
+    "english": "Grade level",
+    "pron": "hangnyeon"
+  },
+  {
+    "id": 934,
+    "word": "학생",
+    "english": "Student",
+    "pron": "haksaeng"
+  },
+  {
+    "id": 935,
+    "word": "학습",
+    "english": "Learning",
+    "pron": "hakseup"
+  },
+  {
+    "id": 936,
+    "word": "학원",
+    "english": "Private academy",
+    "pron": "hagwon"
+  },
+  {
+    "id": 937,
+    "word": "학자",
+    "english": "Scholar",
+    "pron": "hakja"
+  },
+  {
+    "id": 938,
+    "word": "학회",
+    "english": "Academic society",
+    "pron": "hakoe"
+  },
+  {
+    "id": 939,
+    "word": "한때",
+    "english": "At one time",
+    "pron": "hanttae"
+  },
+  {
+    "id": 940,
+    "word": "한복",
+    "english": "Traditional Korean clothing",
+    "pron": "hanbok"
+  },
+  {
+    "id": 941,
+    "word": "함수",
+    "english": "Function",
+    "pron": "hamsu"
+  },
+  {
+    "id": 942,
+    "word": "합의",
+    "english": "Agreement",
+    "pron": "habui"
+  },
+  {
+    "id": 943,
+    "word": "합창",
+    "english": "Choral singing",
+    "pron": "hapchang"
+  },
+  {
+    "id": 944,
+    "word": "항공",
+    "english": "Aviation",
+    "pron": "hanggong"
+  },
+  {
+    "id": 945,
+    "word": "항구",
+    "english": "Harbor",
+    "pron": "hanggu"
+  },
+  {
+    "id": 946,
+    "word": "항로",
+    "english": "Shipping or air route",
+    "pron": "hangno"
+  },
+  {
+    "id": 947,
+    "word": "항만",
+    "english": "Port",
+    "pron": "hangman"
+  },
+  {
+    "id": 948,
+    "word": "항해",
+    "english": "Sailing",
+    "pron": "hanghae"
+  },
+  {
+    "id": 949,
+    "word": "해답",
+    "english": "Answer",
+    "pron": "haedap"
+  },
+  {
+    "id": 950,
+    "word": "해변",
+    "english": "Beach",
+    "pron": "haebyeon"
+  },
+  {
+    "id": 951,
+    "word": "해안",
+    "english": "Coast",
+    "pron": "haean"
+  },
+  {
+    "id": 952,
+    "word": "햇빛",
+    "english": "Sunlight",
+    "pron": "haetbit"
+  },
+  {
+    "id": 953,
+    "word": "햇살",
+    "english": "Sunshine",
+    "pron": "haetsal"
+  },
+  {
+    "id": 954,
+    "word": "행렬",
+    "english": "Matrix",
+    "pron": "haengnyeol"
+  },
+  {
+    "id": 955,
+    "word": "행복",
+    "english": "Happiness",
+    "pron": "haengbok"
+  },
+  {
+    "id": 956,
+    "word": "행성",
+    "english": "Planet",
+    "pron": "haengseong"
+  },
+  {
+    "id": 957,
+    "word": "행정",
+    "english": "Administration",
+    "pron": "haengjeong"
+  },
+  {
+    "id": 958,
+    "word": "허리",
+    "english": "Waist or lower back",
+    "pron": "heori"
+  },
+  {
+    "id": 959,
+    "word": "헌법",
+    "english": "Constitution",
+    "pron": "heonbeop"
+  },
+  {
+    "id": 960,
+    "word": "헬기",
+    "english": "Helicopter",
+    "pron": "helgi"
+  },
+  {
+    "id": 961,
+    "word": "현관",
+    "english": "Entrance hall",
+    "pron": "hyeongwan"
+  },
+  {
+    "id": 962,
+    "word": "현재",
+    "english": "Present",
+    "pron": "hyeonjae"
+  },
+  {
+    "id": 963,
+    "word": "혈관",
+    "english": "Blood vessel",
+    "pron": "hyeolgwan"
+  },
+  {
+    "id": 964,
+    "word": "혈압",
+    "english": "Blood pressure",
+    "pron": "hyeorap"
+  },
+  {
+    "id": 965,
+    "word": "혈액",
+    "english": "Blood",
+    "pron": "hyeoraek"
+  },
+  {
+    "id": 966,
+    "word": "혐오",
+    "english": "Disgust",
+    "pron": "hyeomo"
+  },
+  {
+    "id": 967,
+    "word": "협력",
+    "english": "Cooperation",
+    "pron": "hyeomnyeok"
+  },
+  {
+    "id": 968,
+    "word": "협회",
+    "english": "Association",
+    "pron": "hyeopoe"
+  },
+  {
+    "id": 969,
+    "word": "형제",
+    "english": "Brothers",
+    "pron": "hyeongje"
+  },
+  {
+    "id": 970,
+    "word": "혜성",
+    "english": "Comet",
+    "pron": "hyeseong"
+  },
+  {
+    "id": 971,
+    "word": "호수",
+    "english": "Lake",
+    "pron": "hosu"
+  },
+  {
+    "id": 972,
+    "word": "호텔",
+    "english": "Hotel",
+    "pron": "hotel"
+  },
+  {
+    "id": 973,
+    "word": "호흡",
+    "english": "Respiration",
+    "pron": "hoheup"
+  },
+  {
+    "id": 974,
+    "word": "혼돈",
+    "english": "Chaos",
+    "pron": "hondon"
+  },
+  {
+    "id": 975,
+    "word": "혼란",
+    "english": "Confusion",
+    "pron": "hollan"
+  },
+  {
+    "id": 976,
+    "word": "홍수",
+    "english": "Flood",
+    "pron": "hongsu"
+  },
+  {
+    "id": 977,
+    "word": "화면",
+    "english": "Screen",
+    "pron": "hwamyeon"
+  },
+  {
+    "id": 978,
+    "word": "화산",
+    "english": "Volcano",
+    "pron": "hwasan"
+  },
+  {
+    "id": 979,
+    "word": "화상",
+    "english": "Burn",
+    "pron": "hwasang"
+  },
+  {
+    "id": 980,
+    "word": "화폐",
+    "english": "Currency",
+    "pron": "hwapye"
+  },
+  {
+    "id": 981,
+    "word": "화학",
+    "english": "Chemistry",
+    "pron": "hwahak"
+  },
+  {
+    "id": 982,
+    "word": "화해",
+    "english": "Reconciliation",
+    "pron": "hwahae"
+  },
+  {
+    "id": 983,
+    "word": "확률",
+    "english": "Probability",
+    "pron": "hwangnyul"
+  },
+  {
+    "id": 984,
+    "word": "환승",
+    "english": "Transfer",
+    "pron": "hwanseung"
+  },
+  {
+    "id": 985,
+    "word": "환율",
+    "english": "Exchange rate",
+    "pron": "hwanyul"
+  },
+  {
+    "id": 986,
+    "word": "환자",
+    "english": "Patient",
+    "pron": "hwanja"
+  },
+  {
+    "id": 987,
+    "word": "회계",
+    "english": "Accounting",
+    "pron": "hoegye"
+  },
+  {
+    "id": 988,
+    "word": "회로",
+    "english": "Circuit",
+    "pron": "hoero"
+  },
+  {
+    "id": 989,
+    "word": "회복",
+    "english": "Recovery",
+    "pron": "hoebok"
+  },
+  {
+    "id": 990,
+    "word": "회사",
+    "english": "Company",
+    "pron": "hoesa"
+  },
+  {
+    "id": 991,
+    "word": "회원",
+    "english": "Member",
+    "pron": "hoewon"
+  },
+  {
+    "id": 992,
+    "word": "회화",
+    "english": "Painting",
+    "pron": "hoehwa"
+  },
+  {
+    "id": 993,
+    "word": "효소",
+    "english": "Enzyme",
+    "pron": "hyoso"
+  },
+  {
+    "id": 994,
+    "word": "후면",
+    "english": "Back surface",
+    "pron": "humyeon"
+  },
+  {
+    "id": 995,
+    "word": "후방",
+    "english": "Rear area",
+    "pron": "hubang"
+  },
+  {
+    "id": 996,
+    "word": "후배",
+    "english": "Junior schoolmate or colleague",
+    "pron": "hubae"
+  },
+  {
+    "id": 997,
+    "word": "훈련",
+    "english": "Training",
+    "pron": "hullyeon"
+  },
+  {
+    "id": 998,
+    "word": "훗날",
+    "english": "Someday",
+    "pron": "hunnal"
+  },
+  {
+    "id": 999,
+    "word": "휴게",
+    "english": "Break",
+    "pron": "hyuge"
+  },
+  {
+    "id": 1000,
+    "word": "휴식",
+    "english": "Rest",
+    "pron": "hyusik"
+  },
+  {
+    "id": 1001,
+    "word": "희망",
+    "english": "Hope",
+    "pron": "huimang"
+  },
+  {
+    "id": 1002,
+    "word": "가습기",
+    "english": "Humidifier",
+    "pron": "gaseupgi"
+  },
+  {
+    "id": 1003,
+    "word": "가오리",
+    "english": "Ray",
+    "pron": "gaori"
+  },
+  {
+    "id": 1004,
+    "word": "가자미",
+    "english": "Flounder",
+    "pron": "gajami"
+  },
+  {
+    "id": 1005,
+    "word": "가해자",
+    "english": "Perpetrator",
+    "pron": "gahaeja"
+  },
+  {
+    "id": 1006,
+    "word": "간호사",
+    "english": "Nurse",
+    "pron": "ganhosa"
+  },
+  {
+    "id": 1007,
+    "word": "갈림길",
+    "english": "Road Fork",
+    "pron": "gallimgil"
+  },
+  {
+    "id": 1008,
+    "word": "갈비뼈",
+    "english": "Rib",
+    "pron": "galbippyeo"
+  },
+  {
+    "id": 1009,
+    "word": "갈비찜",
+    "english": "Braised Short Ribs",
+    "pron": "galbijjim"
+  },
+  {
+    "id": 1010,
+    "word": "갈비탕",
+    "english": "Beef Short Rib Soup",
+    "pron": "galbitang"
+  },
+  {
+    "id": 1011,
+    "word": "감자칼",
+    "english": "Potato Peeler",
+    "pron": "gamjakal"
+  },
+  {
+    "id": 1012,
+    "word": "감자탕",
+    "english": "Pork Backbone Stew",
+    "pron": "gamjatang"
+  },
+  {
+    "id": 1013,
+    "word": "강아지",
+    "english": "Puppy",
+    "pron": "gangaji"
+  },
+  {
+    "id": 1014,
+    "word": "강의실",
+    "english": "Lecture Room",
+    "pron": "ganguisil"
+  },
+  {
+    "id": 1015,
+    "word": "개구리",
+    "english": "Frog",
+    "pron": "gaeguri"
+  },
+  {
+    "id": 1016,
+    "word": "개나리",
+    "english": "Forsythia",
+    "pron": "gaenari"
+  },
+  {
+    "id": 1017,
+    "word": "개복치",
+    "english": "Ocean Sunfish",
+    "pron": "gaebokchi"
+  },
+  {
+    "id": 1018,
+    "word": "거북이",
+    "english": "Turtle",
+    "pron": "geobugi"
+  },
+  {
+    "id": 1019,
+    "word": "건전지",
+    "english": "Dry Cell",
+    "pron": "geonjeonji"
+  },
+  {
+    "id": 1020,
+    "word": "건조기",
+    "english": "Dryer",
+    "pron": "geonjogi"
+  },
+  {
+    "id": 1021,
+    "word": "건축가",
+    "english": "Architect",
+    "pron": "geonchukga"
+  },
+  {
+    "id": 1022,
+    "word": "건축물",
+    "english": "Building",
+    "pron": "geonchungmul"
+  },
+  {
+    "id": 1023,
+    "word": "경찰관",
+    "english": "Police Officer",
+    "pron": "gyeongchalgwan"
+  },
+  {
+    "id": 1024,
+    "word": "경찰서",
+    "english": "Police Station",
+    "pron": "gyeongchalseo"
+  },
+  {
+    "id": 1025,
+    "word": "계산기",
+    "english": "Calculator",
+    "pron": "gyesangi"
+  },
+  {
+    "id": 1026,
+    "word": "고구마",
+    "english": "Sweet Potato",
+    "pron": "goguma"
+  },
+  {
+    "id": 1027,
+    "word": "고등어",
+    "english": "Mackerel",
+    "pron": "godeungeo"
+  },
+  {
+    "id": 1028,
+    "word": "고라니",
+    "english": "Water Deer",
+    "pron": "gorani"
+  },
+  {
+    "id": 1029,
+    "word": "고릴라",
+    "english": "Gorilla",
+    "pron": "gorilla"
+  },
+  {
+    "id": 1030,
+    "word": "고사리",
+    "english": "Bracken Fern",
+    "pron": "gosari"
+  },
+  {
+    "id": 1031,
+    "word": "고양이",
+    "english": "Cat",
+    "pron": "goyangi"
+  },
+  {
+    "id": 1032,
+    "word": "고추장",
+    "english": "Red Chili Paste",
+    "pron": "gochujang"
+  },
+  {
+    "id": 1033,
+    "word": "골목길",
+    "english": "Alleyway",
+    "pron": "golmokgil"
+  },
+  {
+    "id": 1034,
+    "word": "골밀도",
+    "english": "Bone Density",
+    "pron": "golmildo"
+  },
+  {
+    "id": 1035,
+    "word": "골짜기",
+    "english": "Valley",
+    "pron": "goljjagi"
+  },
+  {
+    "id": 1036,
+    "word": "곰팡이",
+    "english": "Mold",
+    "pron": "gompangi"
+  },
+  {
+    "id": 1037,
+    "word": "공구함",
+    "english": "Toolbox",
+    "pron": "gongguham"
+  },
+  {
+    "id": 1038,
+    "word": "공동체",
+    "english": "Community",
+    "pron": "gongdongche"
+  },
+  {
+    "id": 1039,
+    "word": "공무원",
+    "english": "Civil Servant",
+    "pron": "gongmuwon"
+  },
+  {
+    "id": 1040,
+    "word": "공부법",
+    "english": "Study Method",
+    "pron": "gongbubeop"
+  },
+  {
+    "id": 1041,
+    "word": "공연장",
+    "english": "Performance Hall",
+    "pron": "gongyeonjang"
+  },
+  {
+    "id": 1042,
+    "word": "공예품",
+    "english": "Handicraft",
+    "pron": "gongyepum"
+  },
+  {
+    "id": 1043,
+    "word": "공유기",
+    "english": "Router",
+    "pron": "gongyugi"
+  },
+  {
+    "id": 1044,
+    "word": "과학자",
+    "english": "Scientist",
+    "pron": "gwahakja"
+  },
+  {
+    "id": 1045,
+    "word": "관계자",
+    "english": "Relevant Party",
+    "pron": "gwangyeja"
+  },
+  {
+    "id": 1046,
+    "word": "관광지",
+    "english": "Tourist Attraction",
+    "pron": "gwangwangji"
+  },
+  {
+    "id": 1047,
+    "word": "관람객",
+    "english": "Visitor",
+    "pron": "gwallamgaek"
+  },
+  {
+    "id": 1048,
+    "word": "관람권",
+    "english": "Event Ticket",
+    "pron": "gwallamgwon"
+  },
+  {
+    "id": 1049,
+    "word": "교과서",
+    "english": "Textbook",
+    "pron": "gyogwaseo"
+  },
+  {
+    "id": 1050,
+    "word": "교수법",
+    "english": "Teaching Method",
+    "pron": "gyosubeop"
+  },
+  {
+    "id": 1051,
+    "word": "교육자",
+    "english": "Educator",
+    "pron": "gyoyukja"
+  },
+  {
+    "id": 1052,
+    "word": "교육학",
+    "english": "Education Studies",
+    "pron": "gyoyukak"
+  },
+  {
+    "id": 1053,
+    "word": "교차로",
+    "english": "Intersection",
+    "pron": "gyocharo"
+  },
+  {
+    "id": 1054,
+    "word": "교향곡",
+    "english": "Symphony",
+    "pron": "gyohyanggok"
+  },
+  {
+    "id": 1055,
+    "word": "구급차",
+    "english": "Ambulance",
+    "pron": "gugeupcha"
+  },
+  {
+    "id": 1056,
+    "word": "구독자",
+    "english": "Subscriber",
+    "pron": "gudokja"
+  },
+  {
+    "id": 1057,
+    "word": "구성원",
+    "english": "Member",
+    "pron": "guseongwon"
+  },
+  {
+    "id": 1058,
+    "word": "구조물",
+    "english": "Structure",
+    "pron": "gujomul"
+  },
+  {
+    "id": 1059,
+    "word": "군만두",
+    "english": "Fried Dumplings",
+    "pron": "gunmandu"
+  },
+  {
+    "id": 1060,
+    "word": "근로자",
+    "english": "Employee",
+    "pron": "geulloja"
+  },
+  {
+    "id": 1061,
+    "word": "근육량",
+    "english": "Muscle Mass",
+    "pron": "geunyungnyang"
+  },
+  {
+    "id": 1062,
+    "word": "기관지",
+    "english": "Bronchus",
+    "pron": "gigwanji"
+  },
+  {
+    "id": 1063,
+    "word": "기관차",
+    "english": "Locomotive",
+    "pron": "gigwancha"
+  },
+  {
+    "id": 1064,
+    "word": "기념관",
+    "english": "Memorial Hall",
+    "pron": "ginyeomgwan"
+  },
+  {
+    "id": 1065,
+    "word": "기념품",
+    "english": "Souvenir",
+    "pron": "ginyeompum"
+  },
+  {
+    "id": 1066,
+    "word": "기숙사",
+    "english": "Dormitory",
+    "pron": "gisuksa"
+  },
+  {
+    "id": 1067,
+    "word": "기차역",
+    "english": "Train Station",
+    "pron": "gichayeok"
+  },
+  {
+    "id": 1068,
+    "word": "긴바지",
+    "english": "Long Pants",
+    "pron": "ginbaji"
+  },
+  {
+    "id": 1069,
+    "word": "김치전",
+    "english": "Kimchi Pancake",
+    "pron": "gimchijeon"
+  },
+  {
+    "id": 1070,
+    "word": "까마귀",
+    "english": "Crow",
+    "pron": "kkamagwi"
+  },
+  {
+    "id": 1071,
+    "word": "꾀꼬리",
+    "english": "Oriole",
+    "pron": "kkoekkori"
+  },
+  {
+    "id": 1072,
+    "word": "나들목",
+    "english": "Interchange",
+    "pron": "nadeulmok"
+  },
+  {
+    "id": 1073,
+    "word": "남동생",
+    "english": "Younger Brother",
+    "pron": "namdongsaeng"
+  },
+  {
+    "id": 1074,
+    "word": "냉동고",
+    "english": "Freezer",
+    "pron": "naengdonggo"
+  },
+  {
+    "id": 1075,
+    "word": "냉장고",
+    "english": "Refrigerator",
+    "pron": "naengjanggo"
+  },
+  {
+    "id": 1076,
+    "word": "너구리",
+    "english": "Raccoon Dog",
+    "pron": "neoguri"
+  },
+  {
+    "id": 1077,
+    "word": "노동자",
+    "english": "Worker",
+    "pron": "nodongja"
+  },
+  {
+    "id": 1078,
+    "word": "노래방",
+    "english": "Karaoke Room",
+    "pron": "noraebang"
+  },
+  {
+    "id": 1079,
+    "word": "노트북",
+    "english": "Laptop",
+    "pron": "noteubuk"
+  },
+  {
+    "id": 1080,
+    "word": "녹음기",
+    "english": "Voice Recorder",
+    "pron": "nogeumgi"
+  },
+  {
+    "id": 1081,
+    "word": "녹음실",
+    "english": "Recording Studio",
+    "pron": "nogeumsil"
+  },
+  {
+    "id": 1082,
+    "word": "놀이터",
+    "english": "Playground",
+    "pron": "noriteo"
+  },
+  {
+    "id": 1083,
+    "word": "누룽지",
+    "english": "Scorched Rice",
+    "pron": "nurungji"
+  },
+  {
+    "id": 1084,
+    "word": "눈꺼풀",
+    "english": "Eyelid",
+    "pron": "nunkkeopul"
+  },
+  {
+    "id": 1085,
+    "word": "눈동자",
+    "english": "Pupil",
+    "pron": "nundongja"
+  },
+  {
+    "id": 1086,
+    "word": "눈보라",
+    "english": "Blizzard",
+    "pron": "nunbora"
+  },
+  {
+    "id": 1087,
+    "word": "다락방",
+    "english": "Attic",
+    "pron": "darakbang"
+  },
+  {
+    "id": 1088,
+    "word": "다람쥐",
+    "english": "Chipmunk",
+    "pron": "daramjwi"
+  },
+  {
+    "id": 1089,
+    "word": "다리미",
+    "english": "Clothes Iron",
+    "pron": "darimi"
+  },
+  {
+    "id": 1090,
+    "word": "닭갈비",
+    "english": "Spicy Stir-Fried Chicken",
+    "pron": "dakgalbi"
+  },
+  {
+    "id": 1091,
+    "word": "당구장",
+    "english": "Billiard Hall",
+    "pron": "danggujang"
+  },
+  {
+    "id": 1092,
+    "word": "당나귀",
+    "english": "Donkey",
+    "pron": "dangnagwi"
+  },
+  {
+    "id": 1093,
+    "word": "당선자",
+    "english": "Election Winner",
+    "pron": "dangseonja"
+  },
+  {
+    "id": 1094,
+    "word": "대가족",
+    "english": "Extended Family",
+    "pron": "daegajok"
+  },
+  {
+    "id": 1095,
+    "word": "대기권",
+    "english": "Atmosphere",
+    "pron": "daegigwon"
+  },
+  {
+    "id": 1096,
+    "word": "대나무",
+    "english": "Bamboo",
+    "pron": "daenamu"
+  },
+  {
+    "id": 1097,
+    "word": "대변인",
+    "english": "Spokesperson",
+    "pron": "daebyeonin"
+  },
+  {
+    "id": 1098,
+    "word": "대피소",
+    "english": "Evacuation Shelter",
+    "pron": "daepiso"
+  },
+  {
+    "id": 1099,
+    "word": "대학생",
+    "english": "College Student",
+    "pron": "daehaksaeng"
+  },
+  {
+    "id": 1100,
+    "word": "도다리",
+    "english": "Ridged-Eye Flounder",
+    "pron": "dodari"
+  },
+  {
+    "id": 1101,
+    "word": "도라지",
+    "english": "Balloon Flower",
+    "pron": "doraji"
+  },
+  {
+    "id": 1102,
+    "word": "도루묵",
+    "english": "Sandfish",
+    "pron": "dorumuk"
+  },
+  {
+    "id": 1103,
+    "word": "도마뱀",
+    "english": "Lizard",
+    "pron": "domabaem"
+  },
+  {
+    "id": 1104,
+    "word": "도서관",
+    "english": "Library",
+    "pron": "doseogwan"
+  },
+  {
+    "id": 1105,
+    "word": "도시락",
+    "english": "Lunchbox",
+    "pron": "dosirak"
+  },
+  {
+    "id": 1106,
+    "word": "독수리",
+    "english": "Eagle",
+    "pron": "doksuri"
+  },
+  {
+    "id": 1107,
+    "word": "돌고래",
+    "english": "Dolphin",
+    "pron": "dolgorae"
+  },
+  {
+    "id": 1108,
+    "word": "돌솥밥",
+    "english": "Stone-Pot Rice",
+    "pron": "dolsotbap"
+  },
+  {
+    "id": 1109,
+    "word": "동물원",
+    "english": "Zoo",
+    "pron": "dongmurwon"
+  },
+  {
+    "id": 1110,
+    "word": "동반자",
+    "english": "Companion",
+    "pron": "dongbanja"
+  },
+  {
+    "id": 1111,
+    "word": "동호회",
+    "english": "Hobby Club",
+    "pron": "donghohoe"
+  },
+  {
+    "id": 1112,
+    "word": "된장국",
+    "english": "Soybean Paste Soup",
+    "pron": "doenjangguk"
+  },
+  {
+    "id": 1113,
+    "word": "두개골",
+    "english": "Skull",
+    "pron": "dugaegol"
+  },
+  {
+    "id": 1114,
+    "word": "두더지",
+    "english": "Mole",
+    "pron": "dudeoji"
+  },
+  {
+    "id": 1115,
+    "word": "두루미",
+    "english": "Crane",
+    "pron": "durumi"
+  },
+  {
+    "id": 1116,
+    "word": "뒤통수",
+    "english": "Back of the Head",
+    "pron": "dwitongsu"
+  },
+  {
+    "id": 1117,
+    "word": "드레스",
+    "english": "Dress",
+    "pron": "deureseu"
+  },
+  {
+    "id": 1118,
+    "word": "등산로",
+    "english": "Hiking Trail",
+    "pron": "deungsallo"
+  },
+  {
+    "id": 1119,
+    "word": "딸꾹질",
+    "english": "Hiccup",
+    "pron": "ttalkkukjil"
+  },
+  {
+    "id": 1120,
+    "word": "떡갈비",
+    "english": "Grilled Meat Patties",
+    "pron": "tteokgalbi"
+  },
+  {
+    "id": 1121,
+    "word": "떡볶이",
+    "english": "Spicy Rice Cakes",
+    "pron": "tteokbokki"
+  },
+  {
+    "id": 1122,
+    "word": "뚝배기",
+    "english": "Earthenware Pot",
+    "pron": "ttukbaegi"
+  },
+  {
+    "id": 1123,
+    "word": "리모컨",
+    "english": "Remote Control",
+    "pron": "rimokeon"
+  },
+  {
+    "id": 1124,
+    "word": "림프절",
+    "english": "Lymph Node",
+    "pron": "rimpeujeol"
+  },
+  {
+    "id": 1125,
+    "word": "마우스",
+    "english": "Mouse",
+    "pron": "mauseu"
+  },
+  {
+    "id": 1126,
+    "word": "마이크",
+    "english": "Microphone",
+    "pron": "maikeu"
+  },
+  {
+    "id": 1127,
+    "word": "막국수",
+    "english": "Buckwheat Noodles",
+    "pron": "makguksu"
+  },
+  {
+    "id": 1128,
+    "word": "만둣국",
+    "english": "Dumpling Soup",
+    "pron": "mandutguk"
+  },
+  {
+    "id": 1129,
+    "word": "맏아들",
+    "english": "Eldest Son",
+    "pron": "madadeul"
+  },
+  {
+    "id": 1130,
+    "word": "망둥어",
+    "english": "Goby",
+    "pron": "mangdungeo"
+  },
+  {
+    "id": 1131,
+    "word": "맞춤법",
+    "english": "Spelling",
+    "pron": "matchumbeop"
+  },
+  {
+    "id": 1132,
+    "word": "매운탕",
+    "english": "Spicy Fish Stew",
+    "pron": "maeuntang"
+  },
+  {
+    "id": 1133,
+    "word": "멧돼지",
+    "english": "Wild Boar",
+    "pron": "metdwaeji"
+  },
+  {
+    "id": 1134,
+    "word": "며느리",
+    "english": "Daughter-in-Law",
+    "pron": "myeoneuri"
+  },
+  {
+    "id": 1135,
+    "word": "면도기",
+    "english": "Razor",
+    "pron": "myeondogi"
+  },
+  {
+    "id": 1136,
+    "word": "모국어",
+    "english": "Native Language",
+    "pron": "mogugeo"
+  },
+  {
+    "id": 1137,
+    "word": "모니터",
+    "english": "Monitor",
+    "pron": "moniteo"
+  },
+  {
+    "id": 1138,
+    "word": "목격자",
+    "english": "Witness",
+    "pron": "mokgyeokja"
+  },
+  {
+    "id": 1139,
+    "word": "목구멍",
+    "english": "Throat",
+    "pron": "mokgumeong"
+  },
+  {
+    "id": 1140,
+    "word": "목도리",
+    "english": "Scarf",
+    "pron": "mokdori"
+  },
+  {
+    "id": 1141,
+    "word": "목욕탕",
+    "english": "Bathhouse",
+    "pron": "mogyoktang"
+  },
+  {
+    "id": 1142,
+    "word": "몽구스",
+    "english": "Mongoose",
+    "pron": "mongguseu"
+  },
+  {
+    "id": 1143,
+    "word": "무궁화",
+    "english": "Rose of Sharon",
+    "pron": "mugunghwa"
+  },
+  {
+    "id": 1144,
+    "word": "무인도",
+    "english": "Deserted Island",
+    "pron": "muindo"
+  },
+  {
+    "id": 1145,
+    "word": "무전기",
+    "english": "Two-Way Radio",
+    "pron": "mujeongi"
+  },
+  {
+    "id": 1146,
+    "word": "무지개",
+    "english": "Rainbow",
+    "pron": "mujigae"
+  },
+  {
+    "id": 1147,
+    "word": "무화과",
+    "english": "Fig",
+    "pron": "muhwagwa"
+  },
+  {
+    "id": 1148,
+    "word": "문법책",
+    "english": "Grammar Book",
+    "pron": "munbeopchaek"
+  },
+  {
+    "id": 1149,
+    "word": "문제집",
+    "english": "Workbook",
+    "pron": "munjejip"
+  },
+  {
+    "id": 1150,
+    "word": "문화계",
+    "english": "Cultural World",
+    "pron": "munhwagye"
+  },
+  {
+    "id": 1151,
+    "word": "문화권",
+    "english": "Cultural Sphere",
+    "pron": "munhwagwon"
+  },
+  {
+    "id": 1152,
+    "word": "문화인",
+    "english": "Cultured Person",
+    "pron": "munhwain"
+  },
+  {
+    "id": 1153,
+    "word": "문화재",
+    "english": "Cultural Heritage",
+    "pron": "munhwajae"
+  },
+  {
+    "id": 1154,
+    "word": "물냉면",
+    "english": "Cold Noodle Soup",
+    "pron": "mullaengmyeon"
+  },
+  {
+    "id": 1155,
+    "word": "물만두",
+    "english": "Boiled Dumplings",
+    "pron": "mulmandu"
+  },
+  {
+    "id": 1156,
+    "word": "미나리",
+    "english": "Water Dropwort",
+    "pron": "minari"
+  },
+  {
+    "id": 1157,
+    "word": "미술관",
+    "english": "Art Museum",
+    "pron": "misulgwan"
+  },
+  {
+    "id": 1158,
+    "word": "미술품",
+    "english": "Artwork",
+    "pron": "misulpum"
+  },
+  {
+    "id": 1159,
+    "word": "미어캣",
+    "english": "Meerkat",
+    "pron": "mieokaet"
+  },
+  {
+    "id": 1160,
+    "word": "미역국",
+    "english": "Seaweed Soup",
+    "pron": "miyeokguk"
+  },
+  {
+    "id": 1161,
+    "word": "민들레",
+    "english": "Dandelion",
+    "pron": "mindeulle"
+  },
+  {
+    "id": 1162,
+    "word": "민속극",
+    "english": "Folk Drama",
+    "pron": "minsokgeuk"
+  },
+  {
+    "id": 1163,
+    "word": "민속촌",
+    "english": "Folk Village",
+    "pron": "minsokchon"
+  },
+  {
+    "id": 1164,
+    "word": "바구니",
+    "english": "Basket",
+    "pron": "baguni"
+  },
+  {
+    "id": 1165,
+    "word": "바나나",
+    "english": "Banana",
+    "pron": "banana"
+  },
+  {
+    "id": 1166,
+    "word": "바닷가",
+    "english": "Seaside",
+    "pron": "badatga"
+  },
+  {
+    "id": 1167,
+    "word": "박람회",
+    "english": "Exposition",
+    "pron": "bangnamhoe"
+  },
+  {
+    "id": 1168,
+    "word": "박물관",
+    "english": "Museum",
+    "pron": "bangmulgwan"
+  },
+  {
+    "id": 1169,
+    "word": "반바지",
+    "english": "Shorts",
+    "pron": "banbaji"
+  },
+  {
+    "id": 1170,
+    "word": "반찬통",
+    "english": "Food Container",
+    "pron": "banchantong"
+  },
+  {
+    "id": 1171,
+    "word": "반창고",
+    "english": "Adhesive Bandage",
+    "pron": "banchanggo"
+  },
+  {
+    "id": 1172,
+    "word": "발가락",
+    "english": "Toe",
+    "pron": "balgarak"
+  },
+  {
+    "id": 1173,
+    "word": "발바닥",
+    "english": "Sole",
+    "pron": "balbadak"
+  },
+  {
+    "id": 1174,
+    "word": "발코니",
+    "english": "Balcony",
+    "pron": "balkoni"
+  },
+  {
+    "id": 1175,
+    "word": "밥그릇",
+    "english": "Rice Bowl",
+    "pron": "bapgeureut"
+  },
+  {
+    "id": 1176,
+    "word": "방송국",
+    "english": "Broadcasting Station",
+    "pron": "bangsongguk"
+  },
+  {
+    "id": 1177,
+    "word": "방송사",
+    "english": "Broadcasting Company",
+    "pron": "bangsongsa"
+  },
+  {
+    "id": 1178,
+    "word": "방송인",
+    "english": "Broadcast Personality",
+    "pron": "bangsongin"
+  },
+  {
+    "id": 1179,
+    "word": "방파제",
+    "english": "Breakwater",
+    "pron": "bangpaje"
+  },
+  {
+    "id": 1180,
+    "word": "배급사",
+    "english": "Distributor",
+    "pron": "baegeupsa"
+  },
+  {
+    "id": 1181,
+    "word": "배우자",
+    "english": "Spouse",
+    "pron": "baeuja"
+  },
+  {
+    "id": 1182,
+    "word": "백혈구",
+    "english": "White Blood Cell",
+    "pron": "baekyeolgu"
+  },
+  {
+    "id": 1183,
+    "word": "번역가",
+    "english": "Translator",
+    "pron": "beonyeokga"
+  },
+  {
+    "id": 1184,
+    "word": "번화가",
+    "english": "Downtown District",
+    "pron": "beonhwaga"
+  },
+  {
+    "id": 1185,
+    "word": "범고래",
+    "english": "Orca",
+    "pron": "beomgorae"
+  },
+  {
+    "id": 1186,
+    "word": "베란다",
+    "english": "Veranda",
+    "pron": "beranda"
+  },
+  {
+    "id": 1187,
+    "word": "벽시계",
+    "english": "Wall Clock",
+    "pron": "byeoksigye"
+  },
+  {
+    "id": 1188,
+    "word": "변호사",
+    "english": "Lawyer",
+    "pron": "byeonhosa"
+  },
+  {
+    "id": 1189,
+    "word": "보건소",
+    "english": "Public Health Center",
+    "pron": "bogeonso"
+  },
+  {
+    "id": 1190,
+    "word": "보리밥",
+    "english": "Barley Rice",
+    "pron": "boribap"
+  },
+  {
+    "id": 1191,
+    "word": "보일러",
+    "english": "Boiler",
+    "pron": "boilleo"
+  },
+  {
+    "id": 1192,
+    "word": "보좌관",
+    "english": "Aide",
+    "pron": "bojwagwan"
+  },
+  {
+    "id": 1193,
+    "word": "보호복",
+    "english": "Protective Suit",
+    "pron": "bohobok"
+  },
+  {
+    "id": 1194,
+    "word": "보호자",
+    "english": "Caregiver",
+    "pron": "bohoja"
+  },
+  {
+    "id": 1195,
+    "word": "복지관",
+    "english": "Welfare Center",
+    "pron": "bokjigwan"
+  },
+  {
+    "id": 1196,
+    "word": "볶음밥",
+    "english": "Fried Rice",
+    "pron": "bokkeumbap"
+  },
+  {
+    "id": 1197,
+    "word": "봉사자",
+    "english": "Volunteer",
+    "pron": "bongsaja"
+  },
+  {
+    "id": 1198,
+    "word": "봉우리",
+    "english": "Peak",
+    "pron": "bonguri"
+  },
+  {
+    "id": 1199,
+    "word": "부모님",
+    "english": "Parents",
+    "pron": "bumonim"
+  },
+  {
+    "id": 1200,
+    "word": "부양자",
+    "english": "Provider",
+    "pron": "buyangja"
+  },
+  {
+    "id": 1201,
+    "word": "부엉이",
+    "english": "Horned Owl",
+    "pron": "bueongi"
+  },
+  {
+    "id": 1202,
+    "word": "부침개",
+    "english": "Savory Pancake",
+    "pron": "buchimgae"
+  },
+  {
+    "id": 1203,
+    "word": "북엇국",
+    "english": "Dried Pollock Soup",
+    "pron": "bugeotguk"
+  },
+  {
+    "id": 1204,
+    "word": "분화구",
+    "english": "Volcanic Crater",
+    "pron": "bunhwagu"
+  },
+  {
+    "id": 1205,
+    "word": "불고기",
+    "english": "Marinated Grilled Beef",
+    "pron": "bulgogi"
+  },
+  {
+    "id": 1206,
+    "word": "불면증",
+    "english": "Insomnia",
+    "pron": "bulmyeonjeung"
+  },
+  {
+    "id": 1207,
+    "word": "비둘기",
+    "english": "Pigeon",
+    "pron": "bidulgi"
+  },
+  {
+    "id": 1208,
+    "word": "비빔면",
+    "english": "Spicy Mixed Noodles",
+    "pron": "bibimmyeon"
+  },
+  {
+    "id": 1209,
+    "word": "비빔밥",
+    "english": "Mixed Rice",
+    "pron": "bibimbap"
+  },
+  {
+    "id": 1210,
+    "word": "비행기",
+    "english": "Airplane",
+    "pron": "bihaenggi"
+  },
+  {
+    "id": 1211,
+    "word": "비행장",
+    "english": "Airfield",
+    "pron": "bihaengjang"
+  },
+  {
+    "id": 1212,
+    "word": "빗자루",
+    "english": "Broom",
+    "pron": "bitjaru"
+  },
+  {
+    "id": 1213,
+    "word": "뻐꾸기",
+    "english": "Cuckoo",
+    "pron": "ppeokkugi"
+  },
+  {
+    "id": 1214,
+    "word": "사거리",
+    "english": "Four-Way Intersection",
+    "pron": "sageori"
+  },
+  {
+    "id": 1215,
+    "word": "사다리",
+    "english": "Ladder",
+    "pron": "sadari"
+  },
+  {
+    "id": 1216,
+    "word": "사랑방",
+    "english": "Reception Room",
+    "pron": "sarangbang"
+  },
+  {
+    "id": 1217,
+    "word": "사막화",
+    "english": "Desertification",
+    "pron": "samakwa"
+  },
+  {
+    "id": 1218,
+    "word": "사업자",
+    "english": "Business Operator",
+    "pron": "saeopja"
+  },
+  {
+    "id": 1219,
+    "word": "사용자",
+    "english": "User",
+    "pron": "sayongja"
+  },
+  {
+    "id": 1220,
+    "word": "사향소",
+    "english": "Musk Ox",
+    "pron": "sahyangso"
+  },
+  {
+    "id": 1221,
+    "word": "사회인",
+    "english": "Member of Society",
+    "pron": "sahoein"
+  },
+  {
+    "id": 1222,
+    "word": "산사태",
+    "english": "Landslide",
+    "pron": "sansatae"
+  },
+  {
+    "id": 1223,
+    "word": "산책길",
+    "english": "Walking Path",
+    "pron": "sanchaekgil"
+  },
+  {
+    "id": 1224,
+    "word": "산책로",
+    "english": "Promenade",
+    "pron": "sanchaengno"
+  },
+  {
+    "id": 1225,
+    "word": "삼거리",
+    "english": "Three-Way Intersection",
+    "pron": "samgeori"
+  },
+  {
+    "id": 1226,
+    "word": "삼계탕",
+    "english": "Ginseng Chicken Soup",
+    "pron": "samgyetang"
+  },
+  {
+    "id": 1227,
+    "word": "상괭이",
+    "english": "Finless Porpoise",
+    "pron": "sanggwaengi"
+  },
+  {
+    "id": 1228,
+    "word": "상담사",
+    "english": "Counselor",
+    "pron": "sangdamsa"
+  },
+  {
+    "id": 1229,
+    "word": "상사화",
+    "english": "Resurrection Lily",
+    "pron": "sangsahwa"
+  },
+  {
+    "id": 1230,
+    "word": "상속인",
+    "english": "Heir",
+    "pron": "sangsogin"
+  },
+  {
+    "id": 1231,
+    "word": "생물권",
+    "english": "Biosphere",
+    "pron": "saengmulgwon"
+  },
+  {
+    "id": 1232,
+    "word": "생산자",
+    "english": "Producer",
+    "pron": "saengsanja"
+  },
+  {
+    "id": 1233,
+    "word": "생선회",
+    "english": "Raw Fish Slices",
+    "pron": "saengseonhoe"
+  },
+  {
+    "id": 1234,
+    "word": "생태계",
+    "english": "Ecosystem",
+    "pron": "saengtaegye"
+  },
+  {
+    "id": 1235,
+    "word": "샤워기",
+    "english": "Shower Head",
+    "pron": "syawogi"
+  },
+  {
+    "id": 1236,
+    "word": "서양화",
+    "english": "Western Painting",
+    "pron": "seoyanghwa"
+  },
+  {
+    "id": 1237,
+    "word": "선교사",
+    "english": "Missionary",
+    "pron": "seongyosa"
+  },
+  {
+    "id": 1238,
+    "word": "선인장",
+    "english": "Cactus",
+    "pron": "seoninjang"
+  },
+  {
+    "id": 1239,
+    "word": "선착장",
+    "english": "Pier",
+    "pron": "seonchakjang"
+  },
+  {
+    "id": 1240,
+    "word": "선풍기",
+    "english": "Electric Fan",
+    "pron": "seonpunggi"
+  },
+  {
+    "id": 1241,
+    "word": "설렁탕",
+    "english": "Ox Bone Soup",
+    "pron": "seolleongtang"
+  },
+  {
+    "id": 1242,
+    "word": "성악가",
+    "english": "Vocalist",
+    "pron": "seongakga"
+  },
+  {
+    "id": 1243,
+    "word": "성적표",
+    "english": "Report Card",
+    "pron": "seongjeokpyo"
+  },
+  {
+    "id": 1244,
+    "word": "세탁기",
+    "english": "Washing Machine",
+    "pron": "setakgi"
+  },
+  {
+    "id": 1245,
+    "word": "세탁망",
+    "english": "Mesh Laundry Bag",
+    "pron": "setangmang"
+  },
+  {
+    "id": 1246,
+    "word": "소극장",
+    "english": "Small Theater",
+    "pron": "sogeukjang"
+  },
+  {
+    "id": 1247,
+    "word": "소나기",
+    "english": "Rain Shower",
+    "pron": "sonagi"
+  },
+  {
+    "id": 1248,
+    "word": "소나무",
+    "english": "Pine Tree",
+    "pron": "sonamu"
+  },
+  {
+    "id": 1249,
+    "word": "소방관",
+    "english": "Firefighter",
+    "pron": "sobanggwan"
+  },
+  {
+    "id": 1250,
+    "word": "소방서",
+    "english": "Fire Station",
+    "pron": "sobangseo"
+  },
+  {
+    "id": 1251,
+    "word": "소비자",
+    "english": "Consumer",
+    "pron": "sobija"
+  },
+  {
+    "id": 1252,
+    "word": "소화기",
+    "english": "Fire Extinguisher",
+    "pron": "sohwagi"
+  },
+  {
+    "id": 1253,
+    "word": "손가락",
+    "english": "Finger",
+    "pron": "songarak"
+  },
+  {
+    "id": 1254,
+    "word": "손바닥",
+    "english": "Palm",
+    "pron": "sonbadak"
+  },
+  {
+    "id": 1255,
+    "word": "손전등",
+    "english": "Flashlight",
+    "pron": "sonjeondeung"
+  },
+  {
+    "id": 1256,
+    "word": "송곳니",
+    "english": "Canine Tooth",
+    "pron": "songgonni"
+  },
+  {
+    "id": 1257,
+    "word": "수목원",
+    "english": "Arboretum",
+    "pron": "sumogwon"
+  },
+  {
+    "id": 1258,
+    "word": "수사관",
+    "english": "Investigator",
+    "pron": "susagwan"
+  },
+  {
+    "id": 1259,
+    "word": "수술실",
+    "english": "Operating Room",
+    "pron": "susulsil"
+  },
+  {
+    "id": 1260,
+    "word": "수영복",
+    "english": "Swimsuit",
+    "pron": "suyeongbok"
+  },
+  {
+    "id": 1261,
+    "word": "수영장",
+    "english": "Swimming Pool",
+    "pron": "suyeongjang"
+  },
+  {
+    "id": 1262,
+    "word": "수제비",
+    "english": "Hand-Pulled Dough Soup",
+    "pron": "sujebi"
+  },
+  {
+    "id": 1263,
+    "word": "수채화",
+    "english": "Watercolor",
+    "pron": "suchaehwa"
+  },
+  {
+    "id": 1264,
+    "word": "수평계",
+    "english": "Spirit Level",
+    "pron": "supyeonggye"
+  },
+  {
+    "id": 1265,
+    "word": "수평선",
+    "english": "Sea Horizon",
+    "pron": "supyeongseon"
+  },
+  {
+    "id": 1266,
+    "word": "숟가락",
+    "english": "Spoon",
+    "pron": "sutgarak"
+  },
+  {
+    "id": 1267,
+    "word": "스웨터",
+    "english": "Sweater",
+    "pron": "seuweteo"
+  },
+  {
+    "id": 1268,
+    "word": "스캐너",
+    "english": "Scanner",
+    "pron": "seukaeneo"
+  },
+  {
+    "id": 1269,
+    "word": "스피커",
+    "english": "Speaker",
+    "pron": "seupikeo"
+  },
+  {
+    "id": 1270,
+    "word": "슬리퍼",
+    "english": "Slippers",
+    "pron": "seullipeo"
+  },
+  {
+    "id": 1271,
+    "word": "승강장",
+    "english": "Platform",
+    "pron": "seunggangjang"
+  },
+  {
+    "id": 1272,
+    "word": "승용차",
+    "english": "Passenger Car",
+    "pron": "seungyongcha"
+  },
+  {
+    "id": 1273,
+    "word": "시가지",
+    "english": "Urban Area",
+    "pron": "sigaji"
+  },
+  {
+    "id": 1274,
+    "word": "시간표",
+    "english": "Timetable",
+    "pron": "siganpyo"
+  },
+  {
+    "id": 1275,
+    "word": "시금치",
+    "english": "Spinach",
+    "pron": "sigeumchi"
+  },
+  {
+    "id": 1276,
+    "word": "시청자",
+    "english": "Viewer",
+    "pron": "sicheongja"
+  },
+  {
+    "id": 1277,
+    "word": "식물원",
+    "english": "Botanical Garden",
+    "pron": "singmurwon"
+  },
+  {
+    "id": 1278,
+    "word": "신도시",
+    "english": "New Town",
+    "pron": "sindosi"
+  },
+  {
+    "id": 1279,
+    "word": "신문사",
+    "english": "Newspaper Company",
+    "pron": "sinmunsa"
+  },
+  {
+    "id": 1280,
+    "word": "신발장",
+    "english": "Shoe Cabinet",
+    "pron": "sinbaljang"
+  },
+  {
+    "id": 1281,
+    "word": "신호등",
+    "english": "Traffic Light",
+    "pron": "sinhodeung"
+  },
+  {
+    "id": 1282,
+    "word": "실내화",
+    "english": "Indoor Shoes",
+    "pron": "sillaehwa"
+  },
+  {
+    "id": 1283,
+    "word": "실험실",
+    "english": "Laboratory",
+    "pron": "silheomsil"
+  },
+  {
+    "id": 1284,
+    "word": "아버지",
+    "english": "Father",
+    "pron": "abeoji"
+  },
+  {
+    "id": 1285,
+    "word": "아파트",
+    "english": "Apartment",
+    "pron": "apateu"
+  },
+  {
+    "id": 1286,
+    "word": "안전화",
+    "english": "Safety Shoes",
+    "pron": "anjeonhwa"
+  },
+  {
+    "id": 1287,
+    "word": "안테나",
+    "english": "Antenna",
+    "pron": "antena"
+  },
+  {
+    "id": 1288,
+    "word": "알로에",
+    "english": "Aloe",
+    "pron": "alloe"
+  },
+  {
+    "id": 1289,
+    "word": "알파카",
+    "english": "Alpaca",
+    "pron": "alpaka"
+  },
+  {
+    "id": 1290,
+    "word": "앞치마",
+    "english": "Apron",
+    "pron": "apchima"
+  },
+  {
+    "id": 1291,
+    "word": "앵무새",
+    "english": "Parrot",
+    "pron": "aengmusae"
+  },
+  {
+    "id": 1292,
+    "word": "양념병",
+    "english": "Spice Bottle",
+    "pron": "yangnyeombyeong"
+  },
+  {
+    "id": 1293,
+    "word": "양념통",
+    "english": "Spice Jar",
+    "pron": "yangnyeomtong"
+  },
+  {
+    "id": 1294,
+    "word": "양배추",
+    "english": "Cabbage",
+    "pron": "yangbaechu"
+  },
+  {
+    "id": 1295,
+    "word": "양아들",
+    "english": "Adopted Son",
+    "pron": "yangadeul"
+  },
+  {
+    "id": 1296,
+    "word": "어금니",
+    "english": "Molar",
+    "pron": "eogeumni"
+  },
+  {
+    "id": 1297,
+    "word": "어댑터",
+    "english": "Adapter",
+    "pron": "eodaepteo"
+  },
+  {
+    "id": 1298,
+    "word": "어린이",
+    "english": "Child",
+    "pron": "eorini"
+  },
+  {
+    "id": 1299,
+    "word": "어머니",
+    "english": "Mother",
+    "pron": "eomeoni"
+  },
+  {
+    "id": 1300,
+    "word": "언론사",
+    "english": "Media Company",
+    "pron": "eollonsa"
+  },
+  {
+    "id": 1301,
+    "word": "언론인",
+    "english": "Journalist",
+    "pron": "eollonin"
+  },
+  {
+    "id": 1302,
+    "word": "언어학",
+    "english": "Linguistics",
+    "pron": "eoneohak"
+  },
+  {
+    "id": 1303,
+    "word": "얼룩말",
+    "english": "Zebra",
+    "pron": "eollungmal"
+  },
+  {
+    "id": 1304,
+    "word": "얼음틀",
+    "english": "Ice Tray",
+    "pron": "eoreumteul"
+  },
+  {
+    "id": 1305,
+    "word": "엉덩이",
+    "english": "Buttocks",
+    "pron": "eongdeongi"
+  },
+  {
+    "id": 1306,
+    "word": "여객선",
+    "english": "Passenger Ship",
+    "pron": "yeogaekseon"
+  },
+  {
+    "id": 1307,
+    "word": "여동생",
+    "english": "Younger Sister",
+    "pron": "yeodongsaeng"
+  },
+  {
+    "id": 1308,
+    "word": "여드름",
+    "english": "Acne",
+    "pron": "yeodeureum"
+  },
+  {
+    "id": 1309,
+    "word": "여행객",
+    "english": "Traveler",
+    "pron": "yeohaenggaek"
+  },
+  {
+    "id": 1310,
+    "word": "여행지",
+    "english": "Travel Destination",
+    "pron": "yeohaengji"
+  },
+  {
+    "id": 1311,
+    "word": "역사가",
+    "english": "Historian",
+    "pron": "yeoksaga"
+  },
+  {
+    "id": 1312,
+    "word": "연구소",
+    "english": "Research Institute",
+    "pron": "yeonguso"
+  },
+  {
+    "id": 1313,
+    "word": "연구자",
+    "english": "Researcher",
+    "pron": "yeonguja"
+  },
+  {
+    "id": 1314,
+    "word": "연기자",
+    "english": "Actor",
+    "pron": "yeongija"
+  },
+  {
+    "id": 1315,
+    "word": "연주자",
+    "english": "Instrumentalist",
+    "pron": "yeonjuja"
+  },
+  {
+    "id": 1316,
+    "word": "연출가",
+    "english": "Director",
+    "pron": "yeonchulga"
+  },
+  {
+    "id": 1317,
+    "word": "열대야",
+    "english": "Tropical Night",
+    "pron": "yeoldaeya"
+  },
+  {
+    "id": 1318,
+    "word": "염색체",
+    "english": "Chromosome",
+    "pron": "yeomsaekche"
+  },
+  {
+    "id": 1319,
+    "word": "영화관",
+    "english": "Movie Theater",
+    "pron": "yeonghwagwan"
+  },
+  {
+    "id": 1320,
+    "word": "옆구리",
+    "english": "Flank",
+    "pron": "yeopguri"
+  },
+  {
+    "id": 1321,
+    "word": "예술가",
+    "english": "Artist",
+    "pron": "yesulga"
+  },
+  {
+    "id": 1322,
+    "word": "예술품",
+    "english": "Work of Art",
+    "pron": "yesulpum"
+  },
+  {
+    "id": 1323,
+    "word": "오곡밥",
+    "english": "Five-Grain Rice",
+    "pron": "ogokbap"
+  },
+  {
+    "id": 1324,
+    "word": "오락실",
+    "english": "Arcade",
+    "pron": "oraksil"
+  },
+  {
+    "id": 1325,
+    "word": "오렌지",
+    "english": "Orange",
+    "pron": "orenji"
+  },
+  {
+    "id": 1326,
+    "word": "오소리",
+    "english": "Badger",
+    "pron": "osori"
+  },
+  {
+    "id": 1327,
+    "word": "옥수수",
+    "english": "Corn",
+    "pron": "oksusu"
+  },
+  {
+    "id": 1328,
+    "word": "온난화",
+    "english": "Global Warming",
+    "pron": "onnanhwa"
+  },
+  {
+    "id": 1329,
+    "word": "온수기",
+    "english": "Water Heater",
+    "pron": "onsugi"
+  },
+  {
+    "id": 1330,
+    "word": "온풍기",
+    "english": "Fan Heater",
+    "pron": "onpunggi"
+  },
+  {
+    "id": 1331,
+    "word": "올빼미",
+    "english": "Owl",
+    "pron": "olppaemi"
+  },
+  {
+    "id": 1332,
+    "word": "옷걸이",
+    "english": "Clothes Hanger",
+    "pron": "otgeori"
+  },
+  {
+    "id": 1333,
+    "word": "완두콩",
+    "english": "Garden Pea",
+    "pron": "wandukong"
+  },
+  {
+    "id": 1334,
+    "word": "외교관",
+    "english": "Diplomat",
+    "pron": "oegyogwan"
+  },
+  {
+    "id": 1335,
+    "word": "외국어",
+    "english": "Foreign Language",
+    "pron": "oegugeo"
+  },
+  {
+    "id": 1336,
+    "word": "요리사",
+    "english": "Chef",
+    "pron": "yorisa"
+  },
+  {
+    "id": 1337,
+    "word": "요양원",
+    "english": "Nursing Home",
+    "pron": "yoyangwon"
+  },
+  {
+    "id": 1338,
+    "word": "우체국",
+    "english": "Post Office",
+    "pron": "ucheguk"
+  },
+  {
+    "id": 1339,
+    "word": "운동장",
+    "english": "Sports Field",
+    "pron": "undongjang"
+  },
+  {
+    "id": 1340,
+    "word": "운동화",
+    "english": "Sneakers",
+    "pron": "undonghwa"
+  },
+  {
+    "id": 1341,
+    "word": "운전사",
+    "english": "Driver",
+    "pron": "unjeonsa"
+  },
+  {
+    "id": 1342,
+    "word": "울타리",
+    "english": "Fence",
+    "pron": "ultari"
+  },
+  {
+    "id": 1343,
+    "word": "원숭이",
+    "english": "Monkey",
+    "pron": "wonsungi"
+  },
+  {
+    "id": 1344,
+    "word": "원주민",
+    "english": "Indigenous Person",
+    "pron": "wonjumin"
+  },
+  {
+    "id": 1345,
+    "word": "원피스",
+    "english": "One-Piece Dress",
+    "pron": "wonpiseu"
+  },
+  {
+    "id": 1346,
+    "word": "위원회",
+    "english": "Committee",
+    "pron": "wiwonhoe"
+  },
+  {
+    "id": 1347,
+    "word": "유가족",
+    "english": "Bereaved Family",
+    "pron": "yugajok"
+  },
+  {
+    "id": 1348,
+    "word": "유권자",
+    "english": "Voter",
+    "pron": "yugwonja"
+  },
+  {
+    "id": 1349,
+    "word": "유람선",
+    "english": "Excursion Boat",
+    "pron": "yuramseon"
+  },
+  {
+    "id": 1350,
+    "word": "유리병",
+    "english": "Glass Bottle",
+    "pron": "yuribyeong"
+  },
+  {
+    "id": 1351,
+    "word": "유리창",
+    "english": "Glass Window",
+    "pron": "yurichang"
+  },
+  {
+    "id": 1352,
+    "word": "유원지",
+    "english": "Recreation Area",
+    "pron": "yuwonji"
+  },
+  {
+    "id": 1353,
+    "word": "유적지",
+    "english": "Historic Site",
+    "pron": "yujeokji"
+  },
+  {
+    "id": 1354,
+    "word": "유전자",
+    "english": "Gene",
+    "pron": "yujeonja"
+  },
+  {
+    "id": 1355,
+    "word": "유치원",
+    "english": "Kindergarten",
+    "pron": "yuchiwon"
+  },
+  {
+    "id": 1356,
+    "word": "육개장",
+    "english": "Spicy Beef Soup",
+    "pron": "yukgaejang"
+  },
+  {
+    "id": 1357,
+    "word": "응급실",
+    "english": "Emergency Room",
+    "pron": "eunggeupsil"
+  },
+  {
+    "id": 1358,
+    "word": "이어폰",
+    "english": "Earphones",
+    "pron": "ieopon"
+  },
+  {
+    "id": 1359,
+    "word": "이정표",
+    "english": "Guidepost",
+    "pron": "ijeongpyo"
+  },
+  {
+    "id": 1360,
+    "word": "입국장",
+    "english": "Arrival Hall",
+    "pron": "ipgukjang"
+  },
+  {
+    "id": 1361,
+    "word": "입장권",
+    "english": "Admission Ticket",
+    "pron": "ipjanggwon"
+  },
+  {
+    "id": 1362,
+    "word": "자동차",
+    "english": "Automobile",
+    "pron": "jadongcha"
+  },
+  {
+    "id": 1363,
+    "word": "자료실",
+    "english": "Resource Room",
+    "pron": "jaryosil"
+  },
+  {
+    "id": 1364,
+    "word": "자명종",
+    "english": "Alarm Clock",
+    "pron": "jamyeongjong"
+  },
+  {
+    "id": 1365,
+    "word": "자물쇠",
+    "english": "Padlock",
+    "pron": "jamulsoe"
+  },
+  {
+    "id": 1366,
+    "word": "자전거",
+    "english": "Bicycle",
+    "pron": "jajeongeo"
+  },
+  {
+    "id": 1367,
+    "word": "작곡가",
+    "english": "Composer",
+    "pron": "jakgokga"
+  },
+  {
+    "id": 1368,
+    "word": "작업복",
+    "english": "Work Clothes",
+    "pron": "jageopbok"
+  },
+  {
+    "id": 1369,
+    "word": "작품집",
+    "english": "Collected Works",
+    "pron": "jakpumjip"
+  },
+  {
+    "id": 1370,
+    "word": "잡곡밥",
+    "english": "Multigrain Rice",
+    "pron": "japgokbap"
+  },
+  {
+    "id": 1371,
+    "word": "잡지사",
+    "english": "Magazine Publisher",
+    "pron": "japjisa"
+  },
+  {
+    "id": 1372,
+    "word": "장조림",
+    "english": "Soy-Braised Meat",
+    "pron": "jangjorim"
+  },
+  {
+    "id": 1373,
+    "word": "재채기",
+    "english": "Sneeze",
+    "pron": "jaechaegi"
+  },
+  {
+    "id": 1374,
+    "word": "재판관",
+    "english": "Judge",
+    "pron": "jaepangwan"
+  },
+  {
+    "id": 1375,
+    "word": "저수지",
+    "english": "Reservoir",
+    "pron": "jeosuji"
+  },
+  {
+    "id": 1376,
+    "word": "저체중",
+    "english": "Underweight",
+    "pron": "jeochejung"
+  },
+  {
+    "id": 1377,
+    "word": "적혈구",
+    "english": "Red Blood Cell",
+    "pron": "jeokyeolgu"
+  },
+  {
+    "id": 1378,
+    "word": "전갱이",
+    "english": "Horse Mackerel",
+    "pron": "jeongaengi"
+  },
+  {
+    "id": 1379,
+    "word": "전립선",
+    "english": "Prostate",
+    "pron": "jeollipseon"
+  },
+  {
+    "id": 1380,
+    "word": "전시관",
+    "english": "Exhibition Hall",
+    "pron": "jeonsigwan"
+  },
+  {
+    "id": 1381,
+    "word": "전시회",
+    "english": "Exhibition",
+    "pron": "jeonsihoe"
+  },
+  {
+    "id": 1382,
+    "word": "전통극",
+    "english": "Traditional Drama",
+    "pron": "jeontonggeuk"
+  },
+  {
+    "id": 1383,
+    "word": "젓가락",
+    "english": "Chopsticks",
+    "pron": "jeotgarak"
+  },
+  {
+    "id": 1384,
+    "word": "정거장",
+    "english": "Station",
+    "pron": "jeonggeojang"
+  },
+  {
+    "id": 1385,
+    "word": "정류장",
+    "english": "Transit Stop",
+    "pron": "jeongnyujang"
+  },
+  {
+    "id": 1386,
+    "word": "정수기",
+    "english": "Water Purifier",
+    "pron": "jeongsugi"
+  },
+  {
+    "id": 1387,
+    "word": "정수리",
+    "english": "Crown of the Head",
+    "pron": "jeongsuri"
+  },
+  {
+    "id": 1388,
+    "word": "정어리",
+    "english": "Sardine",
+    "pron": "jeongeori"
+  },
+  {
+    "id": 1389,
+    "word": "제습기",
+    "english": "Dehumidifier",
+    "pron": "jeseupgi"
+  },
+  {
+    "id": 1390,
+    "word": "제작사",
+    "english": "Production Company",
+    "pron": "jejaksa"
+  },
+  {
+    "id": 1391,
+    "word": "조각가",
+    "english": "Sculptor",
+    "pron": "jogakga"
+  },
+  {
+    "id": 1392,
+    "word": "조각품",
+    "english": "Sculpture",
+    "pron": "jogakpum"
+  },
+  {
+    "id": 1393,
+    "word": "조종사",
+    "english": "Pilot",
+    "pron": "jojongsa"
+  },
+  {
+    "id": 1394,
+    "word": "조직원",
+    "english": "Organization Member",
+    "pron": "jojigwon"
+  },
+  {
+    "id": 1395,
+    "word": "족제비",
+    "english": "Weasel",
+    "pron": "jokjebi"
+  },
+  {
+    "id": 1396,
+    "word": "종다리",
+    "english": "Skylark",
+    "pron": "jongdari"
+  },
+  {
+    "id": 1397,
+    "word": "종아리",
+    "english": "Calf",
+    "pron": "jongari"
+  },
+  {
+    "id": 1398,
+    "word": "종이컵",
+    "english": "Paper Cup",
+    "pron": "jongikeop"
+  },
+  {
+    "id": 1399,
+    "word": "주먹밥",
+    "english": "Rice Ball",
+    "pron": "jumeokbap"
+  },
+  {
+    "id": 1400,
+    "word": "주전자",
+    "english": "Kettle",
+    "pron": "jujeonja"
+  },
+  {
+    "id": 1401,
+    "word": "주차장",
+    "english": "Parking Lot",
+    "pron": "juchajang"
+  },
+  {
+    "id": 1402,
+    "word": "주택가",
+    "english": "Residential Area",
+    "pron": "jutaekga"
+  },
+  {
+    "id": 1403,
+    "word": "준비물",
+    "english": "Supplies",
+    "pron": "junbimul"
+  },
+  {
+    "id": 1404,
+    "word": "중학생",
+    "english": "Middle School Student",
+    "pron": "junghaksaeng"
+  },
+  {
+    "id": 1405,
+    "word": "지름길",
+    "english": "Shortcut",
+    "pron": "jireumgil"
+  },
+  {
+    "id": 1406,
+    "word": "지원자",
+    "english": "Applicant",
+    "pron": "jiwonja"
+  },
+  {
+    "id": 1407,
+    "word": "지평선",
+    "english": "Land Horizon",
+    "pron": "jipyeongseon"
+  },
+  {
+    "id": 1408,
+    "word": "지하수",
+    "english": "Groundwater",
+    "pron": "jihasu"
+  },
+  {
+    "id": 1409,
+    "word": "지하실",
+    "english": "Basement",
+    "pron": "jihasil"
+  },
+  {
+    "id": 1410,
+    "word": "지휘자",
+    "english": "Conductor",
+    "pron": "jihwija"
+  },
+  {
+    "id": 1411,
+    "word": "직장인",
+    "english": "Salaried Worker",
+    "pron": "jikjangin"
+  },
+  {
+    "id": 1412,
+    "word": "진달래",
+    "english": "Azalea",
+    "pron": "jindallae"
+  },
+  {
+    "id": 1413,
+    "word": "진료실",
+    "english": "Examination Room",
+    "pron": "jillyosil"
+  },
+  {
+    "id": 1414,
+    "word": "진입로",
+    "english": "Access Road",
+    "pron": "jinimno"
+  },
+  {
+    "id": 1415,
+    "word": "진행자",
+    "english": "Host",
+    "pron": "jinhaengja"
+  },
+  {
+    "id": 1416,
+    "word": "찐만두",
+    "english": "Steamed Dumplings",
+    "pron": "jjinmandu"
+  },
+  {
+    "id": 1417,
+    "word": "찜질방",
+    "english": "Korean Sauna",
+    "pron": "jjimjilbang"
+  },
+  {
+    "id": 1418,
+    "word": "참가자",
+    "english": "Participant",
+    "pron": "chamgaja"
+  },
+  {
+    "id": 1419,
+    "word": "참나무",
+    "english": "Oak Tree",
+    "pron": "chamnamu"
+  },
+  {
+    "id": 1420,
+    "word": "창업자",
+    "english": "Founder",
+    "pron": "changeopja"
+  },
+  {
+    "id": 1421,
+    "word": "처방전",
+    "english": "Prescription",
+    "pron": "cheobangjeon"
+  },
+  {
+    "id": 1422,
+    "word": "청바지",
+    "english": "Jeans",
+    "pron": "cheongbaji"
+  },
+  {
+    "id": 1423,
+    "word": "청소기",
+    "english": "Vacuum Cleaner",
+    "pron": "cheongsogi"
+  },
+  {
+    "id": 1424,
+    "word": "체육관",
+    "english": "Gymnasium",
+    "pron": "cheyukgwan"
+  },
+  {
+    "id": 1425,
+    "word": "초등생",
+    "english": "Elementary School Student",
+    "pron": "chodeungsaeng"
+  },
+  {
+    "id": 1426,
+    "word": "촬영장",
+    "english": "Filming Location",
+    "pron": "chwaryeongjang"
+  },
+  {
+    "id": 1427,
+    "word": "추어탕",
+    "english": "Loach Soup",
+    "pron": "chueotang"
+  },
+  {
+    "id": 1428,
+    "word": "출국장",
+    "english": "Departure Hall",
+    "pron": "chulgukjang"
+  },
+  {
+    "id": 1429,
+    "word": "출연자",
+    "english": "Performer",
+    "pron": "churyeonja"
+  },
+  {
+    "id": 1430,
+    "word": "출입문",
+    "english": "Entrance Door",
+    "pron": "churimmun"
+  },
+  {
+    "id": 1431,
+    "word": "출판사",
+    "english": "Publisher",
+    "pron": "chulpansa"
+  },
+  {
+    "id": 1432,
+    "word": "충전기",
+    "english": "Charger",
+    "pron": "chungjeongi"
+  },
+  {
+    "id": 1433,
+    "word": "친인척",
+    "english": "Relatives",
+    "pron": "chinincheok"
+  },
+  {
+    "id": 1434,
+    "word": "침팬지",
+    "english": "Chimpanzee",
+    "pron": "chimpaenji"
+  },
+  {
+    "id": 1435,
+    "word": "카메라",
+    "english": "Camera",
+    "pron": "kamera"
+  },
+  {
+    "id": 1436,
+    "word": "칼국수",
+    "english": "Knife-Cut Noodles",
+    "pron": "kalguksu"
+  },
+  {
+    "id": 1437,
+    "word": "캠코더",
+    "english": "Camcorder",
+    "pron": "kaemkodeo"
+  },
+  {
+    "id": 1438,
+    "word": "캠핑장",
+    "english": "Campsite",
+    "pron": "kaempingjang"
+  },
+  {
+    "id": 1439,
+    "word": "캥거루",
+    "english": "Kangaroo",
+    "pron": "kaenggeoru"
+  },
+  {
+    "id": 1440,
+    "word": "컴퓨터",
+    "english": "Computer",
+    "pron": "keompyuteo"
+  },
+  {
+    "id": 1441,
+    "word": "컵받침",
+    "english": "Coaster",
+    "pron": "keopbatchim"
+  },
+  {
+    "id": 1442,
+    "word": "케이블",
+    "english": "Cable",
+    "pron": "keibeul"
+  },
+  {
+    "id": 1443,
+    "word": "코끼리",
+    "english": "Elephant",
+    "pron": "kokkiri"
+  },
+  {
+    "id": 1444,
+    "word": "코알라",
+    "english": "Koala",
+    "pron": "koalla"
+  },
+  {
+    "id": 1445,
+    "word": "코팅기",
+    "english": "Laminator",
+    "pron": "kotinggi"
+  },
+  {
+    "id": 1446,
+    "word": "콘센트",
+    "english": "Power Outlet",
+    "pron": "konsenteu"
+  },
+  {
+    "id": 1447,
+    "word": "콧구멍",
+    "english": "Nostril",
+    "pron": "kotgumeong"
+  },
+  {
+    "id": 1448,
+    "word": "콩국수",
+    "english": "Soy Milk Noodles",
+    "pron": "kongguksu"
+  },
+  {
+    "id": 1449,
+    "word": "키보드",
+    "english": "Keyboard",
+    "pron": "kibodeu"
+  },
+  {
+    "id": 1450,
+    "word": "탐방로",
+    "english": "Exploration Trail",
+    "pron": "tambangno"
+  },
+  {
+    "id": 1451,
+    "word": "탕수육",
+    "english": "Sweet-And-Sour Pork",
+    "pron": "tangsuyuk"
+  },
+  {
+    "id": 1452,
+    "word": "태블릿",
+    "english": "Tablet",
+    "pron": "taebeullit"
+  },
+  {
+    "id": 1453,
+    "word": "터미널",
+    "english": "Terminal",
+    "pron": "teomineol"
+  },
+  {
+    "id": 1454,
+    "word": "턱시도",
+    "english": "Tuxedo",
+    "pron": "teoksido"
+  },
+  {
+    "id": 1455,
+    "word": "테라스",
+    "english": "Terrace",
+    "pron": "teraseu"
+  },
+  {
+    "id": 1456,
+    "word": "토마토",
+    "english": "Tomato",
+    "pron": "tomato"
+  },
+  {
+    "id": 1457,
+    "word": "티셔츠",
+    "english": "T-Shirt",
+    "pron": "tisyeocheu"
+  },
+  {
+    "id": 1458,
+    "word": "파출소",
+    "english": "Police Substation",
+    "pron": "pachulso"
+  },
+  {
+    "id": 1459,
+    "word": "팔꿈치",
+    "english": "Elbow",
+    "pron": "palkkumchi"
+  },
+  {
+    "id": 1460,
+    "word": "편집국",
+    "english": "Editorial Office",
+    "pron": "pyeonjipguk"
+  },
+  {
+    "id": 1461,
+    "word": "편집자",
+    "english": "Editor",
+    "pron": "pyeonjipja"
+  },
+  {
+    "id": 1462,
+    "word": "표준어",
+    "english": "Standard Language",
+    "pron": "pyojuneo"
+  },
+  {
+    "id": 1463,
+    "word": "표지판",
+    "english": "Signpost",
+    "pron": "pyojipan"
+  },
+  {
+    "id": 1464,
+    "word": "프린터",
+    "english": "Printer",
+    "pron": "peurinteo"
+  },
+  {
+    "id": 1465,
+    "word": "플러그",
+    "english": "Plug",
+    "pron": "peulleogeu"
+  },
+  {
+    "id": 1466,
+    "word": "피해자",
+    "english": "Victim",
+    "pron": "pihaeja"
+  },
+  {
+    "id": 1467,
+    "word": "학부모",
+    "english": "Student's Parent",
+    "pron": "hakbumo"
+  },
+  {
+    "id": 1468,
+    "word": "학생회",
+    "english": "Student Council",
+    "pron": "haksaenghoe"
+  },
+  {
+    "id": 1469,
+    "word": "학습법",
+    "english": "Learning Method",
+    "pron": "hakseupbeop"
+  },
+  {
+    "id": 1470,
+    "word": "학습자",
+    "english": "Learner",
+    "pron": "hakseupja"
+  },
+  {
+    "id": 1471,
+    "word": "한부모",
+    "english": "Single Parent",
+    "pron": "hanbumo"
+  },
+  {
+    "id": 1472,
+    "word": "할머니",
+    "english": "Grandmother",
+    "pron": "halmeoni"
+  },
+  {
+    "id": 1473,
+    "word": "해수면",
+    "english": "Sea Level",
+    "pron": "haesumyeon"
+  },
+  {
+    "id": 1474,
+    "word": "해안가",
+    "english": "Coastal Area",
+    "pron": "haeanga"
+  },
+  {
+    "id": 1475,
+    "word": "해안선",
+    "english": "Coastline",
+    "pron": "haeanseon"
+  },
+  {
+    "id": 1476,
+    "word": "해장국",
+    "english": "Hangover Soup",
+    "pron": "haejangguk"
+  },
+  {
+    "id": 1477,
+    "word": "행정관",
+    "english": "Administrator",
+    "pron": "haengjeonggwan"
+  },
+  {
+    "id": 1478,
+    "word": "허벅지",
+    "english": "Thigh",
+    "pron": "heobeokji"
+  },
+  {
+    "id": 1479,
+    "word": "헤드폰",
+    "english": "Headphones",
+    "pron": "hedeupon"
+  },
+  {
+    "id": 1480,
+    "word": "현관문",
+    "english": "Front Door",
+    "pron": "hyeongwanmun"
+  },
+  {
+    "id": 1481,
+    "word": "현미밥",
+    "english": "Brown Rice",
+    "pron": "hyeonmibap"
+  },
+  {
+    "id": 1482,
+    "word": "혈소판",
+    "english": "Platelet",
+    "pron": "hyeolsopan"
+  },
+  {
+    "id": 1483,
+    "word": "협의회",
+    "english": "Consultative Council",
+    "pron": "hyeobuihoe"
+  },
+  {
+    "id": 1484,
+    "word": "협주곡",
+    "english": "Concerto",
+    "pron": "hyeopjugok"
+  },
+  {
+    "id": 1485,
+    "word": "형광등",
+    "english": "Fluorescent Lamp",
+    "pron": "hyeonggwangdeung"
+  },
+  {
+    "id": 1486,
+    "word": "호랑이",
+    "english": "Tiger",
+    "pron": "horangi"
+  },
+  {
+    "id": 1487,
+    "word": "화물차",
+    "english": "Cargo Truck",
+    "pron": "hwamulcha"
+  },
+  {
+    "id": 1488,
+    "word": "화장실",
+    "english": "Restroom",
+    "pron": "hwajangsil"
+  },
+  {
+    "id": 1489,
+    "word": "환풍기",
+    "english": "Ventilation Fan",
+    "pron": "hwanpunggi"
+  },
+  {
+    "id": 1490,
+    "word": "회덮밥",
+    "english": "Raw Fish Rice Bowl",
+    "pron": "hoedeopbap"
+  },
+  {
+    "id": 1491,
+    "word": "회사원",
+    "english": "Company Employee",
+    "pron": "hoesawon"
+  },
+  {
+    "id": 1492,
+    "word": "회오리",
+    "english": "Whirlwind",
+    "pron": "hoeori"
+  },
+  {
+    "id": 1493,
+    "word": "회의실",
+    "english": "Meeting Room",
+    "pron": "hoeuisil"
+  },
+  {
+    "id": 1494,
+    "word": "후보자",
+    "english": "Candidate",
+    "pron": "huboja"
+  },
+  {
+    "id": 1495,
+    "word": "후원자",
+    "english": "Sponsor",
+    "pron": "huwonja"
+  },
+  {
+    "id": 1496,
+    "word": "휠체어",
+    "english": "Wheelchair",
+    "pron": "hwilcheeo"
+  },
+  {
+    "id": 1497,
+    "word": "휴게소",
+    "english": "Rest Area",
+    "pron": "hyugeso"
+  },
+  {
+    "id": 1498,
+    "word": "휴대폰",
+    "english": "Mobile Phone",
+    "pron": "hyudaepon"
+  },
+  {
+    "id": 1499,
+    "word": "휴양지",
+    "english": "Resort Area",
+    "pron": "hyuyangji"
+  },
+  {
+    "id": 1500,
+    "word": "휴지통",
+    "english": "Wastebasket",
+    "pron": "hyujitong"
+  },
+  {
+    "id": 1501,
+    "word": "희생자",
+    "english": "Casualty",
+    "pron": "huisaengja"
   }
 ]
