@@ -37,7 +37,8 @@ struct PuzzleView: View {
     }
 
     private var usesOriginalLayout: Bool {
-        puzzle.syllables.count == 2 && puzzle.candidates.count == HangulPuzzle.defaultCandidateCount
+        (2...3).contains(puzzle.syllables.count)
+            && puzzle.candidates.count == HangulPuzzle.defaultCandidateCount
     }
 
     private var puzzleContent: some View {
@@ -80,6 +81,7 @@ struct PuzzleView: View {
                 Text("Pick all the Lettes for This Box.")
                     .font(.system(size: UIScreen.screenWidth * 0.04))
                     .foregroundColor(AppColors.buttonText)
+                    .accessibilityIdentifier("puzzle-instruction")
             }
         }
         .frame(width: UIScreen.screenWidth * 0.90, height: UIScreen.screenHeight * 0.03)

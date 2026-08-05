@@ -61,7 +61,7 @@ struct SyllableProgressRow: View {
 
     var body: some View {
         Group {
-            if syllables.count <= 2 {
+            if syllables.count <= 3 {
                 HStack {
                     tiles
                 }

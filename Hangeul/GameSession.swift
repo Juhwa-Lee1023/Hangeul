@@ -19,6 +19,7 @@ final class GameSession: ObservableObject {
 
     private let requestedRoundCount: Int
     private let deterministicSelection: Bool
+    private let uiTestingWordID: Int?
     private let loader: Loader
     private var allWords: [HangeulWord] = []
     private var puzzles: [HangulPuzzle] = []
@@ -31,9 +32,11 @@ final class GameSession: ObservableObject {
     ) {
         requestedRoundCount = max(1, roundCount)
         self.loader = loader
+        let processArguments = ProcessInfo.processInfo.arguments
         self.deterministicSelection =
             deterministicSelection
-            ?? ProcessInfo.processInfo.arguments.contains("--ui-testing")
+            ?? processArguments.contains("--ui-testing")
+        uiTestingWordID = Self.uiTestingWordID(in: processArguments)
 
         if let words = words {
             allWords = words
@@ -57,17 +60,24 @@ final class GameSession: ObservableObject {
 
     func startGame() {
         let uniqueWords = wordsWithUniqueSpelling(from: allWords)
-        guard !uniqueWords.isEmpty else {
+        let playableWords: [HangeulWord]
+        if let uiTestingWordID {
+            playableWords = uniqueWords.filter { $0.id == uiTestingWordID }
+        } else {
+            playableWords = uniqueWords
+        }
+
+        guard !playableWords.isEmpty else {
             route = .failure("There are no valid Hangeul words to play.")
             return
         }
 
-        let roundCount = min(requestedRoundCount, uniqueWords.count)
+        let roundCount = min(requestedRoundCount, playableWords.count)
         let selectedWords: [HangeulWord]
         if deterministicSelection {
-            selectedWords = Array(uniqueWords.sorted { $0.id < $1.id }.prefix(roundCount))
+            selectedWords = Array(playableWords.sorted { $0.id < $1.id }.prefix(roundCount))
         } else {
-            selectedWords = Array(uniqueWords.shuffled().prefix(roundCount))
+            selectedWords = Array(playableWords.shuffled().prefix(roundCount))
         }
 
         do {
@@ -102,6 +112,14 @@ final class GameSession: ObservableObject {
     private func wordsWithUniqueSpelling(from words: [HangeulWord]) -> [HangeulWord] {
         var seen = Set<String>()
         return words.filter { seen.insert($0.word).inserted }
+    }
+
+    private static func uiTestingWordID(in arguments: [String]) -> Int? {
+        guard arguments.contains("--ui-testing") else { return nil }
+
+        let prefix = "--ui-testing-word-id="
+        guard let argument = arguments.first(where: { $0.hasPrefix(prefix) }) else { return nil }
+        return Int(argument.dropFirst(prefix.count))
     }
 
     private func resetRoundState() {
