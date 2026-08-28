@@ -296,6 +296,8 @@ The workflow runs on every push and pull request using `macos-latest`, with a 30
 
 Runner temporary paths are assigned at step scope. A previous CI failure came from evaluating `${{ runner.temp }}` too early at job scope; do not move these paths back without verifying expression timing.
 
+The 2026-08-28 handoff run [#33149380807](https://github.com/Juhwa-Lee1023/Hangeul/actions/runs/33149380807) passed format, build, the complete test suite, coverage export, and artifact upload. GitHub emitted a non-blocking maintenance warning that `actions/checkout@v4` and `actions/upload-artifact@v4` still target Node.js 20 and were being forced onto Node.js 24. Re-check for supported newer action majors and upgrade them in a separately verified CI-maintenance change; do not suppress the warning or blindly change action versions.
+
 Local CoreSimulator has occasionally stalled or failed to install the test app. First retry with a clean booted available iPhone and wait for `simctl bootstatus -b`. If the host simulator remains unreliable, GitHub CI is the clean-environment authority rather than a reason to weaken tests.
 
 Build, test, and format commands are maintained in [`README.md`](../README.md).
