@@ -105,6 +105,14 @@ xcrun swift-format format \
   Hangeul HangeulTests HangeulUITests
 ```
 
+## 유지보수 및 인수인계
+
+- 작업 전 필수 규칙: [`AGENTS.md`](AGENTS.md)
+- 구조, 데이터 계약, UI 기준, 테스트와 변경 이력: [`docs/AGENT_HANDOFF.md`](docs/AGENT_HANDOFF.md)
+- 버전 갱신, 서명, 업로드와 App Store 심사 절차: [`docs/RELEASE_RUNBOOK.md`](docs/RELEASE_RUNBOOK.md)
+
+릴리스 문서에는 날짜가 적힌 상태 스냅샷이 포함되어 있습니다. 외부 상태를 변경하기 전에는 GitHub와 App Store Connect의 현재 상태를 다시 조회해야 합니다.
+
 ## License
 
 [MIT](license)
